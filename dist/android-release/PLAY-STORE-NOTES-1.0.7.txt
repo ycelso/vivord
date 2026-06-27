@@ -1,0 +1,12 @@
+VivoRD 1.0.7 — Novedades de la versión (Play Console)
+
+Pega en "Novedades de la versión" (español):
+
+• Logo e icono de la app renovados
+• Pantalla de inicio (splash) con el logo VivoRD al abrir la app
+• Icono circular optimizado para la pantalla de inicio del teléfono
+• Marca actualizada en toda la interfaz
+• Mejoras de estabilidad al reproducir radio y navegar
+
+Versión: 1.0.7 (versionCode 8)
+Actualiza sobre: 1.0.6 (versionCode 7)

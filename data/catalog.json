@@ -1,0 +1,946 @@
+{
+  "channels": [
+    {
+      "slug": "color-vision-canal-9",
+      "img": "./assets/media/canales/color-vision-canal-9.webp",
+      "name": "Color Vision",
+      "featured": true,
+      "stream": "https://www.dailymotion.com/embed/video/x7gy059?mute=0",
+      "streamType": "iframe",
+      "description": "<p>Color Visión en vivo es uno de los canales dominicanos más reconocidos por su mezcla de actualidad y entretenimiento para todos los públicos. Esta señal ofrece contenidos que van desde informativos de última hora hasta programas de variedades que han marcado generaciones.</p>\n<p>La programación incluye noticieros con enfoque en la actualidad dominicana, espacios de entrevistas y reportajes, así como shows de entretenimiento y transmisiones especiales. Ver Color Visión te permite estar al tanto de lo que ocurre en el país mientras disfrutas de producciones locales llenas de historia y tradición.</p>\n<p>Desde sus inicios, la emisora ha mantenido una presencia constante en los hogares, convirtiéndose en referencia dentro de la televisión dominicana. Sintoniza el canal y vive cada momento con la energía y cercanía que caracteriza a la estación.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "telesistema-canal-11",
+      "img": "./assets/media/canales/telesistema-canal-11.webp",
+      "name": "Telesistema Canal 11",
+      "featured": true,
+      "stream": "https://telesistema11.com.do/en-vivo/",
+      "streamType": "official",
+      "description": "<p>Telesistema Canal 11 en vivo es uno de los referentes de la televisión dominicana, reconocido por su trayectoria histórica y su capacidad de conectar con el público. Esta señal combina espacios informativos con programas de entretenimiento que forman parte de la cultura televisiva del país.</p>\n<p>En su programación encontrarás noticias de actualidad dominicana, reportajes especiales y coberturas en vivo, junto a novelas, shows y emisiones que han acompañado a varias generaciones. Desde sus inicios, el canal ha mantenido un enfoque que mezcla tradición y adaptaciones a las tendencias actuales, ofreciendo tanto momentos de información como de diversión.</p>\n<p>La emisora también ha sido escenario de eventos relevantes, transmitiendo producciones que reflejan la identidad local y el interés por mantener viva la historia televisiva. Ver Telesistema Canal 11 significa sintonizar una estación que forma parte del día a día de miles de hogares.</p>\n<p>Si buscas una experiencia que combine programación variada, noticias y entretenimiento, este canal sigue siendo una opción para mantenerse informado y disfrutar de contenidos que resaltan la esencia dominicana.</p>",
+      "officialMsg": "Telesistema usa Dailymotion con restricción de dominio: no se puede incrustar en VivoRD. Abre la transmisión en el sitio oficial.",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "antena-latina-canal-7",
+      "img": "./assets/media/canales/antena-latina-canal-7.webp",
+      "name": "Antena 7",
+      "featured": true,
+      "stream": "https://alba-do-antena7-antena7.stream.mediatiquestream.com/original.m3u8",
+      "streamType": null,
+      "description": "<p>Antena 7 en vivo es uno de los canales más reconocidos de la televisión dominicana, donde cada jornada se transforma en una experiencia llena de entretenimiento y actualidad. Esta señal combina populares novelas, programas de variedades y espacios informativos que mantienen a la audiencia vinculada con lo que ocurre en el país y el mundo.</p>\n<p>La programación incluye shows de humor, transmisiones especiales y segmentos de noticias que cubren la última hora y reportajes de interés para el público local. Desde la mañana hasta la noche, la emisora ofrece contenidos que reflejan la diversidad cultural y el dinamismo de la República Dominicana.</p>\n<p>Ver Antena 7 es disfrutar de un canal que ha sabido mantenerse vigente, adaptando sus propuestas a las preferencias de su audiencia. Ya sea que busques entretenimiento familiar o información actualizada, aquí encontrarás un espacio que conecta contigo y con la esencia dominicana.</p>\n<p>Sintoniza Antena 7 y vive la televisión dominicana con una programación que mezcla historias cautivadoras, momentos de diversión y noticias que importan.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "telemicro-canal-5",
+      "img": "./assets/media/canales/telemicro-canal-5.webp",
+      "name": "Telemicro Canal 5",
+      "featured": true,
+      "stream": "https://live4.telemicro.com.do/live/55/playlist.m3u8",
+      "streamType": "hls",
+      "description": "<p>Telemicro Canal 5 en vivo es uno de los canales dominicanos más vistos, reconocido por su enfoque en el entretenimiento y la actualidad. Esta señal combina programas de humor, telenovelas y espacios informativos que reflejan la cultura y el ritmo cotidiano del país.</p>\n<p>La programación de Telemicro Canal 5 ofrece una mezcla de shows populares, series locales y transmisiones especiales que mantienen al público conectado con la televisión dominicana. Desde producciones humorísticas hasta segmentos de noticias y eventos deportivos, el canal logra atraer a diferentes generaciones con su estilo cercano y dinámico.</p>\n<p>Entre sus contenidos más destacados se encuentran programas de variedades y espacios de comedia que se han convertido en parte de la historia televisiva del país. La emisora también dedica tiempo a la actualidad dominicana, ofreciendo reportajes y coberturas que mantienen informada a su audiencia.</p>\n<p>Sintoniza Telemicro Canal 5 para disfrutar en vivo de la programación que acompaña a miles de hogares dominicanos. Ver este canal es una forma de conectar con lo mejor del entretenimiento y la identidad nacional.</p>",
+      "streamReferer": "https://telemicro.com.do/",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "planeta-alofoke",
+      "name": "Planeta Alofoke",
+      "img": "./assets/media/canales/planeta-alofoke.png",
+      "featured": true,
+      "stream": "https://www.youtube.com/embed/OAqh7KV-r3I?autoplay=1&rel=0&modestbranding=1",
+      "streamType": "iframe",
+      "description": "<p><b>Planeta Alofoke</b> en vivo por YouTube. Entretenimiento, conversación y la energía del equipo de Alofoke en transmisión directa.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "telecentro-canal-13",
+      "img": "./assets/media/canales/telecentro-canal-13.webp",
+      "name": "Telecentro canal 13",
+      "featured": true,
+      "stream": "https://live4.telemicro.com.do/live/13/playlist.m3u8",
+      "streamType": "hls",
+      "description": "<p><b>Telecentro canal 13 en vivo</b> es una de las señales más reconocidas de la televisión dominicana. Este canal combina actualidad, cultura y entretenimiento en una programación pensada para el público local e internacional.</p>\n<p>Desde espacios informativos con noticias de última hora hasta programas de variedades, <b>Telecentro canal 13</b> mantiene una presencia constante en los hogares dominicanos. Su parrilla incluye reportajes sobre la actualidad dominicana, shows de conversación y segmentos dedicados al arte y la música, reflejando la esencia del país.</p>\n<p>Entre sus contenidos destacan:</p>\n<ul>\n<li><b>Noticias y actualidad:</b> Cobertura diaria de los hechos más relevantes, con un enfoque en la información nacional.</li>\n<li><b>Entretenimiento y cultura:</b> Programas en vivo, concursos y espacios de talento que conectan con la audiencia.</li>\n<li><b>Programas de opinión:</b> Debates y análisis que reflejan la diversidad de voces en la televisión dominicana.</li>\n</ul>\n<p>Ver Telecentro canal 13 en vivo es disfrutar de una emisora que ha acompañado a generaciones con su estilo auténtico y su compromiso con la información y el entretenimiento. Sintoniza esta señal y mantente al día con lo mejor de la televisión dominicana.</p>",
+      "streamReferer": "https://telemicro.com.do/",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "cdn-canal-37",
+      "img": "./assets/media/canales/cdn-canal-37.webp",
+      "name": "CDN Canal 37",
+      "featured": true,
+      "stream": "https://geo.dailymotion.com/player.html?video=x9lincs",
+      "streamType": "iframe",
+      "description": "<p>CDN Canal 37 en vivo te conecta con las noticias más relevantes de la República Dominicana. Esta señal informativa combina reportajes, análisis y coberturas de última hora que mantienen al público al tanto de la actualidad dominicana.</p>\n<p>Desde tempranas horas, el canal ofrece espacios dedicados a la política, economía, deportes y cultura, siempre con un enfoque en la veracidad y el contexto. Su programación destaca por la diversidad de voces y la credibilidad de sus periodistas, convirtiendo a esta emisora en un referente del periodismo televisivo dominicano.</p>\n<p>Entre sus segmentos más seguidos se encuentran los noticieros en directo, entrevistas exclusivas y programas de opinión donde se discuten los temas que marcan la agenda nacional. Ver CDN Canal 37 permite acceder a información confiable y actual, ideal para quienes buscan mantenerse al día con lo que ocurre en el país.</p>\n<p>Sintoniza el canal y descubre por qué es una de las estaciones más respetadas de la televisión dominicana. La actualidad no se detiene, y esta señal te la ofrece minuto a minuto.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "teleantillas-canal-2",
+      "img": "./assets/media/canales/teleantillas-canal-2.webp",
+      "name": "Teleantillas Canal 2",
+      "featured": true,
+      "stream": null,
+      "streamType": null,
+      "description": "<p><strong>Teleantillas Canal 2 en vivo</strong> es uno de los referentes más reconocidos de la televisión dominicana. Desde su señal abierta, esta emisora combina información, cultura y entretenimiento que reflejan el pulso diario del país.</p>\n<p>En su programación destacan noticieros con la actualidad dominicana, reportajes de interés social y programas de opinión que abordan los temas más relevantes del momento. También ofrece espacios de entretenimiento, novelas y shows que forman parte de la historia audiovisual del país.</p>\n<p>La estación mantiene una conexión cercana con su audiencia, ofreciendo contenidos variados que informan y acompañan a los dominicanos cada día. Ver <strong>Teleantillas Canal 2</strong> es disfrutar de una señal con tradición y compromiso informativo, siempre atenta a la realidad nacional.</p>\n<p>Sintoniza <strong>Teleantillas Canal 2 en vivo</strong> y mantente al tanto de las noticias, la programación y los programas que marcan pauta en la televisión dominicana.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "televida-canal-41-santo-domingo",
+      "img": "./assets/media/canales/televida-canal-41-santo-domingo.webp",
+      "name": "Televida Canal 41 Santo Domingo",
+      "featured": true,
+      "stream": "https://player.twitch.tv/?channel=televidaenvivo&parent=canalesdominicanos.live",
+      "streamType": "iframe",
+      "description": "<p>Televida Canal 41 en vivo es una de las señales más reconocidas de Santo Domingo dentro de la televisión dominicana. Este canal se caracteriza por su enfoque en contenidos de inspiración y valores, ofreciendo una programación que conecta con la audiencia que busca mensajes positivos y enriquecedores.</p>\n<p>Desde programas religiosos que fortalecen la fe, hasta espacios culturales y educativos, Televida Canal 41 mantiene su esencia como emisora de nicho con una propuesta coherente y cercana. Aquí encontrarás transmisiones en directo, predicaciones, música cristiana y reflexiones que forman parte de su identidad.</p>\n<p>La programación incluye espacios diarios de oración, segmentos de actualidad dominicana con perspectiva ética, y producciones locales que muestran el talento y la historia de la comunidad. Esta estación ha logrado posicionarse como un referente para quienes desean ver Televida Canal 41 y seguir su contenido en vivo.</p>\n<p>Sintoniza y descubre cómo Televida Canal 41 en vivo sigue siendo una voz que inspira, ofreciendo televisión dominicana con un sentido más humano y espiritual.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "digital-15",
+      "img": "./assets/media/canales/digital-15.webp",
+      "name": "Digital 15",
+      "featured": true,
+      "stream": "https://live4.telemicro.com.do/live/15/playlist.m3u8",
+      "streamType": "hls",
+      "description": "<p>Ver <b>Digital 15 en vivo</b> es conectarse con una de las señales más reconocidas de la televisión dominicana. Este canal ofrece una programación llena de <b>shows</b>, <b>novelas</b> y espacios de <b>entretenimiento</b> que acompañan al público día y noche.</p>\n<p>Desde producciones locales hasta transmisiones especiales, <b>Digital 15</b> combina dinamismo y cercanía con el espectador. Aquí encontrarás programas que reflejan el estilo alegre de la cultura dominicana, junto a momentos musicales y segmentos de variedades que mantienen su sello distintivo.</p>\n<p>La emisora se ha consolidado como un referente del entretenimiento en República Dominicana, destacando por su energía en pantalla y su conexión con la gente. Sintoniza esta señal y vive la experiencia de la televisión dominicana con el ritmo y la chispa que solo <b>Digital 15</b> sabe ofrecer.</p>",
+      "streamReferer": "https://telemicro.com.do/",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "teleradio-america-canal-45",
+      "img": "./assets/media/canales/teleradio-america-canal-45.webp",
+      "name": "Teleradio America Canal 45",
+      "featured": true,
+      "stream": "https://live20.bozztv.com/akamaissh101/ssh101/rctvhdtra/chunks.m3u8",
+      "streamType": null,
+      "description": "<p>Teleradio América Canal 45 en vivo te conecta con la esencia de la televisión dominicana. Este canal combina noticias de última hora, reportajes y espacios dedicados a la actualidad nacional.</p>\n<p>La programación incluye segmentos informativos durante todo el día, entrevistas a figuras relevantes y análisis sobre temas que impactan a la sociedad. Desde coberturas en tiempo real hasta especiales que profundizan en la historia reciente del país, esta señal se ha convertido en referencia para quienes buscan mantenerse informados.</p>\n<p>Sintoniza Teleradio América Canal 45 y descubre cómo la emisora aborda la actualidad dominicana con un enfoque directo y cercano. Aquí encontrarás contenidos que van desde debates en estudio hasta transmisiones en vivo de eventos importantes. ¿Listo para verlo hoy mismo?</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "antena-21",
+      "img": "./assets/media/canales/antena-21.webp",
+      "name": "Antena 21",
+      "featured": false,
+      "stream": "https://d2qsan2ut81n2k.cloudfront.net/live/5365fbe2-4961-4e49-91bb-167328524f39/ts:abr.m3u8",
+      "streamType": null,
+      "description": "<p>Ver Antena 21 en vivo es conectar con una de las señales más reconocidas de la televisión dominicana. Este canal combina espacios de actualidad, entretenimiento y cultura, ofreciendo una experiencia que refleja el pulso diario del país.</p>\n<p>La programación incluye noticias de última hora, reportajes sobre la realidad nacional y programas que mezclan entrevistas con segmentos de interés general. Desde la mañana hasta la noche, la emisora mantiene a su audiencia informada y entretenida con contenidos pensados para diferentes gustos.</p>\n<p>Entre sus formatos más destacados, el canal presenta espacios de conversación, debates sobre temas relevantes y segmentos dedicados a la música y las artes, integrando así una visión completa de la actualidad dominicana. Sintoniza y descubre cómo Antena 21 mantiene viva la conexión entre la audiencia y los acontecimientos más importantes.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "cdn-sports-max-canal-67",
+      "img": "./assets/media/canales/cdn-sports-max-canal-67.webp",
+      "name": "CDN Deportes",
+      "featured": false,
+      "stream": "https://geo.dailymotion.com/player.html?video=x9lntl6",
+      "streamType": "iframe",
+      "description": "<p>CDN Deportes en vivo es el canal dominicano que lleva la pasión del deporte directamente a tu pantalla. Esta señal especializada combina transmisiones, análisis y coberturas exclusivas que mantienen a los fanáticos al tanto de la actualidad deportiva.</p>\n<p>Desde béisbol hasta baloncesto, pasando por fútbol y eventos internacionales, la programación de CDN Deportes ofrece un recorrido completo por las disciplinas más seguidas en la televisión dominicana. Los comentaristas y expertos aportan contexto y emoción en cada encuentro.</p>\n<p>Entre sus segmentos más destacados se encuentran resúmenes de la jornada, entrevistas con atletas y espacios dedicados a la historia del deporte en República Dominicana. Ver CDN Deportes te conecta con la energía de la competencia y el orgullo nacional.</p>\n<p>Sintoniza este canal cuando quieras seguir tus equipos favoritos o revivir los mejores momentos del deporte dominicano. CDN Deportes en vivo es más que una emisora: es el punto de encuentro de quienes viven con intensidad cada jugada.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "coral-39",
+      "img": "./assets/media/canales/coral-39.webp",
+      "name": "Coral 39",
+      "featured": false,
+      "stream": "https://www.dailymotion.com/embed/video/x84nyz2",
+      "streamType": "iframe",
+      "description": "<p>Coral 39 en Vivo — Disfruta de la transmisión en directo de Coral 39, uno de los canales de televisión abierta más reconocidos de la República Dominicana. Disponible en el canal 39 de la banda UHF en todo el país, así como en Claro TV, Altice y Tricom.</p>\n<p>Coral 39 forma parte del prestigioso Grupo Corripio y es emisora hermana de Teleantillas y Telesistema. Su programación es sumamente variada e incluye noticias de actualidad, entretenimiento, análisis político, deportes y programas de interés general. Entre sus programas más destacados se encuentran Revista 110, El Día y los informativos de Teleantillas.</p>\n<p>Los fanáticos del béisbol pueden seguir en Coral 39 los partidos de la pelota invernal dominicana, siendo el canal oficial de las Estrellas Orientales. Además, Coral 39 es uno de los canales oficiales para la transmisión del Clásico Mundial de Béisbol 2026 en República Dominicana.</p>\n<p>Sintoniza Coral 39 en vivo desde cualquier dispositivo y mantente conectado con lo mejor de la televisión dominicana.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "certv-canal-4",
+      "img": "./assets/media/canales/certv-canal-4.webp",
+      "name": "Canal 4",
+      "featured": false,
+      "stream": "https://protvradiostream.com:1936/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8?DVR",
+      "streamType": null,
+      "description": "<p>Canal 4 en vivo es una de las señales más reconocidas de la televisión dominicana, con años al aire que lo convierten en un referente histórico y cultural del país. Esta emisora combina actualidad, noticias y entretenimiento, manteniéndose cercana a su audiencia con contenidos que reflejan la vida y realidad nacional.</p>\n<p>La programación incluye noticieros de última hora, reportajes sobre la actualidad dominicana y espacios dedicados a la historia y tradición. Desde programas informativos hasta transmisiones especiales, el canal sigue siendo parte esencial de la rutina diaria de miles de televidentes.</p>\n<p>Sintoniza esta estación para ver Canal 4 y descubrir cómo su propuesta mantiene viva la conexión con el público, ofreciendo una ventana constante a la cultura y el pulso informativo del país.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "telefuturo-canal-23",
+      "img": "./assets/media/canales/telefuturo-canal-23.webp",
+      "name": "Telefuturo Canal 23",
+      "featured": false,
+      "stream": "https://dominicanplayers.com/video-player/255/0/0",
+      "streamType": "iframe",
+      "description": "<p>Telefuturo Canal 23 en vivo te acerca a la esencia de la televisión dominicana con una señal que combina entretenimiento, actualidad y cultura. Desde dramas que cautivan hasta espacios informativos, la emisora se ha convertido en un punto de encuentro para quienes buscan contenidos diversos.</p>\n<p>Su programación abarca desde programas de entrevistas y revistas de actualidad hasta transmisiones especiales que reflejan el día a día del país. Aquí encontrarás novelas, shows de música en vivo y segmentos sobre la vida local, siempre conectando con el público a través de historias y noticias relevantes.</p>\n<p>La estación mantiene presencia constante en hogares y negocios, ofreciendo una experiencia que va más allá de la pantalla. Sintoniza y descubre por qué Telefuturo Canal 23 sigue siendo parte importante de la televisión dominicana.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "vtv-canal-32",
+      "img": "./assets/media/canales/vtv-canal-32.webp",
+      "name": "VTV canal 32",
+      "featured": false,
+      "stream": "https://vtv.videoenvivo.net/",
+      "streamType": "iframe",
+      "description": "<p>Transmisión en directo de VTV Canal 32 desde República Dominicana. Gratis, sin registrarte, desde cualquier dispositivo.</p>\n<h2>Ver VTV Canal 32 en Vivo Gratis</h2>\n<p><strong>VTV Canal 32</strong> es uno de los canales dominicanos más reconocidos de la televisión nacional. En esta página puedes ver <strong>VTV Canal 32 en vivo y en directo</strong>, completamente gratis, sin necesidad de registrarte ni instalar nada. La señal está disponible las 24 horas del día, los 7 días de la semana.</p>\n<p>Desde <strong>canalesdominicanos.live</strong> conectamos a dominicanos dentro y fuera del país con su televisión en vivo. Ya sea que estés en Santo Domingo, Nueva York, Madrid o cualquier parte del mundo, puedes sintonizar el <strong>canal 32 en vivo</strong> con solo abrir esta página desde tu celular, tablet o computadora.</p>\n<p>La <strong>transmisión en vivo de VTV Canal 32</strong> incluye toda la programación del canal: noticieros, programas de opinión, entretenimiento, reportajes y eventos especiales que reflejan la actualidad de la República Dominicana.</p>\n<!-- ? PROGRAMACIÓN HOY -->\n<section class=\"content-section container\">\n<h2>Programación de VTV Canal 32 Hoy</h2>\n<p>La programación de <strong>VTV canal 32 hoy</strong> combina información, entretenimiento y contenido cultural para toda la familia dominicana. Estos son algunos de los programas que puedes ver en el canal 32:</p>\n<div class=\"schedule-grid\">\n<div class=\"schedule-item\">\n<div class=\"hora\">6:00 AM</div>\n<div class=\"programa\">Noticiero VTV Mañana</div>\n<div class=\"tipo\">Noticias · Informativo</div>\n</div>\n<div class=\"schedule-item\">\n<div class=\"hora\">9:00 AM</div>\n<div class=\"programa\">Panorama VTV</div>\n<div class=\"tipo\">Entrevistas · Opinión</div>\n</div>\n<div class=\"schedule-item\">\n<div class=\"hora\">12:00 PM</div>\n<div class=\"programa\">Meridiano VTV</div>\n<div class=\"tipo\">Noticias del mediodía</div>\n</div>\n<div class=\"schedule-item\">\n<div class=\"hora\">2:00 PM</div>\n<div class=\"programa\">Programas Culturales</div>\n<div class=\"tipo\">Cultura · Entretenimiento</div>\n</div>\n<div class=\"schedule-item\">\n<div class=\"hora\">5:00 PM</div>\n<div class=\"programa\">VTV Tarde</div>\n<div class=\"tipo\">Actualidad dominicana</div>\n</div>\n<div class=\"schedule-item\">\n<div class=\"hora\">7:00 PM</div>\n<div class=\"programa\">Noticiero Estelar VTV</div>\n<div class=\"tipo\">Noticias · Prime Time</div>\n</div>\n<div class=\"schedule-item\">\n<div class=\"hora\">9:00 PM</div>\n<div class=\"programa\">Espacios de Opinión</div>\n<div class=\"tipo\">Debate · Análisis</div>\n</div>\n<div class=\"schedule-item\">\n<div class=\"hora\">11:00 PM</div>\n<div class=\"programa\">VTV Noche</div>\n<div class=\"tipo\">Resumen · Cierre</div>\n</div>\n</div>\n<p style=\"margin-top: 16px; font-size: 0.85rem; color: #888;\">* Los horarios pueden variar. Para la programación exacta de VTV Canal 32 hoy, sintoniza la señal en vivo arriba.</p>\n</section>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "microvision-canal-10",
+      "img": "./assets/media/canales/microvision-canal-10.webp",
+      "name": "Microvision canal 10",
+      "featured": false,
+      "stream": "https://streaming.telecablecentral.com.do/live/MicroHD/playlist.m3u8",
+      "streamType": null,
+      "description": "<p>Microvision canal 10 en vivo es una de las señales más reconocidas de la televisión dominicana, con años al aire que la han convertido en un referente de tradición y actualidad. Desde sus inicios, el canal ha ofrecido una programación que combina noticias, reportajes y espacios de entretenimiento para la audiencia local.</p>\n<p>La emisora transmite contenidos que van desde informativos de última hora hasta programas culturales, pasando por producciones que reflejan la vida y costumbres de la región. Su enfoque mantiene viva la historia televisiva del país, a la vez que se adapta a las tendencias modernas.</p>\n<p>Sintoniza Microvision canal 10 para ver noticias relevantes sobre la actualidad dominicana, conocer historias que han marcado generaciones y disfrutar de momentos televisivos que siguen siendo parte de la memoria colectiva. Una estación que continúa conectando con su público día tras día.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "teleuniverso-canal-29",
+      "img": "./assets/media/canales/teleuniverso-canal-29.webp",
+      "name": "Teleuniverso Canal 29",
+      "featured": false,
+      "stream": "https://videoserver.tmcreativos.com:19360/kptjeckkaa/kptjeckkaa.m3u8",
+      "streamType": null,
+      "description": "<p>Teleuniverso Canal 29 en vivo te conecta con la esencia de la televisión dominicana. Este canal combina noticias de actualidad, programas culturales y espacios de entretenimiento que reflejan la vida y el dinamismo de Santiago y todo el país.</p>\n<p>La programación incluye noticieros con reportajes de última hora, debates sobre temas nacionales y segmentos dedicados a la cultura local. También encontrarás programas de entrevistas, variedades y transmisiones especiales que mantienen a la audiencia informada y entretenida.</p>\n<p>Desde la cobertura de eventos importantes hasta producciones originales, esta señal se ha convertido en un referente para quienes desean ver Teleuniverso Canal 29 y seguir de cerca la actualidad dominicana. Sintoniza y descubre por qué sigue siendo parte de la tradición televisiva del país.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd"
+      }
+    },
+    {
+      "slug": "acento-tv",
+      "img": "./assets/media/canales/acento-tv.webp",
+      "name": "Acento tv",
+      "featured": false,
+      "stream": "https://www.dailymotion.com/embed/video/x8dxadh?autoplay=1",
+      "streamType": "iframe",
+      "description": "<p>Acento TV en vivo te conecta con la actualidad dominicana de forma directa y precisa. Este canal ofrece noticias, reportajes y análisis que reflejan lo que sucede en el país y en el mundo.</p>\n<p>La programación incluye espacios de última hora, entrevistas exclusivas y coberturas especiales que mantienen informados a sus televidentes. Desde el acontecer político hasta la cultura y el deporte, esta señal se ha convertido en referencia para quienes buscan información confiable.</p>\n<p>Sintoniza la emisora para ver Acento TV y seguir sus contenidos en tiempo real. Con un enfoque claro en la actualidad dominicana y un estilo periodístico cercano, el canal invita a sus espectadores a estar siempre al tanto de lo que importa.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "alegre-tv",
+      "img": "./assets/media/canales/alegre-tv.webp",
+      "name": "Alegre Tv",
+      "featured": false,
+      "stream": "https://streamunoapp.com:3149/live/alegretvlive.m3u8",
+      "streamType": null,
+      "description": "<p>Alegre Tv en vivo es el canal dominicano que lleva hasta tu pantalla una mezcla vibrante de entretenimiento y cultura local. Esta señal se ha convertido en referencia para quienes buscan ver Alegre Tv y disfrutar de una programación que refleja el ritmo y la alegría del país.</p>\n<p>Desde novelas que cuentan historias cautivadoras hasta programas de variedades llenos de energía, la estación ofrece contenidos pensados para toda la familia. La programación incluye shows de música, espacios de humor y transmisiones especiales que acercan al público a la actualidad dominicana de manera amena.</p>\n<p>Sintoniza Alegre Tv y descubre cómo la televisión dominicana sigue siendo un punto de encuentro para compartir emociones y momentos únicos. ¿Listo para vivirlo?</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "audiencia-caso-medusa",
+      "img": "./assets/media/canales/audiencia-caso-medusa.webp",
+      "name": "Audiencia caso Medusa",
+      "featured": false,
+      "stream": "https://www.youtube.com/embed/q5aCZ0Udcco?autoplay=1&controls=0",
+      "streamType": "iframe",
+      "description": "<p>Audiencia caso Medusa en vivo te conecta con la cobertura completa de este proceso judicial que marca la actualidad dominicana. Este canal ofrece transmisiones y reportajes que mantienen informada a la audiencia minuto a minuto.</p>\n<p>La programación se centra en noticias de última hora, análisis de expertos y seguimiento del juicio, integrando la experiencia de la televisión dominicana en cada emisión. Desde entrevistas exclusivas hasta actualizaciones en tiempo real, la emisora se convierte en un referente para quienes buscan información veraz.</p>\n<p>Sintoniza esta señal para ver el canal durante todo el desarrollo del caso, con un estilo directo y profesional que refleja el compromiso con la actualidad nacional. En cada transmisión encontrarás datos relevantes, testimonios y contexto que ayudan a comprender la magnitud del proceso judicial.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "bendicion-tv",
+      "img": "./assets/media/canales/bendicion-tv.webp",
+      "name": "Bendicion tv",
+      "featured": false,
+      "stream": "https://59825a54e4454.streamlock.net:8443/manuel284/manuel284/chunklist_w1921287165.m3u8",
+      "streamType": null,
+      "description": "<p>Bendicion TV en vivo te conecta con la esencia de la televisión dominicana dedicada a la fe y valores. Este canal transmite una programación enfocada en mensajes de esperanza, música cristiana y reflexiones que llegan al corazón.</p>\n<p>Desde sermones y estudios bíblicos hasta espacios de actualidad comunitaria, la emisora ofrece contenido que fortalece el espíritu y mantiene informado al público sobre eventos relevantes en la vida religiosa del país.</p>\n<p>Sintoniza Bendicion TV para ver la programación que combina palabras de aliento con momentos de adoración, convirtiéndose en una estación que acompaña a quienes buscan inspiración cada día.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "vegavision-canal-18",
+      "img": "https://canalesdominicanos.live/images/canalesimages/canales/channel_68_1767734901.png",
+      "name": "Canal 26 La Vega",
+      "featured": false,
+      "stream": " https://fox.hostlagarto.com:8081/canal26/index.m3u8",
+      "streamType": null,
+      "description": "<p>Disfruta Canal 18 Tv en vivo, una señal dominicana que combina información, cultura y entretenimiento. Este canal ha logrado mantenerse presente en los hogares gracias a su programación fresca y cercana al público local.</p>\n<p>Desde noticias de actualidad dominicana hasta espacios de variedades, Canal 18 Tv destaca por ofrecer programas que conectan con la audiencia. La emisora transmite contenidos que reflejan la vida cotidiana, con secciones dedicadas a la música, los debates y los reportajes de interés social.</p>\n<p>Entre los géneros más seguidos están los shows de entretenimiento, los programas de entrevistas y las producciones locales que muestran el talento nacional. Ver Canal 18 Tv es una forma de mantenerse informado y disfrutar de la televisión dominicana en su esencia más auténtica.</p>\n<p>Sintoniza esta estación y descubre por qué sigue siendo parte importante del panorama televisivo del país.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "canal-dtv",
+      "img": "./assets/media/canales/canal-dtv.webp",
+      "name": "CANAL DTV",
+      "featured": false,
+      "stream": "https://s.emisoras.tv:8081/dtv/index.m3u8",
+      "streamType": null,
+      "description": "<p>Ver Canal DTV en vivo te conecta con una señal que forma parte esencial de la televisión dominicana. El canal ofrece contenidos que van desde noticias de última hora hasta espacios de entretenimiento para toda la familia.</p>\n<p>La programación incluye reportajes sobre la actualidad dominicana, entrevistas con personajes relevantes y segmentos dedicados a la cultura local. También encontrarás programas de entretenimiento que combinan humor, música y variedades.</p>\n<ul>\n<li><b>Noticias en vivo:</b> Cobertura constante de eventos nacionales e internacionales con enfoque en la realidad dominicana.</li>\n<li><b>Entretenimiento:</b> Shows y espacios que buscan divertir y conectar con el público de todas las edades.</li>\n<li><b>Actualidad cultural:</b> Contenidos que resaltan la identidad y las tradiciones del país.</li>\n</ul>\n<p>Sintoniza esta emisora y mantente informado mientras disfrutas de la diversidad que solo la televisión dominicana puede ofrecer.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "canal-htv-live",
+      "img": "./assets/media/canales/canal-htv-live.webp",
+      "name": "CANAL HTV LIVE",
+      "featured": false,
+      "stream": "https://fox.hostlagarto.com:8081/canalhtv/index.m3u8",
+      "streamType": null,
+      "description": "<p>HTV Live en vivo es el canal dominicano que lleva la energía de la música latina directamente a tu pantalla. Esta señal es reconocida por su enfoque en el entretenimiento, ofreciendo una programación vibrante que conecta con los amantes del ritmo y la cultura tropical.</p>\n<p>Desde los más recientes éxitos del reguetón y la salsa, hasta especiales con artistas internacionales, HTV Live mantiene un flujo constante de shows musicales que celebran el talento latino. En esta emisora, cada programa es una experiencia visual y sonora que resalta lo mejor de la televisión dominicana contemporánea.</p>\n<ul>\n<li><strong>Programas musicales:</strong> Espacios dedicados a los géneros más populares, con videoclips, entrevistas y presentaciones en vivo.</li>\n<li><strong>Shows de entretenimiento:</strong> Producciones que combinan música, cultura urbana y tendencias de la región.</li>\n<li><strong>Especiales en vivo:</strong> Transmisiones con artistas destacados y eventos exclusivos para el público latino.</li>\n</ul>\n<p>Sintoniza el canal HTV Live y vive el pulso del entretenimiento caribeño con una programación que no deja de sorprender. Ver HTV Live es sumergirse en el corazón sonoro de la televisión dominicana.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "cananga-tv",
+      "img": "./assets/media/canales/cananga-tv.webp",
+      "name": "Cananga TV",
+      "featured": false,
+      "stream": "https://cdn.streamingcpanel.com:3545/live/canangatlive.m3u8",
+      "streamType": null,
+      "description": "<p>Cananga TV en vivo es un canal dominicano que mantiene viva la esencia de la televisión local. Esta señal combina entretenimiento, cultura y actualidad en una programación pensada para todos los públicos.</p>\n<p>Desde producciones originales hasta espacios de opinión y programas de variedades, Cananga TV destaca por su cercanía y su estilo auténtico. Aquí encontrarás contenido que refleja el día a día de la República Dominicana, con programas que celebran su identidad y su gente.</p>\n<ul>\n<li><b>Programas en vivo:</b> Conduce al espectador por temas de interés nacional y momentos de entretenimiento únicos.</li>\n<li><b>Televisión dominicana:</b> Espacios que muestran la cultura, la música y las costumbres que identifican al país.</li>\n<li><b>Programación variada:</b> Desde entrevistas hasta shows familiares que conectan con todas las generaciones.</li>\n</ul>\n<p>Ver Cananga TV es disfrutar de una emisora que respira autenticidad. Sintoniza este canal y acompaña cada jornada con lo mejor de la televisión dominicana.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "cibaeNa-tv-rd",
+      "img": "./assets/media/canales/cibaeNa-tv-rd.webp",
+      "name": "CIBAEÑA TV RD",
+      "featured": false,
+      "stream": "https://streamunoapp.com:3958/live/cibaenatvlive.m3u8",
+      "streamType": null,
+      "description": "<p>CIBAEÑA TV RD en vivo presenta una ventana auténtica a la televisión dominicana. Este canal combina entretenimiento, información y cultura, destacando lo mejor del talento regional y nacional.</p>\n<p>Desde programas de actualidad dominicana hasta espacios musicales y culturales, la emisora mantiene una conexión cercana con su audiencia. La programación de CIBAEÑA TV RD incluye reportajes, debates comunitarios y shows que reflejan el espíritu del Cibao.</p>\n<p>Entre sus contenidos más valorados se encuentran los espacios informativos de última hora, además de segmentos dedicados a la identidad local. Ver CIBAEÑA TV RD es descubrir una señal que celebra la tradición y el presente de la televisión dominicana.</p>\n<p>Sintoniza este canal y mantente al tanto de la programación que acompaña cada día a miles de hogares dominicanos. ¿Ya conoces su propuesta?</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "cinevision-canal-19",
+      "img": "./assets/media/canales/cinevision-canal-19.webp",
+      "name": "Cinevision Canal 19",
+      "featured": false,
+      "stream": "https://5790d294af2dc.streamlock.net/tvhdlive/tvhdlive/playlist.m3u8",
+      "streamType": "hls",
+      "description": "<p>Cinevision Canal 19 en vivo es una de las señales más reconocidas de la televisión dominicana, llevando a los hogares una combinación de entretenimiento, actualidad y cultura. Este canal ha mantenido su presencia en la pantalla nacional, ofreciendo contenidos que acompañan a diversas generaciones.</p>\n<p>La programación incluye novelas que han cautivado al público, programas de variedades con talento local y segmentos que reflejan la vida y costumbres del país. Desde espacios de conversación hasta shows musicales, esta emisora consigue mantener un vínculo cercano con su audiencia.</p>\n<p>Sintoniza Cinevision Canal 19 para disfrutar de momentos de entretenimiento que conectan con la esencia dominicana. Ya sea para ver tus programas favoritos o descubrir nuevas producciones, esta estación sigue siendo parte del día a día en muchas familias.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "crom-tv-el-canal-del-siglo",
+      "img": "./assets/media/canales/crom-tv-el-canal-del-siglo.webp",
+      "name": "CROM TV EL CANAL DEL SIGLO",
+      "featured": false,
+      "stream": "https://fox.hostlagarto.com:8081/cromtv/index.m3u8",
+      "streamType": null,
+      "description": "<p><strong>CROM TV El Canal del Siglo en vivo</strong> representa una ventana moderna a la televisión dominicana, ofreciendo contenido pensado para todos los gustos. Esta emisora combina producciones locales con espacios de entretenimiento y programas culturales que resaltan el talento nacional.</p>\n<p>En la programación de <strong>CROM TV El Canal del Siglo</strong> se alternan shows, entrevistas y segmentos dedicados a la actualidad dominicana, manteniendo un estilo dinámico y cercano al público. Desde la mañana hasta la noche, el canal apuesta por formatos frescos que conectan con distintas generaciones.</p>\n<p>Ver CROM TV El Canal del Siglo es disfrutar de una señal que celebra la creatividad y la identidad del país. Sintoniza esta estación y vive la experiencia de la televisión dominicana con una propuesta que sigue marcando tendencia.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "el-70-tv",
+      "img": "./assets/media/canales/el-70-tv.webp",
+      "name": "EL 70 TV",
+      "featured": false,
+      "stream": "https://live20.bozztv.com/giatv/giatv-cnal70tv/cnal70tv/chunks.m3u8",
+      "streamType": null,
+      "description": "<p>Ver <b>EL 70 TV en vivo</b> es entrar en contacto con una señal que refleja el pulso de la televisión dominicana. Este canal combina contenidos locales con espacios que conectan con su audiencia, ofreciendo desde entretenimiento hasta momentos de actualidad.</p>\n<ul>\n<li><b>Programas de entretenimiento:</b> Historias, shows y segmentos que mantienen la atención de principio a fin.</li>\n<li><b>Producciones locales:</b> Espacios que muestran la cultura y el día a día de la República Dominicana.</li>\n<li><b>Actualidad dominicana:</b> Cobertura de temas relevantes para la comunidad.</li>\n</ul>\n<p>La programación de EL 70 TV integra géneros diversos, logrando que cada jornada frente a la pantalla sea diferente. Aquí encontrarás la emisora que conecta tradición y presente, invitándote a sintonizar y descubrir lo que tiene para ofrecer.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "el-puerto-tv",
+      "img": "./assets/media/canales/el-puerto-tv.webp",
+      "name": "El Puerto TV",
+      "featured": false,
+      "stream": "https://5bf8041cb3fed.streamlock.net:443/PuertoTV/PuertoTV/playlist.m3u8",
+      "streamType": null,
+      "description": "<p>El Puerto TV en vivo es una ventana directa a la televisión dominicana, ofreciendo una señal que combina actualidad y entretenimiento para sus televidentes. Desde reportajes sobre la vida local hasta programas de variedades, el canal se ha convertido en un referente en su comunidad.</p>\n<p>La programación incluye segmentos de noticias con información de última hora, espacios culturales que resaltan la identidad dominicana y shows que mantienen a la audiencia conectada. Ver El Puerto TV es seguir el pulso de lo que ocurre en la región, con una mezcla equilibrada de información y momentos de recreo.</p>\n<p>Sintoniza esta emisora y disfruta de contenidos que reflejan la realidad y la creatividad de la televisión dominicana. ¿Listo para conocer lo que hoy se transmite?</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "elias-pina-tv",
+      "img": "./assets/media/canales/elias-pina-tv.webp",
+      "name": "ELIAS PIÑA TV",
+      "featured": false,
+      "stream": "https://live.eliaspinatv.com.do/livelan/stream.m3u8",
+      "streamType": null,
+      "description": "<p>Elias Piña TV en vivo es la ventana audiovisual que refleja el pulso de la televisión dominicana desde esta provincia fronteriza. La emisora combina espacios informativos, culturales y de entretenimiento que acercan a su audiencia a la realidad y el sentir local.</p>\n<p>Desde reportajes de actualidad dominicana hasta transmisiones especiales de eventos comunitarios, el canal ofrece una programación pensada para mantenerte informado y conectado con tu gente. Aquí encontrarás noticias, entrevistas y programas que resaltan las tradiciones y voces de la zona.</p>\n<ul>\n<li><b>Noticias en vivo:</b> Cobertura de hechos relevantes y última hora desde Elias Piña y el resto del país.</li>\n<li><b>Cultura y tradición:</b> Espacios dedicados a la historia y costumbres de la región.</li>\n<li><b>Entretenimiento local:</b> Shows y programas que muestran el talento dominicano.</li>\n</ul>\n<p>Sintoniza esta señal y vive de cerca la programación que une a la comunidad, con el sabor único de la televisión dominicana que caracteriza a Elias Piña TV.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "enterate-rd",
+      "img": "./assets/media/canales/enterate-rd.webp",
+      "name": "Enterate RD",
+      "featured": false,
+      "stream": "https://5790d294af2dc.streamlock.net:443/enteraterd/enteraterd/playlist.m3u8",
+      "streamType": null,
+      "description": "<p>Enterate RD en vivo es la señal que te mantiene informado al instante sobre todo lo que ocurre en la actualidad dominicana. Este canal combina noticias de última hora con reportajes que profundizan en temas relevantes para el país.</p>\n<p>La programación de Enterate RD incluye segmentos informativos, entrevistas con protagonistas y análisis de la situación nacional, integrando siempre la visión local. Desde coberturas en directo hasta crónicas detalladas, la emisora se ha convertido en un referente para quienes buscan estar al día.</p>\n<p>Entre sus contenidos más destacados podrás ver espacios dedicados a noticias políticas, sucesos y eventos comunitarios, todos presentados con un estilo cercano y dinámico. Aquí encontrarás también especiales que abordan la cultura y la vida diaria en República Dominicana.</p>\n<p>Sintoniza el canal y descubre cómo esta estación te conecta con la información que importa. ¿Estás listo para seguir Enterate RD en vivo?</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "fuego-tv",
+      "img": "./assets/media/canales/fuego-tv.webp",
+      "name": "Fuego tv",
+      "featured": false,
+      "stream": "https://streamunoapp.com:3553/live/cromtvlive.m3u8",
+      "streamType": null,
+      "description": "<p>Fuego TV en vivo trae la energía de la televisión dominicana directamente a tu pantalla. Este canal dominicano destaca por su programación dinámica, donde el entretenimiento, los shows y los programas locales se combinan para reflejar el pulso cultural del país.</p>\n<p>Desde espacios de humor hasta transmisiones de eventos especiales, Fuego TV mantiene una conexión cercana con su público. Aquí encontrarás producciones que celebran el talento nacional, entrevistas con figuras populares y segmentos que muestran la creatividad dominicana.</p>\n<p>La programación de esta señal busca ofrecer momentos de alegría y cercanía, con formatos que invitan a disfrutar la televisión dominicana en su máxima expresión. Ver Fuego TV es una forma de vivir la esencia del entretenimiento local, con un estilo vibrante y auténtico.</p>\n<p>Sintoniza el canal, disfruta su contenido y déjate llevar por la chispa que solo Fuego TV puede ofrecer.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "hilando-fino-tv",
+      "img": "./assets/media/canales/hilando-fino-tv.webp",
+      "name": "Hilando Fino TV",
+      "featured": false,
+      "stream": "http://hilandofinotv.essastream.com/p/3606/live/canalhilandofinotvlive.m3u8",
+      "streamType": null,
+      "description": "<p><strong>Hilando Fino TV en vivo</strong> es un canal dominicano que se ha ganado un lugar en la televisión nacional por su enfoque en la <strong>actualidad dominicana</strong> y los temas de interés social. Esta señal combina información, opinión y debate en un formato ágil y cercano al público.</p>\n<p>En su <strong>programación</strong> destacan espacios de análisis político, entrevistas a figuras relevantes y coberturas de <strong>noticias</strong> que mantienen informados a los televidentes sobre los hechos más importantes del país. Desde tempranas horas hasta la noche, el canal ofrece contenido que refleja la realidad del pueblo dominicano.</p>\n<p>Ver <strong>Hilando Fino TV</strong> es conectar con la voz de la gente, con los reportajes que muestran lo que sucede en cada rincón de la isla. La emisora se ha convertido en una referencia dentro de la <strong>televisión dominicana</strong> por su estilo directo y su compromiso con la verdad.</p>\n<p>Sintoniza esta estación cuando quieras estar al tanto de la <strong>actualidad</strong> y los temas que mueven al país. ¿Ya descubriste lo que ofrece su señal en vivo?</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "huracan-fiona",
+      "img": "./assets/media/canales/huracan-fiona.webp",
+      "name": "Huracan fiona",
+      "featured": false,
+      "stream": "https://www.youtube.com/embed/OzjwxZ0GPa0?autoplay=1&controls=0",
+      "streamType": "iframe",
+      "description": "<p>Huracán Fiona en vivo es un canal dominicano centrado en la cobertura de noticias y la actualidad nacional. Desde el seguimiento de fenómenos naturales hasta reportajes sobre la vida cotidiana, esta señal ofrece información constante y perspectivas locales.</p>\n<p>La programación de Huracán Fiona combina transmisiones en tiempo real, análisis de especialistas y la voz de las comunidades afectadas. Aquí encontrarás espacios dedicados a la prevención, la solidaridad y las historias humanas que surgen tras cada suceso. Ver Huracán Fiona se ha convertido en una referencia informativa para quienes buscan mantenerse al día con la realidad dominicana.</p>\n<p>La emisora refuerza su compromiso con la transparencia y la inmediatez, actualizando cada segmento con las últimas noticias y reportajes de interés público. Si te interesa la televisión dominicana enfocada en la actualidad, este canal ofrece un punto de vista cercano y real sobre los eventos que marcan al país.</p>\n<p>Sintoniza Huracán Fiona en vivo y mantente informado de todo lo que ocurre en República Dominicana, en cualquier momento del día.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "la-voz-de-maria-la-vega",
+      "img": "./assets/media/canales/la-voz-de-maria-la-vega.webp",
+      "name": "La Voz de Maria",
+      "featured": false,
+      "stream": "https://live.lavozdemaria.com:3436/live/lavozdemarialive.m3u8",
+      "streamType": "hls",
+      "description": "<p>La Voz de María en vivo es un canal dominicano dedicado a la fe, la reflexión y el crecimiento espiritual. Esta señal combina programas de oración, misas, mensajes católicos y espacios de formación que acompañan a miles de hogares en República Dominicana y más allá.</p><p>En la programación de La Voz de María, los televidentes pueden ver celebraciones litúrgicas, testimonios de vida, rosarios y reflexiones diarias que fortalecen la fe. La emisora se ha convertido en un punto de encuentro para quienes buscan contenido religioso auténtico y cercano.</p><p>Desde sus inicios, este canal ha mantenido una línea clara de evangelización a través de la televisión dominicana, transmitiendo esperanza y valores cristianos. Ver La Voz de María es conectar con una fuente constante de inspiración y paz espiritual.</p><p>Si buscas una estación que te acerque a tu fe y te acompañe en tu día a día, sintoniza La Voz de María en vivo y deja que su mensaje ilumine tu camino.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "los-opinadores-luna-tv",
+      "img": "./assets/media/canales/los-opinadores-luna-tv.webp",
+      "name": "Los opinadores luna TV",
+      "featured": false,
+      "stream": "https://tv.wracanal10.com:3671/live/lunatvcanal53live.m3u8",
+      "streamType": null,
+      "description": "<p>Los opinadores Luna TV en vivo es un canal dominicano centrado en la actualidad y el análisis de temas que marcan la conversación diaria. Esta señal combina noticias, reportajes y opinión para mantenerte informado sobre lo que sucede en la República Dominicana.</p>\n<p>Desde debates sobre política hasta entrevistas con protagonistas de la noticia, la programación del canal ofrece un espacio donde la información se presenta con un estilo cercano y directo. Aquí encontrarás análisis profundos, cobertura de última hora y segmentos que abordan la realidad nacional con claridad y compromiso informativo.</p>\n<p>Sintoniza esta emisora para ver cómo sus presentadores desmenuzan los hechos más relevantes, aportando contexto y puntos de vista diversos. Los opinadores Luna TV es más que un canal: es un punto de encuentro para quienes buscan comprender la actualidad dominicana desde múltiples perspectivas.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "luna-tv-en-vivo",
+      "img": "./assets/media/canales/luna-tv-en-vivo.webp",
+      "name": "Luna tv",
+      "featured": true,
+      "stream": "https://tv.wracanal10.com:3671/live/lunatvcanal53live.m3u8",
+      "streamType": null,
+      "description": "<p><b>Luna TV en vivo</b> es una señal dominicana que refleja el pulso de la televisión local. El canal combina noticias, programas de opinión y espacios culturales que muestran la esencia de la República Dominicana.</p>\n<p>Desde entrevistas con personalidades hasta reportajes sobre la actualidad dominicana, <b>Luna TV</b> destaca por su estilo cercano y su compromiso con la comunidad. La emisora ofrece una programación que informa, entretiene y promueve el talento nacional.</p>\n<ul>\n<li><b>Noticias y actualidad:</b> Cobertura de los hechos más relevantes del día, análisis y debates sobre temas de interés público.</li>\n<li><b>Entretenimiento local:</b> Programas de variedades, humor y cultura que reflejan la vida cotidiana y las tradiciones dominicanas.</li>\n<li><b>Producción regional:</b> Espacios dedicados a Santiago y al Cibao, donde se resaltan los valores y la identidad del pueblo.</li>\n</ul>\n<p>Ver <b>Luna TV</b> es disfrutar de una televisión dominicana auténtica, con una programación que une información y entretenimiento en una sola señal. Sintoniza esta estación y mantente conectado con lo mejor de la pantalla local.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "megavision-canal-43-santiago",
+      "img": "./assets/media/canales/megavision-canal-43-santiago.webp",
+      "name": "Megavision Canal 43 Santiago",
+      "featured": false,
+      "stream": "http://server3.prostudionetwork.com:1943/megavision/MV/playlist.m3u8",
+      "streamType": null,
+      "description": "<p>Megavision Canal 43 Santiago en vivo ofrece una ventana directa a la televisión dominicana desde el corazón del Cibao. Este canal combina noticias, entretenimiento y espacios culturales que reflejan la identidad de la región.</p>\n<p>La programación incluye noticieros con información de última hora, programas de opinión sobre actualidad dominicana y segmentos dedicados a la música y el arte local. Desde reportajes comunitarios hasta shows de variedades, esta señal mantiene a su público informado y entretenido.</p>\n<p>Ver Megavision Canal 43 es acceder a una emisora que transmite el pulso de Santiago y sus alrededores, con contenido que resalta la vida diaria y las tradiciones que forman parte de su historia. Sintoniza y descubre cómo este canal sigue siendo parte importante del panorama televisivo dominicano.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "mia-tv",
+      "img": "./assets/media/canales/mia-tv.webp",
+      "name": "Mia TV",
+      "featured": false,
+      "stream": "https://www.youtube.com/embed/-q8435vyvCk",
+      "streamType": "iframe",
+      "description": "<p>Mia TV en vivo te acerca a una experiencia única de televisión dominicana, donde cada emisión combina entretenimiento, cultura y actualidad. Este canal es reconocido por su programación que refleja el ritmo y la energía de la audiencia local.</p>\n<p>Desde novelas que capturan la imaginación, hasta programas de variedades y shows que mantienen a los televidentes conectados, la emisora ofrece contenido pensado para diferentes gustos. La programación incluye espacios de música, entrevistas y producciones originales que muestran el talento nacional.</p>\n<p>Sintoniza Mia TV para descubrir cómo esta señal se ha convertido en parte de la rutina de muchos hogares. Ver Mia TV en cualquier momento es disfrutar de historias, rostros y sonidos que forman parte de la identidad televisiva dominicana.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "mun2-tv",
+      "img": "./assets/media/canales/mun2-tv.webp",
+      "name": "Mun2 TV",
+      "featured": false,
+      "stream": "https://mlb.essastream.com:8081/mun2tv/index.m3u8",
+      "streamType": null,
+      "description": "<p>Mun2 TV en vivo te acerca a la televisión dominicana con una propuesta fresca y variada. Este canal combina entretenimiento con espacios pensados para toda la familia, ofreciendo desde programas de actualidad hasta shows musicales y series que han capturado la atención del público.</p>\n<p>La programación de Mun2 TV incluye géneros que van desde novelas y comedias, hasta transmisiones especiales que reflejan la cultura y el talento local. Aquí encontrarás contenidos que acompañan tu día, con un ritmo dinámico y cercano, ideal para quienes buscan ver televisión dominicana con identidad propia.</p>\n<p>Además de sus producciones originales, la estación integra formatos internacionales adaptados al gusto dominicano, lo que la convierte en una señal versátil y atractiva. Sintoniza Mun2 TV y disfruta de sus programas en vivo, con la energía que caracteriza a la televisión del país.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "naranja-tv-dominicana",
+      "img": "./assets/media/canales/naranja-tv-dominicana.webp",
+      "name": "Naranja TV Dominicana",
+      "featured": false,
+      "stream": "https://cdn.streamingcpanel.com:3526/live/teleraiceslive.m3u8",
+      "streamType": null,
+      "description": "<p><b>Naranja TV Dominicana en vivo</b> es una señal que conecta con el público a través de contenidos frescos, actuales y llenos de sabor local. Este canal dominicano combina entretenimiento, reportajes y programas que reflejan la esencia del país.</p>\n<p>La programación de <b>Naranja TV Dominicana</b> abarca desde espacios de variedades hasta segmentos informativos con noticias y actualidad dominicana. Aquí encontrarás programas que celebran la cultura, la música y las tradiciones del pueblo, siempre con un estilo cercano y auténtico.</p>\n<p>Esta emisora destaca por su compromiso con la televisión dominicana, ofreciendo cada día una experiencia visual que mezcla alegría y contenido de valor. Sintoniza el canal y disfruta de todo lo que esta estación tiene preparado para ti, ya sea para ver Naranja TV en vivo o seguir su programación más destacada.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "nexxo-tv-santiago",
+      "img": "./assets/media/canales/nexxo-tv-santiago.webp",
+      "name": "Nexxo tv santiago",
+      "featured": false,
+      "stream": "https://cdn3.streamgato.us:3938/live/nexxotvlive.m3u8",
+      "streamType": null,
+      "description": "<p>Nexxo TV Santiago en vivo es una ventana directa a la televisión dominicana desde la ciudad corazón. El canal ofrece una programación que combina actualidad, entretenimiento y producciones locales, pensadas para mantener informados y entretenidos a sus televidentes.</p> <p>Desde reportajes sobre la actualidad dominicana hasta programas de variedades y espacios culturales, esta señal se ha convertido en un punto de referencia para quienes buscan ver Nexxo TV y seguir de cerca lo que sucede en Santiago y más allá.</p> <p>Entre sus contenidos encontrarás segmentos de noticias con información de última hora, programas de entrevistas que resaltan figuras locales, y producciones que muestran la riqueza cultural de la región. La emisora mantiene un vínculo especial con su audiencia, ofreciendo espacios que reflejan la identidad dominicana.</p> <p>Sintoniza Nexxo TV Santiago para no perderte su diversidad de géneros y estilos, y disfruta de la experiencia de ver este canal en vivo donde quiera que estés.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "nitida-tv",
+      "img": "./assets/media/canales/nitida-tv.webp",
+      "name": "Nitida TV",
+      "featured": false,
+      "stream": "https://vs20.live.opencaster.com/bznudxxdtppv/index.m3u8",
+      "streamType": null,
+      "description": "<p>Nitida TV en vivo te conecta con la esencia de la televisión dominicana. Este canal combina programas de entretenimiento, espacios culturales y contenido pensado para diversas audiencias.</p>\n<p>La programación incluye desde shows de variedades y entrevistas, hasta segmentos musicales y especiales temáticos que reflejan el estilo y creatividad de la emisora. Ver Nitida TV es acceder a una señal que mantiene viva la conexión con sus televidentes.</p>\n<p>Con su propuesta fresca, la estación invita a descubrir cada día nuevos formatos y producciones que enriquecen el panorama audiovisual del país. Sintoniza y disfruta de la experiencia que ofrece este canal.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "ramon-tolentino",
+      "img": "./assets/media/canales/ramon-tolentino.webp",
+      "name": "Ramon Tolentino",
+      "featured": false,
+      "stream": "http://hilandofinotv.essastream.com/p/3606/live/canalhilandofinotvlive.m3u8",
+      "streamType": null,
+      "description": "<p>Ramon Tolentino en vivo te conecta con la realidad de la República Dominicana a través de un formato ágil y directo. Este canal combina noticias, entrevistas y análisis para ofrecer una visión completa de la actualidad dominicana.</p>\n<p>Desde reportajes de última hora hasta debates en profundidad, la programación busca mantenerte informado de los temas más relevantes. La emisora muestra un enfoque cercano y crítico, abordando política, sociedad y cultura con un estilo claro.</p>\n<p>Además de la cobertura informativa, esta señal integra segmentos de opinión que aportan contexto y diferentes perspectivas sobre los hechos. Ver Ramon Tolentino es acceder a un espacio donde la información fluye de manera dinámica y actualizada.</p>\n<p>Ya sea que sigas la transmisión en vivo o consultes sus intervenciones más destacadas, este canal se ha convertido en un referente para quienes buscan estar al tanto de lo que ocurre en el país. ¿Listo para sintonizar y formarte tu propia opinión?</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "rdn",
+      "img": "./assets/media/canales/rdn.webp",
+      "name": "RDN",
+      "featured": false,
+      "stream": "https://mlb.essastream.com:8081/rdntv/index.m3u8",
+      "streamType": null,
+      "description": "<p>RDN en vivo te conecta directamente con las noticias y la actualidad dominicana. Este canal se ha consolidado como una referencia para quienes buscan información precisa y al instante.</p>\n<p>La programación incluye espacios de noticias, reportajes especiales y análisis de la realidad nacional, integrando coberturas de última hora que mantienen informada a la audiencia. La emisora combina transmisiones en directo con segmentos de investigación y entrevistas que complementan el panorama informativo.</p>\n<p>Desde la primera hora de la mañana hasta la noche, RDN ofrece un flujo constante de información, abordando los temas más relevantes del día. Sintoniza esta señal para seguir de cerca el acontecer nacional y descubrir cómo la televisión dominicana sigue siendo clave en el acceso a noticias y contenidos veraces.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "ready-tv-canal-6",
+      "img": "./assets/media/canales/ready-tv-canal-6.webp",
+      "name": "Ready TV Canal 6",
+      "featured": false,
+      "stream": "https://streaming.telecablecentral.com.do/ReadyTV/ReadyHD/playlist.m3u8",
+      "streamType": null,
+      "description": "<p>Ready TV Canal 6 en vivo es parte esencial de la televisión dominicana, ofreciendo una señal que combina entretenimiento y actualidad para todos los gustos.</p>\n<p>La programación de esta emisora incluye desde novelas que cautivan al público hasta shows y programas de variedades que mantienen el interés día a día. También se destacan espacios dedicados a la cultura y segmentos con noticias que mantienen al televidente informado sobre la actualidad dominicana.</p>\n<p>Ver Ready TV Canal 6 significa disfrutar de una estación que busca acompañar cada momento con contenidos pensados para el público local, integrando géneros que van desde el humor y la música hasta reportajes ligeros y entrevistas.</p>\n<p>Sintoniza esta señal y descubre por qué es un referente de entretenimiento en la televisión dominicana. ¿Listo para seguir cada detalle de su programación?</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "resplandorvision",
+      "img": "./assets/media/canales/resplandorvision.webp",
+      "name": "Resplandor Visión",
+      "featured": false,
+      "stream": "https://www.youtube.com/embed/?controls=0&showinfo=0&fullscreen=0&iv_load_policy=3&fs=0&wmode=opaque&enablejsapi=1&origin=https://canalesdominicanos.live/&widgetid=1",
+      "streamType": "iframe",
+      "description": "<p>Resplandor Visión en vivo es una señal que forma parte del panorama televisivo dominicano, ofreciendo programación que inspira y conecta con la comunidad. Este canal combina espacios de reflexión, mensajes positivos y producciones que resaltan valores culturales.</p>\n<ul>\n<li><b>Programación especial:</b> Transmisiones que acercan al televidente a contenidos de interés local y espiritual.</li>\n<li><b>Televisión dominicana:</b> Segmentos que celebran tradiciones, eventos y expresiones culturales de distintas regiones.</li>\n<li><b>Contenido inspirador:</b> Producciones que invitan a la reflexión y fortalecen la fe.</li>\n</ul>\n<p>La emisora ofrece momentos de compañía y entretenimiento con un toque cercano, ideal para quienes buscan ver Resplandor Visión en cualquier momento del día. Sintoniza y descubre cómo esta estación mantiene viva la esencia de la televisión dominicana.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "romana-tv-canal-42",
+      "img": "./assets/media/canales/romana-tv-canal-42.webp",
+      "name": "Romana TV Canal 42",
+      "featured": false,
+      "stream": "https://videoserver.tmcreativos.com:19360/cvmhbyrcat/cvmhbyrcat.m3u8",
+      "streamType": "hls",
+      "description": "<p>Romana TV Canal 42 en vivo es una ventana a la televisión dominicana que combina actualidad local y entretenimiento pensado para su audiencia. Esta señal ofrece una programación que refleja la cultura y el ritmo de La Romana, con espacios que van desde entrevistas y noticias hasta programas de música y variedades.</p>\n<p>La emisora mantiene un estilo cercano, ideal para quienes buscan ver Romana TV y seguir la programación que conecta con su comunidad. Aquí encontrarás segmentos informativos sobre la actualidad dominicana, así como momentos de entretenimiento que incluyen shows, especiales y transmisiones locales.</p>\n<p>Sintoniza el canal para disfrutar de contenidos que refuerzan la identidad regional y permiten estar al día con lo que ocurre en tu entorno. Ver Romana TV Canal 42 es seguir de cerca la vida cotidiana de La Romana y descubrir nuevas historias que forman parte del panorama medial del país.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "salsagorda-television",
+      "img": "./assets/media/canales/salsagorda-television.webp",
+      "name": "SalsaGorda Television",
+      "featured": false,
+      "stream": "https://live20.bozztv.com/akamaissh101/ssh101/qMUAZEy/playlist.m3u8",
+      "streamType": null,
+      "description": "<p>SalsaGorda Television en vivo es el canal dominicano que mantiene viva la pasión por la salsa las 24 horas del día. Esta señal combina música, entrevistas y especiales dedicados a los grandes exponentes del género tropical.</p><p>Desde clásicos inolvidables hasta nuevos talentos, la programación de SalsaGorda Television celebra la historia y evolución de la salsa en la televisión dominicana. Aquí encontrarás espacios de entretenimiento, programas musicales y segmentos que conectan con la cultura y el ritmo de la isla.</p><p>Sintoniza el canal para ver SalsaGorda Television y disfruta de una emisora que sabe cómo ponerle sabor a cada jornada. Su propuesta continúa conquistando a quienes buscan buena música y energía positiva desde República Dominicana.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "santiago-tv",
+      "img": "./assets/media/canales/santiago-tv.webp",
+      "name": "SANTIAGO TV",
+      "featured": false,
+      "stream": "https://mlb.essastream.com:8081/telemilenio/index.m3u8",
+      "streamType": null,
+      "description": "<p>Santiago TV en vivo es una ventana abierta a la televisión dominicana, ofreciendo contenidos que reflejan la vida y el pulso informativo de la región. El canal presenta una programación que combina noticias de última hora, reportajes y espacios dedicados a la actualidad dominicana.</p>\n<p>Desde sus segmentos informativos hasta programas de interés social, esta señal se ha convertido en un referente local. La emisora dedica tiempo a cubrir eventos relevantes, entrevistas y análisis, integrando un tono cercano y auténtico que engancha a su audiencia.</p>\n<p>Entre sus propuestas, la estación suma transmisiones especiales y coberturas de acontecimientos que marcan la agenda de la ciudad y el país. Aquí encontrarás un enfoque periodístico con atención a los detalles, ideal para quienes desean mantenerse informados de lo que ocurre en su entorno.</p>\n<p>Sintoniza Santiago TV para descubrir cómo la programación se adapta a las necesidades de una audiencia que busca información veraz y entretenimiento puntual. ¿Ya lo has visto hoy?</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "senal-digital-tv",
+      "img": "./assets/media/canales/senal-digital-tv.webp",
+      "name": "Señal Digital Tv",
+      "featured": false,
+      "stream": "https://soportedvb.click:3494/live/senaldigitaltvlive.m3u8",
+      "streamType": null,
+      "description": "<p>Disfruta Señal Digital Tv en vivo, una emisora dominicana que conecta con el público a través de su programación fresca y cercana. Este canal combina entretenimiento, actualidad y espacios culturales que muestran lo mejor de la televisión dominicana.</p>\n<p>Desde programas de entrevistas hasta producciones locales, Señal Digital Tv ofrece variedad en su señal, destacando la creatividad y el talento nacional. La programación de esta estación refleja el pulso de la sociedad, con segmentos que informan, entretienen y acercan a su audiencia con contenido auténtico.</p>\n<p>Sintoniza Señal Digital Tv y vive la experiencia de ver televisión dominicana con identidad, donde cada emisión busca mantenerte conectado con lo que ocurre en tu país y en el mundo.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "tele-proyecto",
+      "img": "./assets/media/canales/tele-proyecto.webp",
+      "name": "Tele proyecto",
+      "featured": false,
+      "stream": "https://5790d294af2dc.streamlock.net:443/Teleproyecto/Teleproyecto/playlist.m3u8",
+      "streamType": null,
+      "description": "<p>Tele Proyecto en vivo es una ventana a la televisión dominicana que combina actualidad y entretenimiento en una señal accesible para todos. Este canal ofrece una programación que conecta con la audiencia, desde espacios informativos hasta segmentos culturales y de opinión.</p>\n<p>La programación de Tele Proyecto incluye noticieros con enfoque en la actualidad dominicana, entrevistas a personalidades y programas de análisis que profundizan en los temas que importan. También encontrarás contenido de entretenimiento con un toque local, que refleja la identidad y el día a día del país.</p>\n<p>Ver Tele Proyecto es sumergirse en una emisora que mantiene el pulso de la información y la cultura en República Dominicana. Sintoniza y mantente al tanto de lo que ocurre, mientras disfrutas de una señal que transmite cercanía y relevancia.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "teledominicana",
+      "img": "./assets/media/canales/teledominicana.webp",
+      "name": "TELEDOMINICANA",
+      "featured": false,
+      "stream": "https://vdopanel.jlahozconsulting.com:3417/hybrid/play.m3u8",
+      "streamType": null,
+      "description": "<p>Teledominicana en vivo te conecta con la esencia de la televisión dominicana. Este canal combina información, cultura y entretenimiento en un solo espacio donde la actualidad del país cobra vida.</p>\n<p>Desde programas de noticias y reportajes sobre la realidad nacional hasta espacios de humor y shows familiares, Teledominicana mantiene su compromiso con el público que busca ver contenido auténtico de República Dominicana. La emisora destaca por su capacidad de reflejar la identidad local a través de su programación diversa.</p>\n<p>Ver Teledominicana es disfrutar de una señal que acompaña cada jornada con producciones propias, transmisiones especiales y segmentos dedicados a la comunidad. Aquí encontrarás información veraz, momentos divertidos y la calidez de la televisión dominicana en su máxima expresión.</p>\n<p>Sintoniza el canal y mantente cerca de lo que ocurre en el país, con una mezcla de actualidad y entretenimiento que sigue conquistando a los dominicanos dentro y fuera del país.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "telemedio-digital",
+      "img": "./assets/media/canales/telemedio-digital.webp",
+      "name": "Telemedio",
+      "featured": false,
+      "stream": "https://geo.dailymotion.com/player/x194ge.html?video=k6eXVFNzcryAVMCRses",
+      "streamType": "iframe",
+      "description": "<p>Telemedio en vivo es una de las señales que mantiene informada y entretenida a la audiencia en la televisión dominicana. El canal combina espacios de actualidad con segmentos culturales y de entretenimiento, logrando captar la atención de diferentes públicos.</p>\n<p>Desde reportajes sobre la realidad nacional hasta programas que destacan el talento local, la programación de Telemedio se adapta a quienes buscan noticias al instante y contenidos variados. Aquí encontrarás entrevistas, debates y especiales que reflejan el pulso de la sociedad.</p>\n<p>Sintoniza esta emisora para seguir eventos relevantes y disfrutar de producciones que conforman parte del panorama televisivo del país. ¿Ya conoces todo lo que ofrece Telemedio?</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "telenovisa-canal-43",
+      "img": "./assets/media/canales/telenovisa-canal-43.webp",
+      "name": "Telenovisa Canal 43",
+      "featured": false,
+      "stream": "https://player.castr.com/live_252446c0ab2811eea7f3c9e195038c96",
+      "streamType": "iframe",
+      "description": "<p>Ver Telenovisa Canal 43 en vivo te conecta con una de las señales más reconocidas de la televisión dominicana. El canal combina entretenimiento, actualidad y producciones locales que reflejan la cultura y el día a día del país.</p>\n<p>Desde novelas que capturan la atención de miles, hasta programas de variedades y espacios dedicados a la actualidad dominicana, esta emisora ofrece una programación pensada para diferentes públicos. La estación se caracteriza por su cercanía con la audiencia y su enfoque en contenidos que generan conversación.</p>\n<p>La programación incluye shows en horario estelar, espacios de entrevistas y segmentos especiales que muestran el talento nacional. Sintoniza y descubre por qué Telenovisa Canal 43 sigue siendo parte esencial del panorama televisivo local.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "teleunion-canal-16-santiago",
+      "img": "./assets/media/canales/teleunion-canal-16-santiago.webp",
+      "name": "Teleunion Canal 16 Santiago",
+      "featured": false,
+      "stream": "http://server3.prostudionetwork.com:1945/teleunion/TU/playlist.m3u8",
+      "streamType": null,
+      "description": "<p>Teleunion Canal 16 Santiago en vivo es una de las señales más reconocidas de la televisión dominicana. Este canal ofrece una programación variada que refleja la vida, la cultura y la actualidad de Santiago y de todo el país.</p><p>Desde programas de noticias con reportajes sobre la realidad dominicana hasta espacios de entretenimiento y cultura, la emisora mantiene su conexión con la audiencia que busca contenido auténtico y cercano. A través de esta señal, los televidentes pueden ver Teleunion Canal 16 y disfrutar de su estilo propio, con producciones locales que destacan el talento y la identidad regional.</p><p>La programación incluye segmentos informativos, musicales y de entrevistas, pensados para quienes desean mantenerse al tanto de la actualidad dominicana. Sintoniza este canal y descubre por qué Teleunion Canal 16 sigue siendo un referente en la televisión dominicana.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "tv-hispanic",
+      "img": "./assets/media/canales/tv-hispanic.webp",
+      "name": "TV Hispanic",
+      "featured": false,
+      "stream": "https://livetv.305streamhd.com:3504/live/tvhispaniclive.m3u8",
+      "streamType": null,
+      "description": "<p>TV Hispanic en vivo es una ventana abierta a la televisión dominicana, ofreciendo una señal que combina programas de entretenimiento, cultura y actualidad. Este canal se ha convertido en un punto de referencia para quienes buscan ver TV Hispanic y disfrutar de contenidos variados sin perder el toque local.</p>\n<p>Desde novelas que capturan la atención noche tras noche, hasta shows con artistas y talentos dominicanos, la programación mantiene un equilibrio entre diversión y conexión con la identidad nacional. Aquí encontrarás espacios dedicados a la música, entrevistas y segmentos especiales que reflejan el pulso de la sociedad.</p>\n<p>Además, esta emisora integra producciones que acercan al público a eventos relevantes y momentos únicos. Sintoniza y vive la experiencia de la televisión dominicana con TV Hispanic, donde cada transmisión ofrece algo nuevo para descubrir.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "tv-recuerdos-canal-56-santo-domingo",
+      "img": "./assets/media/canales/tv-recuerdos-canal-56-santo-domingo.webp",
+      "name": "TV Recuerdos Canal 56 Santo Domingo",
+      "featured": false,
+      "stream": "https://vdopanel.jlahozconsulting.com:3124/hybrid/play.m3u8",
+      "streamType": null,
+      "description": "<p>TV Recuerdos Canal 56 en vivo te invita a revivir los momentos más emblemáticos de la televisión dominicana. Esta señal se ha convertido en un referente para quienes disfrutan de la historia y la tradición que marcaron generaciones.</p>\n<p>Su programación reúne producciones que dejaron huella en la pantalla local: desde programas de humor y variedades hasta espacios musicales y dramatizados que reflejan la esencia cultural del país. Ver TV Recuerdos Canal 56 es sumergirse en décadas de recuerdos televisivos que aún emocionan.</p>\n<p>La emisora mantiene viva la memoria audiovisual de Santo Domingo, ofreciendo contenido que conecta pasado y presente. Sintoniza este canal dominicano y redescubre la magia de la televisión de antaño, con una programación que sigue inspirando a nuevas audiencias.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "vallevision",
+      "img": "./assets/media/canales/vallevision.webp",
+      "name": "Vallevision",
+      "featured": false,
+      "stream": "https://streaming.telecablecentral.com.do/Vallevision/ValleHD/playlist.m3u8",
+      "streamType": null,
+      "description": "<p>Vallevision en vivo es un canal dominicano que transmite contenidos pensados para su comunidad, combinando información local y espacios culturales. Esta señal se ha convertido en parte del día a día de quienes buscan televisión dominicana con identidad.</p>\n<p>Desde reportajes sobre la actualidad dominicana hasta programas de entretenimiento y eventos especiales, la emisora ofrece una programación que refleja la vida y el ritmo de la región. Sintonizar Vallevision permite estar al tanto de noticias y disfrutar de momentos familiares frente a la pantalla.</p>\n<p>La programación incluye segmentos informativos, producciones de carácter social y espacios donde se resaltan las tradiciones locales. Ver Vallevision es más que seguir un canal: es conectar con historias, personas y perspectivas que forman parte del tejido cultural dominicano.</p>\n<p>Si quieres mantenerte informado y, al mismo tiempo, disfrutar de contenido cercano y auténtico, esta estación es una referencia que vale la pena seguir.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "vegateve-canal-12-la-vega",
+      "img": "./assets/media/canales/vegateve-canal-12-la-vega.webp",
+      "name": "Vegateve Canal 12 La Vega",
+      "featured": false,
+      "stream": "https://fox.hostlagarto.com:8081/canal26/index.m3u8",
+      "streamType": null,
+      "description": "<p>Vegateve Canal 12 La Vega en vivo es una ventana directa a la televisión dominicana con un enfoque local que mantiene a su audiencia informada y conectada. Esta señal combina espacios de noticias, programas culturales y entretenimiento que reflejan la identidad de La Vega.</p>\n<p>La programación incluye transmisiones de actualidad dominicana, entrevistas con figuras relevantes de la región, y segmentos especiales dedicados a la historia y tradición de esta ciudad. Desde reportajes de última hora hasta espacios de opinión, el canal ofrece contenidos que buscan mantenerte al día sin perder el toque humano.</p>\n<p>Además, Vegateve Canal 12 La Vega se ha convertido en una emisora emblemática para quienes desean ver televisión dominicana con un sabor auténtico, donde la comunidad y sus historias son protagonistas. Sintoniza esta estación y descubre cómo cada transmisión es parte del pulso diario de la provincia.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "villa-altagracia-tv",
+      "img": "./assets/media/canales/villa-altagracia-tv.webp",
+      "name": "Villa Altagracia TV",
+      "featured": false,
+      "stream": "https://stream.inliveserver.com:19360/8004/8004.m3u8",
+      "streamType": null,
+      "description": "<p>Villa Altagracia TV en vivo te conecta con el corazón de la televisión dominicana, llevando a tu pantalla la programación más cercana a la comunidad. Este canal combina espacios informativos, segmentos culturales y entretenimiento para mantenerte al día.</p>\n<ul>\n<li><strong>Noticias locales:</strong> Cobertura de sucesos y actualidad dominicana con enfoque en Villa Altagracia.</li>\n<li><strong>Programas culturales:</strong> Producciones que resaltan la historia y tradiciones de la región.</li>\n<li><strong>Entretenimiento:</strong> Shows y contenidos frescos para toda la familia.</li>\n</ul>\n<p>La emisora ofrece una señal que refleja la identidad local y permite ver Villa Altagracia TV desde cualquier lugar. Aquí encontrarás espacios en vivo que muestran la vida de la comunidad, reportajes especiales y momentos de gran valor para quienes siguen la televisión dominicana.</p>\n<p>Sintoniza el canal y disfruta de su variada programación, siempre con el sabor y el espíritu de Villa Altagracia.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    },
+    {
+      "slug": "z-tv",
+      "img": "./assets/media/canales/z-tv.webp",
+      "name": "Z TV",
+      "featured": false,
+      "stream": "https://zdigital.streamprolive.com/hls/live.m3u8",
+      "streamType": null,
+      "description": "<p>Z TV en vivo te acerca a la esencia de la televisión dominicana con una programación que combina actualidad, entretenimiento y cultura local. Este canal se ha ganado un lugar especial en los hogares gracias a sus contenidos pensados para todas las edades.</p>\n<p>En su señal podrás seguir noticias de última hora que mantienen informada a la audiencia, además de programas y shows que reflejan el espíritu alegre del país. Desde reportajes sobre la actualidad dominicana hasta espacios de entretenimiento y producción nacional, Z TV ofrece una experiencia televisiva cercana y auténtica.</p>\n<p>La emisora también destaca por su capacidad de conectar con la comunidad, presentando segmentos que rescatan historias y tradiciones. Su programación fluye con naturalidad entre géneros, manteniendo siempre el interés del televidente.</p>\n<p>Sintoniza Z TV y vive la televisión dominicana con una señal que combina información y diversión en tiempo real.</p>",
+      "catalogMeta": {
+        "kind": "canal",
+        "country": "rd",
+        "parentSlug": null,
+        "parentLabel": null
+      }
+    }
+  ],
+  "updatedAt": "2026-06-18T14:35:39.370Z"
+}

@@ -1,0 +1,37 @@
+{
+  "appId": "com.vivord.app",
+  "appName": "VivoRD",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "allowNavigation": [
+      "https://*",
+      "http://*",
+      "https://www.dailymotion.com",
+      "https://*.dailymotion.com",
+      "https://*.dmcdn.net"
+    ]
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "MediaSession": {
+      "foregroundService": "never"
+    },
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "launchFadeOutDuration": 300,
+      "backgroundColor": "#0a0a0b",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0a0a0b"
+    }
+  }
+}

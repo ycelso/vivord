@@ -1,0 +1,4 @@
+# www → dominio principal (HTTPS)
+https://www.vivo-rd.com/* https://vivo-rd.com/:splat 301
+http://www.vivo-rd.com/* https://vivo-rd.com/:splat 301
+http://vivo-rd.com/* https://vivo-rd.com/:splat 301

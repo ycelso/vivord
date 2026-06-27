@@ -1,0 +1,156 @@
+{
+  "updatedAt": "2026-05-27T20:05:07.977Z",
+  "summary": {
+    "total": 50,
+    "failed": 11
+  },
+  "failed": [
+    {
+      "slug": "bajo-techo-tv",
+      "name": "Bajo Techo TV",
+      "page": "canal/bajo-techo-tv.html",
+      "stream": "https://rdn.essastream.com/live-stream-video-widget/bajotechotv",
+      "ok": false,
+      "status": 500,
+      "issue": "http_500",
+      "finalUrl": "https://rdn.essastream.com/live-stream-video-widget/bajotechotv",
+      "headers": {
+        "contentType": "text/html; charset=UTF-8",
+        "xFrameOptions": "",
+        "contentSecurityPolicy": ""
+      }
+    },
+    {
+      "slug": "bonao-tv-canal-12",
+      "name": "Bonao TV Canal 12",
+      "page": "canal/bonao-tv-canal-12.html",
+      "stream": "https://dominicanplayers.com/video-player/279/0",
+      "ok": false,
+      "status": 0,
+      "issue": "fetch failed"
+    },
+    {
+      "slug": "cinevision-canal-19",
+      "name": "Cinevision Canal 19",
+      "page": "canal/cinevision-canal-19.html",
+      "stream": "https://rctvhd.mycloudstream.io/player/etyetihk?autoplay=true",
+      "ok": false,
+      "status": 404,
+      "issue": "http_404",
+      "finalUrl": "https://rctvhd.mycloudstream.io/player/etyetihk?autoplay=true",
+      "headers": {
+        "contentType": "text/html; charset=UTF-8",
+        "xFrameOptions": "",
+        "contentSecurityPolicy": ""
+      }
+    },
+    {
+      "slug": "ocoa-vision-canal-12",
+      "name": "Ocoa Vision Canal 12",
+      "page": "canal/ocoa-vision-canal-12.html",
+      "stream": "https://www.ustream.tv/embed/16135157?v=3&amp;amp;wmode=direct",
+      "ok": false,
+      "status": 404,
+      "issue": "http_404",
+      "finalUrl": "https://video.ibm.com/embed/16135157?v=3&amp;amp;wmode=direct",
+      "headers": {
+        "contentType": "text/html; charset=UTF-8",
+        "xFrameOptions": "",
+        "contentSecurityPolicy": ""
+      }
+    },
+    {
+      "slug": "ola-tv-canal-62",
+      "name": "Ola Tv Canal 62",
+      "page": "canal/ola-tv-canal-62.html",
+      "stream": "https://www.ustream.tv/embed/20923822?v=3&amp;amp;wmode=direct",
+      "ok": false,
+      "status": 404,
+      "issue": "http_404",
+      "finalUrl": "https://video.ibm.com/embed/20923822?v=3&amp;amp;wmode=direct",
+      "headers": {
+        "contentType": "text/html; charset=UTF-8",
+        "xFrameOptions": "",
+        "contentSecurityPolicy": ""
+      }
+    },
+    {
+      "slug": "tele-bahia",
+      "name": "Tele Bahia",
+      "page": "canal/tele-bahia.html",
+      "stream": "https://livestream.com/accounts/18988261/events/7725211/player?width=800&amp;height=400&amp;enableInfoAndActivity=true&amp;defaultDrawer=&amp;autoPlay=true&amp;mute=false",
+      "ok": false,
+      "status": 404,
+      "issue": "http_404",
+      "finalUrl": "https://livestream.com/accounts/18988261/events/7725211/player?width=800&amp;height=400&amp;enableInfoAndActivity=true&amp;defaultDrawer=&amp;autoPlay=true&amp;mute=false",
+      "headers": {
+        "contentType": "text/html; charset=utf-8",
+        "xFrameOptions": "",
+        "contentSecurityPolicy": ""
+      }
+    },
+    {
+      "slug": "telebendicion",
+      "name": "Telebendicion",
+      "page": "canal/telebendicion.html",
+      "stream": "http://dominicanplayers.com/video-player/346/0/0",
+      "ok": false,
+      "status": 0,
+      "issue": "timeout"
+    },
+    {
+      "slug": "telenord",
+      "name": "Telenord Canal 10",
+      "page": "canal/telenord.html",
+      "stream": "https://rdn.essastream.com/live-stream-video-widget/telenord10",
+      "ok": false,
+      "status": 500,
+      "issue": "http_500",
+      "finalUrl": "https://rdn.essastream.com/live-stream-video-widget/telenord10",
+      "headers": {
+        "contentType": "text/html; charset=UTF-8",
+        "xFrameOptions": "",
+        "contentSecurityPolicy": ""
+      }
+    },
+    {
+      "slug": "telever-canal-12-jarabacoa",
+      "name": "Telever Canal 12 Jarabacoa",
+      "page": "canal/telever-canal-12-jarabacoa.html",
+      "stream": "https://vdo1.streamgato.us/live-stream-video-widget/televercanal12",
+      "ok": false,
+      "status": 0,
+      "issue": "fetch failed"
+    },
+    {
+      "slug": "uno-uno",
+      "name": "Uno + Uno",
+      "page": "canal/uno-uno.html",
+      "stream": "https://www.dailymotion.com/video/x8mwmvs",
+      "ok": false,
+      "status": 200,
+      "issue": "xfo_deny",
+      "finalUrl": "https://www.dailymotion.com/video/x8mwmvs",
+      "headers": {
+        "contentType": "text/html; charset=utf-8",
+        "xFrameOptions": "DENY",
+        "contentSecurityPolicy": "frame-ancestors 'none';"
+      }
+    },
+    {
+      "slug": "xtravision-canal-10",
+      "name": "Xtravision Canal 10",
+      "page": "canal/xtravision-canal-10.html",
+      "stream": "https://hostlagarto.com/tvhd/XTRAVISION/",
+      "ok": false,
+      "status": 404,
+      "issue": "http_404",
+      "finalUrl": "https://hostlagarto.com/tvhd/XTRAVISION/",
+      "headers": {
+        "contentType": "text/html; charset=UTF-8",
+        "xFrameOptions": "SAMEORIGIN",
+        "contentSecurityPolicy": ""
+      }
+    }
+  ]
+}

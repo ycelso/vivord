@@ -1,0 +1,114 @@
+{
+  "updatedAt": "2026-06-18T14:35:52.715Z",
+  "count": 9,
+  "radios": [
+    {
+      "slug": "lakalle",
+      "name": "La Kalle",
+      "img": "./assets/media/radios/lakalle.webp",
+      "city": "Concepción de La Vega",
+      "hasStream": true,
+      "kind": "manual",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "reason": "Reemplazada por La Kalle 96.3 FM"
+    },
+    {
+      "slug": "aguilascibaenas",
+      "name": "Aguilas Cibaeñas Radio",
+      "img": "https://canalesdominicanos.live/images/emisoras/aguilascibaenas.png",
+      "city": "Santiago de los Caballeros",
+      "hasStream": true,
+      "kind": "manual",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "reason": "Radio LIDOM por juego → no es emisora 24/7"
+    },
+    {
+      "slug": "30kilosdesalsa",
+      "name": "30 Kilos de Salsa",
+      "img": "https://canalesdominicanos.live/images/emisoras/30kilosdesalsa.png",
+      "city": "Santo Domingo",
+      "hasStream": true,
+      "kind": "manual",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "reason": "Programa en KQ 94.5 FM (domingos)"
+    },
+    {
+      "slug": "estudio46",
+      "name": "El Bachatazo Radio Show",
+      "img": "https://canalesdominicanos.live/images/emisoras/estudio46.png",
+      "city": "Sabaneta",
+      "hasStream": true,
+      "kind": "manual",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "reason": "Show de bachata → usar Bachata Radio"
+    },
+    {
+      "slug": "fuego",
+      "name": "Fuego 90 FM",
+      "img": "https://canalesdominicanos.live/images/emisoras/fuego.png",
+      "city": "Santiago de los Caballeros",
+      "hasStream": true,
+      "kind": "manual",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "reason": "Duplicado de Fuego 90"
+    },
+    {
+      "slug": "ke-bonita-radio",
+      "name": "Ke Bonita Radio",
+      "img": "https://canalesdominicanos.live/images/emisoras/ke-bonita-radio.png",
+      "city": "",
+      "hasStream": true,
+      "kind": "manual",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "reason": "Duplicado de Ke Bonita Radio"
+    },
+    {
+      "slug": "millenium",
+      "name": "Millenium 103.3 FM",
+      "img": "https://canalesdominicanos.live/images/emisoras/millenium.png",
+      "city": "Santo Domingo Oeste",
+      "hasStream": true,
+      "kind": "manual",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "reason": "Misma señal que Al Aire Libre"
+    },
+    {
+      "slug": "genesis",
+      "name": "Radio Genesis",
+      "img": "https://canalesdominicanos.live/images/emisoras/genesis.png",
+      "city": "Salvaleón de Higüey",
+      "hasStream": true,
+      "kind": "manual",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "reason": "Misma señal que Radio Bávaro"
+    },
+    {
+      "slug": "trespatinesshow",
+      "name": "Trespatines Radio Show",
+      "img": "https://canalesdominicanos.live/images/emisoras/trespatinesshow.png",
+      "city": "",
+      "hasStream": false,
+      "kind": "programa",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "reason": "Bloque o programa en otra FM"
+    }
+  ]
+}

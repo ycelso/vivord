@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="VivoRD — TV y radio dominicana">
+  <defs>
+    <linearGradient id="vivo-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="vivo-glow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="dr-silhouette">
+      <!-- Silueta simplificada de República Dominicana (Hispaniola oriental) -->
+      <path d="M19.5 37.8c-4.2 0-7.8-2.4-9-6.2l-1.4-5.8c-.6-2.6.1-5.3 1.8-7.2l2.2-2.8c1.2-1.6 3.1-2.6 5.2-2.8 1.4-.1 2.8.2 4 1l3.2 2.4c2.2 1.6 3.6 4.2 3.6 7l-.2 4.2c-.2 3.4-2.8 6.2-6.4 7.2l-2 0.6c-.8.2-1.6.4-2.4.4z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Marco marca -->
+  <rect x="1.5" y="1.5" width="45" height="45" rx="12" fill="#0a0a0b" stroke="url(#vivo-orange)" stroke-width="2.5"/>
+
+  <!-- Ondas de radio/TV -->
+  <g fill="none" stroke="url(#vivo-orange)" stroke-width="1.8" stroke-linecap="round" opacity="0.85">
+    <path d="M6 18c4.5-6 11-9 18-9"/>
+    <path d="M4 22c6-8.5 14.5-12.5 24-12.5"/>
+    <path d="M42 18c-4.5-6-11-9-18-9"/>
+    <path d="M44 22c-6-8.5-14.5-12.5-24-12.5"/>
+  </g>
+
+  <!-- Brillo bajo antena -->
+  <ellipse cx="24" cy="14" rx="10" ry="6" fill="url(#vivo-glow)"/>
+
+  <!-- Antena de transmisión -->
+  <g stroke="#fafafa" stroke-linecap="round">
+    <path fill="url(#vivo-orange)" stroke="none" d="M22.2 8.2 24 5.8l1.8 2.4 1.4 9.2h-6.8z"/>
+    <line x1="24" y1="15" x2="24" y2="22.5" stroke-width="2.2"/>
+    <line x1="17.5" y1="17.2" x2="30.5" y2="17.2" stroke-width="2"/>
+    <line x1="19.2" y1="19.8" x2="28.8" y2="19.8" stroke-width="1.5" opacity="0.75"/>
+  </g>
+  <circle cx="24" cy="5.6" r="1.5" fill="#f97316"/>
+
+  <!-- Silueta República Dominicana + bandera -->
+  <path
+    d="M19.5 37.8c-4.2 0-7.8-2.4-9-6.2l-1.4-5.8c-.6-2.6.1-5.3 1.8-7.2l2.2-2.8c1.2-1.6 3.1-2.6 5.2-2.8 1.4-.1 2.8.2 4 1l3.2 2.4c2.2 1.6 3.6 4.2 3.6 7l-.2 4.2c-.2 3.4-2.8 6.2-6.4 7.2l-2 0.6c-.8.2-1.6.4-2.4.4z"
+    fill="#18181b"
+    stroke="#fafafa"
+    stroke-width="1.2"
+    stroke-linejoin="round"
+  />
+  <g clip-path="url(#dr-silhouette)">
+    <rect x="10" y="14" width="28" height="26" fill="#002d62"/>
+    <rect x="10" y="14" width="14" height="13" fill="#002d62"/>
+    <rect x="24" y="27" width="14" height="13" fill="#002d62"/>
+    <rect x="24" y="14" width="14" height="13" fill="#ce1126"/>
+    <rect x="10" y="27" width="14" height="13" fill="#ce1126"/>
+    <path fill="#ffffff" d="M22.2 14h3.6v26h-3.6zM10 24.2h28v3.6H10z"/>
+    <circle cx="22" cy="26.5" r="2" fill="#002d62" stroke="#ffffff" stroke-width="0.7"/>
+  </g>
+
+  <!-- Punto “en vivo” -->
+  <circle cx="38" cy="38" r="3.2" fill="#ef4444" stroke="#0a0a0b" stroke-width="1.2"/>
+  <circle cx="38" cy="38" r="5" fill="#ef4444" opacity="0.25"/>
+</svg>

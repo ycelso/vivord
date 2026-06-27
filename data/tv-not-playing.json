@@ -1,0 +1,2528 @@
+{
+  "generatedAt": "2026-05-27T20:02:49.209Z",
+  "count": 169,
+  "items": [
+    {
+      "slug": "beller-digital",
+      "name": "Beller digital",
+      "stream": "https://5955f4ce3f2b7.streamlock.net/playlist.m3u8",
+      "page": "canal/beller-digital.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_403"
+      ],
+      "statuses": [
+        403
+      ]
+    },
+    {
+      "slug": "avivamiento-tv",
+      "name": "Avivamiento TV",
+      "stream": "https://vdopanel.jlahozconsulting.com:3655/live/avivamientolive.m3u8",
+      "page": "canal/avivamiento-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "celestial-tv",
+      "name": "CELESTIAL TV",
+      "stream": "https://5790d294af2dc.streamlock.net:443/celestial/celestial/playlist.m3u8",
+      "page": "canal/celestial-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "ctn",
+      "name": "CTN",
+      "stream": "https://59ef525c24caa.streamlock.net/ctn/ctn/playlist.m3u8",
+      "page": "canal/ctn.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "canal-70-tv",
+      "name": "Canal 70 tv",
+      "stream": "https://fl1002.bozztv.com/ssh101/el70tv/tracks-v1a1/mono.m3u8",
+      "page": "canal/canal-70-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "cinevision-canal-19",
+      "name": "Cinevision Canal 19",
+      "stream": "https://rctvhd.mycloudstream.io/player/etyetihk?autoplay=true",
+      "streamType": "iframe",
+      "page": "canal/cinevision-canal-19.html",
+      "sources": [
+        "embed-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "cosecha-y-victoria-tv",
+      "name": "Cosecha y Victoria TV",
+      "stream": "https://cdn.mycloudstream.io/hls/live/broadcast/sozistf0/index.m3u8",
+      "page": "canal/cosecha-y-victoria-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "daja-tv",
+      "name": "DAJA TV",
+      "stream": "https://mlb.essastream.com:8081/dajatv/index.m3u8",
+      "page": "canal/daja-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "decadas-tv",
+      "name": "Decadas tv",
+      "stream": "https://5790d294af2dc.streamlock.net:443/8218/8218/playlist.m3u8",
+      "page": "canal/decadas-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "el-jarabe-de-marino-apete",
+      "name": "El Jarabe de Marino Zapete",
+      "stream": "https://cdn.mycloudstream.io/hls/live/broadcast/aa5i1jfn/index.m3u8?DVR",
+      "page": "canal/el-jarabe-de-marino-apete.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "canal-del-sol",
+      "name": "El Seis",
+      "stream": "https://5790d294af2dc.streamlock.net:443/canal6/canal6/playlist.m3u8",
+      "page": "canal/canal-del-sol.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "furia-tv",
+      "name": "FURIA TV",
+      "stream": "https://5790d294af2dc.streamlock.net:443/8060/8060/playlist.m3u8",
+      "page": "canal/furia-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "glstudio-tv",
+      "name": "GLSTUDIO TV",
+      "stream": "https://ed22ov.live.opencaster.com/nrExgGkfmvBw/index.m3u8",
+      "page": "canal/glstudio-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "guaymate-tv",
+      "name": "GUAYMATE TV",
+      "stream": "https://live20.bozztv.com/akamaissh101/ssh101/guaymatetv/playlist.m3u8",
+      "page": "canal/guaymate-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "generaciones-tv-digital",
+      "name": "Generaciones TV Digital",
+      "stream": "https://5790d294af2dc.streamlock.net:443/8036/8036/playlist.m3u8",
+      "page": "canal/generaciones-tv-digital.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "id-tv-televisiOn-digital",
+      "name": "ID TV TELEVISIÓN DIGITAL",
+      "stream": "https://5790d294af2dc.streamlock.net:443/villatv/villatv/playlist.m3u8",
+      "page": "canal/id-tv-televisiOn-digital.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "la-voz-de-maria-la-vega",
+      "name": "La Voz de Maria",
+      "stream": "https://uni01rtmp.tulix.tv/playout2multi9/lavozdemaria.stream/playlist.m3u8",
+      "page": "canal/la-voz-de-maria-la-vega.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "lena-radio-tv-internacional",
+      "name": "Leña Radio tv Internacional",
+      "stream": "https://5790d294af2dc.streamlock.net/lenaratv/live/chunklist_w876063461.m3u8",
+      "page": "canal/lena-radio-tv-internacional.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "market-tv",
+      "name": "Market TV",
+      "stream": "https://panel.streamingtv-mediacp.online:1936/8170/8170/playlist.m3u8",
+      "page": "canal/market-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "merla-vision",
+      "name": "Merla Vision",
+      "stream": "https://soportedvb.click:3877/live/merlavisionlive.m3u8",
+      "page": "canal/merla-vision.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "opcion-tv",
+      "name": "OPCION TV",
+      "stream": "https://5790d294af2dc.streamlock.net:443/8066/8066/playlist.m3u8",
+      "page": "canal/opcion-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "ocoa-vision-canal-12",
+      "name": "Ocoa Vision Canal 12",
+      "stream": "https://www.ustream.tv/embed/16135157?v=3&amp;amp;wmode=direct",
+      "streamType": "iframe",
+      "page": "canal/ocoa-vision-canal-12.html",
+      "sources": [
+        "embed-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "ola-tv-canal-62",
+      "name": "Ola Tv Canal 62",
+      "stream": "https://www.ustream.tv/embed/20923822?v=3&amp;amp;wmode=direct",
+      "streamType": "iframe",
+      "page": "canal/ola-tv-canal-62.html",
+      "sources": [
+        "embed-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "onda-tv-canal-10",
+      "name": "Onda TV Canal 10",
+      "stream": "https://cnn.hostlagarto.com/ondatv/index.m3u8",
+      "page": "canal/onda-tv-canal-10.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "precidential",
+      "name": "Precidential",
+      "stream": "https://5790d294af2dc.streamlock.net:443/8042/8042/playlist.m3u8",
+      "page": "canal/precidential.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "red-social-codi",
+      "name": "RED SOCIAL CÓDI",
+      "stream": "https://video.misistemareseller.com/redsocial/redsocial/playlist.m3u8",
+      "page": "canal/red-social-codi.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "romana-tv-canal-42",
+      "name": "Romana TV Canal 42",
+      "stream": "https://cdn.mycloudstream.io/hls/live/broadcast/aa5i1jfn/index.m3u8?DVR",
+      "page": "canal/romana-tv-canal-42.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "samana-tv",
+      "name": "Samana TV",
+      "stream": "https://live20.bozztv.com/akamaissh101/ssh101/terrenasvision/chunks.m3u8",
+      "page": "canal/samana-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "super-tv-55",
+      "name": "Super TV 55",
+      "stream": "https://cdn.mycloudstream.io/hls/live/broadcast/ib087ssb/index.m3u8",
+      "page": "canal/super-tv-55.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "super-tv-55-santiago",
+      "name": "Super TV 55 Santiago",
+      "stream": "https://cdn.mycloudstream.io/hls/live/broadcast/ib087ssb/index.m3u8",
+      "page": "canal/super-tv-55-santiago.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "terrenas-visiOn",
+      "name": "TERRENAS VISIÓN",
+      "stream": "https://live20.bozztv.com/akamaissh101/ssh101/terrenasvision/chunks.m3u8",
+      "page": "canal/terrenas-visiOn.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "tierra-vision-tv",
+      "name": "TIERRA VISION TV",
+      "stream": "https://cloud2.streaminglivehd.com:1936/tierravisiontv/tierravisiontv/playlist.m3u8",
+      "page": "canal/tierra-vision-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "tv-10-san-juan",
+      "name": "TV 10 San Juan",
+      "stream": "https://59d39900ebfb8.streamlock.net:443/TV10SanJuan/TV10SanJuan/playlist.m3u8",
+      "page": "canal/tv-10-san-juan.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "tv-norte",
+      "name": "TV norte",
+      "stream": "https://angelistic.live:3785/hybrid/play.m3u8",
+      "page": "canal/tv-norte.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "tvo-tv",
+      "name": "TVO TV",
+      "stream": "https://cdn.mycloudstream.io/hls/live/broadcast/aa5i1jfn/index.m3u8?DVR",
+      "page": "canal/tvo-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "tele-bahia",
+      "name": "Tele Bahia",
+      "stream": "https://livestream.com/accounts/18988261/events/7725211/player?width=800&amp;height=400&amp;enableInfoAndActivity=true&amp;defaultDrawer=&amp;autoPlay=true&amp;mute=false",
+      "streamType": "iframe",
+      "page": "canal/tele-bahia.html",
+      "sources": [
+        "embed-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "teleradio-norte",
+      "name": "Teleradio norte",
+      "stream": "https://angelistic.live:3785/hybrid/play.m3u8",
+      "page": "canal/teleradio-norte.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "uncion-tv",
+      "name": "Unción TV",
+      "stream": "https://eu1.servers10.com:8081/8164/index.m3u8",
+      "page": "canal/uncion-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "valle-nuevo-tv",
+      "name": "Valle Nuevo TV",
+      "stream": "https://media.streambrothers.com:1936/8262/8262/playlist.m3u8",
+      "page": "canal/valle-nuevo-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "xtravision-canal-10",
+      "name": "Xtravision Canal 10",
+      "stream": "https://hostlagarto.com/tvhd/XTRAVISION/",
+      "streamType": "iframe",
+      "page": "canal/xtravision-canal-10.html",
+      "sources": [
+        "embed-check"
+      ],
+      "issues": [
+        "http_404"
+      ],
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "slug": "bajo-techo-tv",
+      "name": "Bajo Techo TV",
+      "stream": "https://rdn.essastream.com/live-stream-video-widget/bajotechotv",
+      "streamType": "iframe",
+      "page": "canal/bajo-techo-tv.html",
+      "sources": [
+        "embed-check"
+      ],
+      "issues": [
+        "http_500"
+      ],
+      "statuses": [
+        500
+      ]
+    },
+    {
+      "slug": "telenord",
+      "name": "Telenord Canal 10",
+      "stream": "https://rdn.essastream.com/live-stream-video-widget/telenord10",
+      "streamType": "iframe",
+      "page": "canal/telenord.html",
+      "sources": [
+        "embed-check"
+      ],
+      "issues": [
+        "http_500"
+      ],
+      "statuses": [
+        500
+      ]
+    },
+    {
+      "slug": "telebendicion",
+      "name": "Telebendicion",
+      "stream": "http://dominicanplayers.com/video-player/346/0/0",
+      "streamType": "iframe",
+      "page": "canal/telebendicion.html",
+      "sources": [
+        "dominicanplayers-iframe",
+        "embed-check"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers",
+        "timeout"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "002-radio",
+      "name": "002 RADIO",
+      "stream": "https://cdn.002radio.com:3909/live/radio002live.m3u8",
+      "page": "canal/002-radio.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "agenda-56",
+      "name": "AGENDA 56",
+      "stream": "https://cloudflare.streamgato.us:3148/live/agenda56tvlive.m3u8",
+      "page": "canal/agenda-56.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "aion-tv",
+      "name": "AION TV",
+      "stream": "https://vdo.aiontelevision.com:3735/live/aiontelevisionlive.m3u8",
+      "page": "canal/aion-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "alegrando-tv",
+      "name": "ALEGRANDO TV",
+      "stream": "https://cdn2.streamgato.us/alegrandotv/alegrandotv/playlist.m3u8",
+      "page": "canal/alegrando-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "alon-television",
+      "name": "ALON TELEVISION",
+      "stream": "https://vdo2.streamgato.us:3600/live/alontelevisionlive.m3u8",
+      "page": "canal/alon-television.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "altanto-tv",
+      "name": "Altanto TV",
+      "stream": "https://streaming.altantotv.domiplay.net/hls/0/stream.m3u8",
+      "page": "canal/altanto-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "asmar-television",
+      "name": "Asmar Television",
+      "stream": "http://ss5.domint.net:2034/astv_str/asmartv/playlist.m3u8",
+      "page": "canal/asmar-television.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "bella-vision-canal-8",
+      "name": "Bellavisión Canal 8",
+      "stream": "https://rdn.essastream.com:3110/live/bellavision8hdlive.m3u8",
+      "page": "canal/bella-vision-canal-8.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "bonao-tv-canal-12",
+      "name": "Bonao TV Canal 12",
+      "stream": "https://dominicanplayers.com/video-player/279/0",
+      "streamType": "iframe",
+      "page": "canal/bonao-tv-canal-12.html",
+      "sources": [
+        "dominicanplayers-iframe",
+        "embed-check"
+      ],
+      "issues": [
+        "fetch failed",
+        "iframe_provider_dominicanplayers"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "bonches-latinos",
+      "name": "Bonches Latinos",
+      "stream": "https://ss5.domint.net:3030/aba_str/bonche/playlist.m3u8",
+      "page": "canal/bonches-latinos.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "boreal-television",
+      "name": "Boreal Television",
+      "stream": "https://cdn.borealtelevision.com:3712/live/borealtelevisionhdlive.m3u8",
+      "page": "canal/boreal-television.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "canal-vida-y-salud-tv",
+      "name": "CANAL VIDA Y SALUD TV",
+      "stream": "https://cloudflare.streamgato.us:3578/live/vidaysaludtvlive.m3u8",
+      "page": "canal/canal-vida-y-salud-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "el-gobierno-de-la-linea",
+      "name": "CANALDAHD",
+      "stream": "https://canaldahd.hostlagarto.com:3546/live/canaldahdlive.m3u8",
+      "page": "canal/el-gobierno-de-la-linea.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "canela-tv",
+      "name": "CANELA TV",
+      "stream": "https://cloudflare.streamgato.us:3953/live/canelatvlive.m3u8",
+      "page": "canal/canela-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "cibaeNa-tv-radio",
+      "name": "CIBAEÑA TV RADIO",
+      "stream": "https://vsrv2.az-streamingserver.com:3958/live/cibaenatvlive.m3u8",
+      "page": "canal/cibaeNa-tv-radio.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "coco-tv",
+      "name": "COCO TV",
+      "stream": "https://cloudflare.streamgato.us:3253/live/canalcocotvlive.m3u8",
+      "page": "canal/coco-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "copamex-music",
+      "name": "COPAMEX MUSIC",
+      "stream": "https://cdn2.streamgato.us/copamexmuic/copamexmuic/playlist.m3u8",
+      "page": "canal/copamex-music.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "cristo-tv-radio",
+      "name": "CRISTO  TV  RADIO",
+      "stream": "https://vsrv2.az-streamingserver.com:3352/live/clarovisiontvradiolive.m3u8",
+      "page": "canal/cristo-tv-radio.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "ctv",
+      "name": "CTV",
+      "stream": "https://vdo2.streamgato.us:3978/live/ctvlive.m3u8",
+      "page": "canal/ctv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "ctvd",
+      "name": "CTVD",
+      "stream": "https://cdn2.streamgato.us/ctvd/ctvd/playlist.m3u8",
+      "page": "canal/ctvd.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "cv-vision-canal-18-higuey",
+      "name": "CV Visión Canal 18 Higuey",
+      "stream": "https://rctvhdstream.com:8081/cvvision/tracks-v1a1/mono.m3u8",
+      "page": "canal/cv-vision-canal-18-higuey.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "cacique-tv-rd",
+      "name": "Cacique TV_RD",
+      "stream": "https://vdo2.streamgato.us:3865/live/tvcaciqulive.m3u8",
+      "page": "canal/cacique-tv-rd.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "cana-vision-canal-88-bavaro",
+      "name": "Cana Visión Canal 88 Bavaro",
+      "stream": "https://livetv.305streamhd.com:3707/live/canatvdigitallive.m3u8",
+      "page": "canal/cana-vision-canal-88-bavaro.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "carivision-canal-26",
+      "name": "Carivision canal 26",
+      "stream": "https://ss5.domint.net:3174/car_str/carivision/playlist.m3u8",
+      "page": "canal/carivision-canal-26.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "cana-tv",
+      "name": "Caña tv",
+      "stream": "https://cloudflare.streamgato.us:3177/live/canatvlive.m3u8",
+      "page": "canal/cana-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "chinola-tv",
+      "name": "Chinola TV",
+      "stream": "https://cdn3.streamgato.us:3434/live/chinolatvlive.m3u8",
+      "page": "canal/chinola-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "clarovision-tv",
+      "name": "Clarovision tv",
+      "stream": "https://cdn2.streamgato.us/clarovision/clarovision/playlist.m3u8",
+      "page": "canal/clarovision-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "comunion-tv",
+      "name": "Comunión TV",
+      "stream": "http://50.30.37.36:1935/live/stream/playlist.m3u8",
+      "page": "canal/comunion-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "dcctv",
+      "name": "DCCTV",
+      "stream": "https://cdn1.streamgato.us/dcctv/dcctv.myStream/playlist.m3u8",
+      "page": "canal/dcctv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "dantv",
+      "name": "DanTv",
+      "stream": "https://vdo2.streamgato.us:3562/live/dantvlive.m3u8",
+      "page": "canal/dantv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "delta-tv-canal-50",
+      "name": "Delta TV Canal 50",
+      "stream": "https://rdn.essastream.com:3949/live/deltatv50live.m3u8",
+      "page": "canal/delta-tv-canal-50.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "estylo-tv",
+      "name": "ESTYLO TV",
+      "stream": "https://vdo2.streamgato.us:3035/live/estylotvlive.m3u8",
+      "page": "canal/estylo-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "exitosa-tv",
+      "name": "Exitosa TV",
+      "stream": "https://vsrv2.az-streamingserver.com:3092/live/exitosatvlive.m3u8",
+      "page": "canal/exitosa-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "explosion-tv",
+      "name": "Explosion TV",
+      "stream": "https://live.teledomdr.com:3087/live/explosiontvlive.m3u8",
+      "page": "canal/explosion-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "fuxion-tv",
+      "name": "FUXION 89.9 TV",
+      "stream": "https://vdo1.streamgato.us:3666/live/fuxionradiolive.m3u8",
+      "page": "canal/fuxion-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "femenina-tv",
+      "name": "Femenina TV",
+      "stream": "https://vsrv2.az-streamingserver.com:3511/live/femeninatvlive.m3u8",
+      "page": "canal/femenina-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "gh-television-canal-10",
+      "name": "GH Television canal 10",
+      "stream": "https://tv.ghtelevision.com:3018/live/ghtelevisionlive.m3u8",
+      "page": "canal/gh-television-canal-10.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "galaxia-teve-canal-42",
+      "name": "Galaxia Teve Canal 42",
+      "stream": "https://vdo1.streamgato.us:3839/live/galaxiatvlive.m3u8?DVR",
+      "page": "canal/galaxia-teve-canal-42.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "guacara-tv-fantino",
+      "name": "Guacara TV Fantino",
+      "stream": "https://cloudflare.streamgato.us:3180/live/guacaratvlive.m3u8",
+      "page": "canal/guacara-tv-fantino.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "hmtv",
+      "name": "HMTV",
+      "stream": "https://cnn.essastream.com:3091/live/hmtvlive.m3u8",
+      "page": "canal/hmtv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "hermanas-mirabal-tv-canal-33-salcedo",
+      "name": "Hermanas Mirabal TV Canal 33 Salcedo",
+      "stream": "https://cnn.essastream.com:3091/live/hmtvlive.m3u8",
+      "page": "canal/hermanas-mirabal-tv-canal-33-salcedo.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "hits-360",
+      "name": "Hits 360",
+      "stream": "https://cdn.essastream.com:3023/live/hits360tvlive.m3u8",
+      "page": "canal/hits-360.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "horaxhora-television",
+      "name": "Horaxhora Television",
+      "stream": "https://cnn.essastream.com:3149/live/horaxhoratelevisionlive.m3u8",
+      "page": "canal/horaxhora-television.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "impacto-norte-tv",
+      "name": "IMPACTO NORTE TV",
+      "stream": "https://vsrv2.az-streamingserver.com:3696/hybrid/play.m3u8",
+      "page": "canal/impacto-norte-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "idealtv",
+      "name": "IdealTV",
+      "stream": "https://cloud.idealtv.net:3179/live/idealtvlive.m3u8",
+      "page": "canal/idealtv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "infinito-tv",
+      "name": "Infinito TV",
+      "stream": "https://vdo1.streamgato.us:3057/live/infinitotvlive.m3u8",
+      "page": "canal/infinito-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "jesus-tv",
+      "name": "JESUS TV",
+      "stream": "https://cloudflare.streamgato.us:3173/live/jesustvlive.m3u8",
+      "page": "canal/jesus-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "jazmin-tv",
+      "name": "Jazmín TV",
+      "stream": "https://tvdatta.com:3957/hybrid/play.m3u8",
+      "page": "canal/jazmin-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "la-ruta-91-tv",
+      "name": "LA RUTA 91 TV",
+      "stream": "https://cdn7.streamgato.us:3654/live/larutatvlive.m3u8",
+      "page": "canal/la-ruta-91-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "laruta-tv",
+      "name": "LARUTA TV",
+      "stream": "https://vsrv2.az-streamingserver.com:3983/live/larutatvlive.m3u8",
+      "page": "canal/laruta-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "luz-naciente-tv",
+      "name": "LUZ NACIENTE TV",
+      "stream": "https://cloudflare.streamgato.us:3710/live/luznacientetvlive.m3u8",
+      "page": "canal/luz-naciente-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "masacre-tv",
+      "name": "MASACRE TV",
+      "stream": "https://cdn.gleidyhost.com:3195/live/masacretvlive.m3u8",
+      "page": "canal/masacre-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "mega-cine-tv",
+      "name": "MEGA CINE TV",
+      "stream": "https://cloudflare.streamgato.us:3125/live/megacinetvlive.m3u8",
+      "page": "canal/mega-cine-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "montecristi-digital",
+      "name": "MONTECRISTI DIGITAL",
+      "stream": "https://cloudflare.streamgato.us:3079/live/montecristidigitallive.m3u8",
+      "page": "canal/montecristi-digital.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "morro-tv-canal-34",
+      "name": "MORRO TV CANAL 34",
+      "stream": "https://cloudflare.streamgato.us:3044/live/morrotvlive.m3u8",
+      "page": "canal/morro-tv-canal-34.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "multivision",
+      "name": "MULTIVISION",
+      "stream": "https://vdo2.streamgato.us:3608/live/canalmultivisionlive.m3u8",
+      "page": "canal/multivision.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "musa-vision-canal-10",
+      "name": "Musa Vision Canal 10",
+      "stream": "https://soportedvb.click:3827/live/musavisiontvlive.m3u8",
+      "page": "canal/musa-vision-canal-10.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "musavision-canal-10-en-vivo",
+      "name": "Musavision Canal 10",
+      "stream": "https://soportedvb.click:3827/live/musavisiontvlive.m3u8",
+      "page": "canal/musavision-canal-10-en-vivo.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "navatel-canal-18",
+      "name": "Navatel canal 18",
+      "stream": "https://cdn4.hostlagarto.com:8081/navatel18/index.m3u8",
+      "page": "canal/navatel-canal-18.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "nexxo-tv",
+      "name": "Nexxo TV",
+      "stream": "https://vdo1.streamgato.us:3474/live/nextvhdlive.m3u8",
+      "page": "canal/nexxo-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "nisibontv-canal-48",
+      "name": "Nisibon Tv HD",
+      "stream": "https://paz.sytes.net:5443/live/streams/nisibon.m3u8",
+      "page": "canal/nisibontv-canal-48.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "phtv",
+      "name": "PHTV",
+      "stream": "https://vdo1.streamgato.us:3138/live/phtvlive.m3u8",
+      "page": "canal/phtv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "policia-tv",
+      "name": "POLICIA TV",
+      "stream": "https://cdn2.streamgato.us/policiard/policiard/playlist.m3u8",
+      "page": "canal/policia-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "pop-info-tv",
+      "name": "POP Info Tv",
+      "stream": "https://soportedvb.click:3701/live/popinfotvlive.m3u8",
+      "page": "canal/pop-info-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "pregotv",
+      "name": "PREGOTV",
+      "stream": "https://vdo2.streamgato.us:3216/live/pregotvlive.m3u8",
+      "page": "canal/pregotv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "puede-tv",
+      "name": "PUEDE TV",
+      "stream": "https://cloudflare.streamgato.us:3177/live/canatvlive.m3u8",
+      "page": "canal/puede-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "puerto-tv",
+      "name": "PUERTO TV",
+      "stream": "https://cloudflare.streamgato.us:3176/live/puertotvlive.m3u8",
+      "page": "canal/puerto-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "pulatv",
+      "name": "PULATV",
+      "stream": "https://vdo2.streamgato.us:3239/live/pulatvlive.m3u8",
+      "page": "canal/pulatv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "palmar-tv",
+      "name": "Palmar TV",
+      "stream": "https://vsrv2.az-streamingserver.com:3255/live/palmartvlive.m3u8",
+      "page": "canal/palmar-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "platinium-tv-canal-50-la-vega",
+      "name": "Platinium TV Canal 50 La Vega",
+      "stream": "https://vdo1.streamgato.us:3229/live/platiniumtvlive.m3u8",
+      "page": "canal/platinium-tv-canal-50-la-vega.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "punta-cana-tv",
+      "name": "Punta Cana TV",
+      "stream": "https://cdn4.hostlagarto.com:8081/static/puntacanatv/playlist.m3u8",
+      "page": "canal/punta-cana-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "puro-higueyano-tv",
+      "name": "Puro Higüeyano TV",
+      "stream": "https://cm.hostlagarto.com:4445/phtv/Phtv.myStream/playlist.m3u8",
+      "page": "canal/puro-higueyano-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "r-television",
+      "name": "R TELEVISION",
+      "stream": "https://cnn2.hostlagarto.com:3325/live/rtelevisionlive.m3u8",
+      "page": "canal/r-television.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "r-e-television",
+      "name": "R&amp;E TELEVISION",
+      "stream": "https://live.ryetv.com.do/livelan/stream.m3u8",
+      "page": "canal/r-e-television.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "red-tv-rd",
+      "name": "RED TV RD",
+      "stream": "https://cdn2.streamgato.us/redtvrd/redtvrd/playlist.m3u8",
+      "page": "canal/red-tv-rd.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "rnn-canal-27",
+      "name": "RNN Canal 27",
+      "stream": "https://ss2.domint.net:3202/rnn_str/canal27/playlist.m3u8",
+      "page": "canal/rnn-canal-27.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "rpc-vision-tv",
+      "name": "RPC VISION TV",
+      "stream": "https://cdn2.streamgato.us/rpcvisiontv/rpcvisiontv/playlist.m3u8",
+      "page": "canal/rpc-vision-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "saltarin-tv",
+      "name": "SALTARIN TV",
+      "stream": "https://vsrv2.az-streamingserver.com:3607/live/saltarintvlive.m3u8",
+      "page": "canal/saltarin-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "src-media-tv",
+      "name": "SRC MEDIA TV",
+      "stream": "https://grupocibermedios.com:3825/live/srcmediatvlive.m3u8",
+      "page": "canal/src-media-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "su-mundo-tv",
+      "name": "SU MUNDO TV",
+      "stream": "https://cdn1.streamgato.us/sumundotv/sumundotv.myStream/playlist.m3u8",
+      "page": "canal/su-mundo-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "senales-tv",
+      "name": "Señales TV",
+      "stream": "https://rctvhdstream.com:8081/senalestvlive/index.m3u8",
+      "page": "canal/senales-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "somos-topo-point-tv",
+      "name": "Somos Topo Point TV",
+      "stream": "https://cloudflare.streamgato.us:3901/live/somostopopointtvlive.m3u8",
+      "page": "canal/somos-topo-point-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "sport-vision-canal-35",
+      "name": "Sport Vision canal 35",
+      "stream": "https://5fa5de1a545ae.streamlock.net/sportvision35tv/sportvision35tv/chunklist_w1319107567.m3u8",
+      "page": "canal/sport-vision-canal-35.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "super-canal-33",
+      "name": "Super Canal 33",
+      "stream": "https://elgruposupercanal.streamgato.us:3658/live/supercanal33live.m3u8",
+      "page": "canal/super-canal-33.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "tele-caribe",
+      "name": "TELE CARIBE",
+      "stream": "https://cloudflare.streamgato.us:3413/live/telecaribehdlive.m3u8",
+      "page": "canal/tele-caribe.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "telemax",
+      "name": "TELEMAX",
+      "stream": "https://vdo2.streamgato.us:3673/live/telemaxlive.m3u8",
+      "page": "canal/telemax.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "teletur",
+      "name": "TELETUR",
+      "stream": "https://cdn4.hostlagarto.com:8081/static/teletur/playlist.m3u8",
+      "page": "canal/teletur.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "television-del-este",
+      "name": "TELEVISION DEL ESTE",
+      "stream": "https://vdo2.streamgato.us:3632/live/televisiondelestelive.m3u8",
+      "page": "canal/television-del-este.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "telexima",
+      "name": "TELEXIMA",
+      "stream": "https://vdo2.streamgato.us:3324/live/teleximalive.m3u8",
+      "page": "canal/telexima.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "tenarense-tv",
+      "name": "TENARENSE TV",
+      "stream": "https://vdo2.streamgato.us:3305/live/tenarensestvrdlive.m3u8",
+      "page": "canal/tenarense-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "teve-musica",
+      "name": "TU MUSICA HD",
+      "stream": "https://vdo2.streamgato.us:3886/stream/play.m3u8",
+      "page": "canal/teve-musica.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "tv-higuey-canal-12",
+      "name": "TV Higuey Canal 12",
+      "stream": "https://vdo1.streamgato.us:3046/live/tvhigueycanal12live.m3u8",
+      "page": "canal/tv-higuey-canal-12.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "tv-vision",
+      "name": "TV VISION",
+      "stream": "https://cloudflare.streamgato.us:3691/live/tvvisionlive.m3u8",
+      "page": "canal/tv-vision.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "tv-exitos",
+      "name": "TV exitos",
+      "stream": "http://siglo21.dnsalias.com:8080/mylive/tvexitos/index.m3u8",
+      "page": "canal/tv-exitos.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "tvs-canal-22",
+      "name": "TVS canal 22",
+      "stream": "http://cm.hostlagarto.com:8081/Tvstv/TvstvHD.myStream/playlist.m3u8",
+      "page": "canal/tvs-canal-22.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "tele-cibao-hd",
+      "name": "Tele Cibao Hd",
+      "stream": "https://vdo2.streamgato.us:3713/live/telecibaotvlive.m3u8",
+      "page": "canal/tele-cibao-hd.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "tele-impacto-norte",
+      "name": "Tele Impacto Norte",
+      "stream": "https://vsrv2.az-streamingserver.com:3359/live/teleimpactonortetvlive.m3u8",
+      "page": "canal/tele-impacto-norte.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "tele-oriental-digital",
+      "name": "Tele Oriental Digital",
+      "stream": "https://vdo1.streamgato.us:3592/live/teleorientaldigitallive.m3u8?DVR",
+      "page": "canal/tele-oriental-digital.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "tele-santo-domingo",
+      "name": "Tele Santo Domingo",
+      "stream": "https://cdn5.streamgato.us:3315/live/telesantodomingolive.m3u8",
+      "page": "canal/tele-santo-domingo.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "telealtura",
+      "name": "Telealtura HD constanza",
+      "stream": "https://pacific.direcnode.com:3250/live/telealturalive.m3u8",
+      "page": "canal/telealtura.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "telecanal-28",
+      "name": "Telecanal 28",
+      "stream": "https://cm.hostlagarto.com:4445/Telecanal-28/telecanal.myStream/chunks.m3u8",
+      "page": "canal/telecanal-28.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "telecotui",
+      "name": "Telecotui",
+      "stream": "http://ramgolive.ddns.net:1935/tvcotui/tvcotui/playlist.m3u8",
+      "page": "canal/telecotui.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "telerumba",
+      "name": "Telerumba",
+      "stream": "https://inliveserver.com:1936/18506/18506/playlist.m3u8",
+      "page": "canal/telerumba.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "teleunion-canal-16",
+      "name": "Teleunion Canal 16",
+      "stream": "https://paz.sytes.net:5443/live/streams/teleunion.m3u8",
+      "page": "canal/teleunion-canal-16.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "telever-canal-12-jarabacoa",
+      "name": "Telever Canal 12 Jarabacoa",
+      "stream": "https://vdo1.streamgato.us/live-stream-video-widget/televercanal12",
+      "streamType": "iframe",
+      "page": "canal/telever-canal-12-jarabacoa.html",
+      "sources": [
+        "embed-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "titanico-tv",
+      "name": "Titanico TV",
+      "stream": "https://cdn2.streamgato.us/titanicotv/titanicotv/playlist.m3u8",
+      "page": "canal/titanico-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "tu-musica-hd",
+      "name": "Tu Musica HD",
+      "stream": "https://vdo2.streamgato.us:3886/stream/play.m3u8",
+      "page": "canal/tu-musica-hd.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "tv-plata-canal-3",
+      "name": "Tv Plata Canal 3",
+      "stream": "https://ss9.domint.net:3032/tvp_str/tvp2111/playlist.m3u8",
+      "page": "canal/tv-plata-canal-3.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "uni-tv",
+      "name": "Uni TV",
+      "stream": "https://inliveserver.com:1936/11558/11558/playlist.m3u8",
+      "page": "canal/uni-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "vision-3000-canal-3-bani",
+      "name": "Visión 3000 Canal 3 Bani",
+      "stream": "https://ss3.domint.net:3102/v3_str/v3000/playlist.m3u8",
+      "page": "canal/vision-3000-canal-3-bani.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "xtrata-tv",
+      "name": "Xtra Tv",
+      "stream": "https://cnn.essastream.com:3387/live/xtratvlive.m3u8",
+      "page": "canal/xtrata-tv.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "fetch failed"
+      ],
+      "statuses": [
+        0
+      ]
+    },
+    {
+      "slug": "uno-uno",
+      "name": "Uno + Uno",
+      "stream": "https://www.dailymotion.com/video/x8mwmvs",
+      "streamType": "iframe",
+      "page": "canal/uno-uno.html",
+      "sources": [
+        "embed-check"
+      ],
+      "issues": [
+        "xfo_deny"
+      ],
+      "statuses": [
+        200
+      ]
+    },
+    {
+      "slug": "telesistema-canal-11",
+      "name": "Telesistema Canal 11",
+      "stream": "https://telesistema11.com.do/en-vivo/",
+      "streamType": "official",
+      "page": "canal/telesistema-canal-11.html",
+      "sources": [
+        "stream-check"
+      ],
+      "issues": [
+        "url_pagina_no_audio"
+      ]
+    },
+    {
+      "slug": "ame-47",
+      "name": "Ame 47",
+      "stream": "https://dominicanplayers.com/video-player/970",
+      "streamType": "iframe",
+      "page": "canal/ame-47.html",
+      "sources": [
+        "dominicanplayers-iframe"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers"
+      ]
+    },
+    {
+      "slug": "canal-25-santiago",
+      "name": "Canal 25",
+      "stream": "https://dominicanplayers.com/video-player/265/0",
+      "streamType": "iframe",
+      "page": "canal/canal-25-santiago.html",
+      "sources": [
+        "dominicanplayers-iframe"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers"
+      ]
+    },
+    {
+      "slug": "cristian-casa-blanca",
+      "name": "Cristian Casa Blanca",
+      "stream": "https://dominicanplayers.com/video-player/265/0",
+      "streamType": "iframe",
+      "page": "canal/cristian-casa-blanca.html",
+      "sources": [
+        "dominicanplayers-iframe"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers"
+      ]
+    },
+    {
+      "slug": "maimon-tv-canal-3",
+      "name": "Maimón TV Canal 3",
+      "stream": "https://dominicanplayers.com/video-player/269/0",
+      "streamType": "iframe",
+      "page": "canal/maimon-tv-canal-3.html",
+      "sources": [
+        "dominicanplayers-iframe"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers"
+      ]
+    },
+    {
+      "slug": "peravia-vision-canal-8-bani",
+      "name": "Peravia Vision Canal 8 Bani",
+      "stream": "https://dominicanplayers.com/video-player/267/0",
+      "streamType": "iframe",
+      "page": "canal/peravia-vision-canal-8-bani.html",
+      "sources": [
+        "dominicanplayers-iframe"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers"
+      ]
+    },
+    {
+      "slug": "supremateve",
+      "name": "SUPREMATEVE",
+      "stream": "https://dominicanplayers.com/video-player/1531/0",
+      "streamType": "iframe",
+      "page": "canal/supremateve.html",
+      "sources": [
+        "dominicanplayers-iframe"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers"
+      ]
+    },
+    {
+      "slug": "sabaneta-tv",
+      "name": "Sabaneta tv",
+      "stream": "https://dominicanplayers.com/video-player/332/0",
+      "streamType": "iframe",
+      "page": "canal/sabaneta-tv.html",
+      "sources": [
+        "dominicanplayers-iframe"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers"
+      ]
+    },
+    {
+      "slug": "tni-canal-51-santo-domingo",
+      "name": "TNI Canal 51 Santo Domingo",
+      "stream": "https://dominicanplayers.com/video-player/1117/0/1",
+      "streamType": "iframe",
+      "page": "canal/tni-canal-51-santo-domingo.html",
+      "sources": [
+        "dominicanplayers-iframe"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers"
+      ]
+    },
+    {
+      "slug": "telefuturo-canal-23",
+      "name": "Telefuturo Canal 23",
+      "stream": "https://dominicanplayers.com/video-player/255/0/0",
+      "streamType": "iframe",
+      "page": "canal/telefuturo-canal-23.html",
+      "sources": [
+        "dominicanplayers-iframe"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers"
+      ]
+    },
+    {
+      "slug": "tv-montana",
+      "name": "Tv montaña",
+      "stream": "https://dominicanplayers.com/video-player/353/0/0",
+      "streamType": "iframe",
+      "page": "canal/tv-montana.html",
+      "sources": [
+        "dominicanplayers-iframe"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers"
+      ]
+    },
+    {
+      "slug": "vozz-media-network",
+      "name": "Vozz Media Network",
+      "stream": "https://dominicanplayers.com/video-player/1589/0",
+      "streamType": "iframe",
+      "page": "canal/vozz-media-network.html",
+      "sources": [
+        "dominicanplayers-iframe"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers"
+      ]
+    },
+    {
+      "slug": "xtremo-vision-canal-22",
+      "name": "Xtremo channel canal 22",
+      "stream": "https://dominicanplayers.com/video-player/1786/0",
+      "streamType": "iframe",
+      "page": "canal/xtremo-vision-canal-22.html",
+      "sources": [
+        "dominicanplayers-iframe"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers"
+      ]
+    },
+    {
+      "slug": "yuna-vision-canal-10-bonao",
+      "name": "Yuna Vision Canal 10 Bonao",
+      "stream": "https://dominicanplayers.com/video-player/264/0/0",
+      "streamType": "iframe",
+      "page": "canal/yuna-vision-canal-10-bonao.html",
+      "sources": [
+        "dominicanplayers-iframe"
+      ],
+      "issues": [
+        "iframe_provider_dominicanplayers"
+      ]
+    }
+  ]
+}

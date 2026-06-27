@@ -1,0 +1,12 @@
+VivoRD 1.0.6 — Novedades de la versión (Play Console)
+
+Pega en "Novedades de la versión" (español):
+
+• Reproductor de radio a pantalla completa; minimiza con ⌄ y sigue escuchando con el mini reproductor
+• Sin banner de anuncios mientras reproduces; interfaz del reproductor más limpia
+• Al cerrar la app por completo, la radio se detiene
+• Listados de TV y radios en 3 columnas en el móvil; recientes más compactos (últimas 3)
+• Correcciones al volver a la app y mayor estabilidad
+
+Versión: 1.0.6 (versionCode 7)
+Actualiza sobre: 1.0.5 (versionCode 6)

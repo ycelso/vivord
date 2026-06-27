@@ -1,0 +1,9 @@
+VivoRD 1.0.10 — Novedades de la versión (Play Console)
+
+Pega en "Novedades de la versión" (español):
+
+• Banner inferior adaptado al ancho de la pantalla
+• Mejoras de estabilidad y experiencia general
+
+Versión: 1.0.10 (versionCode 11)
+Actualiza sobre: 1.0.9 (versionCode 10)

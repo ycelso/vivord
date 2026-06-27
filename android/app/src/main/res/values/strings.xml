@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">VivoRD</string>
+    <string name="title_activity_main">VivoRD</string>
+    <string name="package_name">com.vivord.app</string>
+    <string name="custom_url_scheme">com.vivord.app</string>
+    <!-- AdMob TEST App ID (replace with real when account is active) -->
+    <string name="admob_app_id">ca-app-pub-9983636461587656~9612841728</string>
+    <string name="radio_notification_channel">Radio en vivo</string>
+    <string name="radio_notification_channel_desc">Controles de reproducción y pausa</string>
+    <string name="radio_notification_play">Reproducir</string>
+    <string name="radio_notification_pause">Pausar</string>
+    <string name="radio_notification_stop">Detener</string>
+</resources>

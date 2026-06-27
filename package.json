@@ -1,0 +1,66 @@
+{
+  "name": "clon-tv",
+  "private": true,
+  "dependencies": {
+    "@capacitor-community/admob": "^8.0.0",
+    "@capacitor/android": "^7.2.0",
+    "@capacitor/app": "^7.0.1",
+    "@capacitor/core": "^7.2.0",
+    "@capacitor/splash-screen": "^7.0.1",
+    "@capacitor/status-bar": "^7.0.1",
+    "@jofr/capacitor-media-session": "^4.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.2.0",
+    "@playwright/test": "^1.52.0",
+    "playwright": "^1.52.0",
+    "wrangler": "^4.94.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:quick": "node scripts/build.mjs --quick",
+    "retheme": "node scripts/build.mjs --retheme",
+    "build:radios": "node scripts/radio-build.mjs",
+    "build:radios:quick": "node scripts/radio-build.mjs --quick",
+    "audit:descriptions": "node scripts/audit-descriptions.mjs",
+    "hubs:build": "node scripts/hubs-build.mjs",
+    "retheme:radios": "node scripts/radio-build.mjs --retheme",
+    "start": "node scripts/server.mjs",
+    "start:static": "npx --yes serve . -p 3000",
+    "build:logo": "node scripts/build-logo-png.mjs",
+    "brand:sync": "node scripts/sync-brand-assets.mjs",
+    "play-store:assets": "node scripts/play-store-assets.mjs",
+    "play-store:screenshots": "node scripts/play-store-screenshots.mjs",
+    "android:icons": "node scripts/android-icons.mjs",
+    "android:keystore": "node scripts/android-keystore.mjs",
+    "android:release": "node scripts/android-release.mjs",
+    "mirror-images": "node scripts/mirror-images.mjs",
+    "allowlist": "node scripts/generate-allowlist.mjs",
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "legal": "node scripts/legal-pages.mjs",
+    "build:guias": "node scripts/guias-build.mjs",
+    "validate:links": "node scripts/validate-internal-links.mjs",
+    "deploy:prep": "node scripts/deploy-prep.mjs",
+    "deploy:pack": "node scripts/deploy-pack.mjs",
+    "pages:deploy": "npm run deploy:prep && npm run deploy:pack && wrangler pages deploy dist/vivord-pages --project-name=vivord2 --commit-dirty=true",
+    "domain:help": "node scripts/cloudflare-domain.mjs",
+    "ads:prep": "node scripts/deploy-prep.mjs",
+    "verify:streams": "node scripts/verify-streams.mjs",
+    "www:sync": "node scripts/sync-www.mjs",
+    "android:prep": "npm run retheme && npm run retheme:radios && npm run android:sync",
+    "android:add": "npx cap add android",
+    "android:sync": "npm run www:sync && npx cap sync android",
+    "android:open": "npx cap open android",
+    "android:run": "npx cap run android",
+    "browser:install": "npx playwright install msedge",
+    "browser:login": "start msedge https://play.google.com/console",
+    "browser:login:play": "start msedge https://play.google.com/console",
+    "browser:login:admob": "start msedge https://admob.google.com/",
+    "browser:login:automated": "node scripts/browser-login.mjs"
+  },
+  "capacitor": {
+    "platforms": [
+      "android"
+    ]
+  }
+}

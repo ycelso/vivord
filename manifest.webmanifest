@@ -1,0 +1,31 @@
+{
+  "name": "VivoRD — TV y radio dominicana",
+  "short_name": "VivoRD",
+  "description": "Canales de TV y radios de República Dominicana en vivo",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a0a0b",
+  "theme_color": "#0a0a0b",
+  "lang": "es-DO",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./assets/img/pwa-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/img/pwa-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/img/pwa-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

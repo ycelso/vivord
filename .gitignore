@@ -1,0 +1,33 @@
+node_modules/
+.wrangler/
+.devin/
+
+# Build / deploy (regenerar con npm run deploy:pack)
+dist/*
+!dist/android-release/
+!dist/android-release/**
+
+# Playwright MCP (capturas locales)
+.playwright-mcp/
+
+# Generado por Capacitor / Android Gradle
+android/app/build/
+android/.gradle/
+android/build/
+android/local.properties
+android/keystore.properties
+android/release/*.jks
+android/release/*.keystore
+android/capacitor-cordova-android-plugins/
+*.apk
+*.aab
+!dist/android-release/
+
+# Copia web para empaquetado (regenerar con npm run www:sync)
+www/*
+!www/.gitkeep
+
+# Playwright: perfil Edge (cookies Play Console / Google). No subir a git.
+.playwright-profile/
+playwright-report/
+test-results/

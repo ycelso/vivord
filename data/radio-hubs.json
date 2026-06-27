@@ -1,0 +1,228 @@
+{
+  "updatedAt": "2026-06-18T14:35:57.269Z",
+  "cityHubs": [
+    {
+      "kind": "ciudad",
+      "slug": "santo-domingo",
+      "title": "Radios en Santo Domingo",
+      "shortLabel": "Santo Domingo",
+      "stationCount": 124,
+      "pathname": "/radios/ciudad/santo-domingo.html",
+      "indexable": true,
+      "introWords": 247
+    },
+    {
+      "kind": "ciudad",
+      "slug": "santiago-de-los-caballeros",
+      "title": "Radios en Santiago",
+      "shortLabel": "Santiago",
+      "stationCount": 56,
+      "pathname": "/radios/ciudad/santiago-de-los-caballeros.html",
+      "indexable": true,
+      "introWords": 208
+    },
+    {
+      "kind": "ciudad",
+      "slug": "san-pedro-de-macoris",
+      "title": "Radios en San Pedro de Macorís",
+      "shortLabel": "San Pedro de Macorís",
+      "stationCount": 16,
+      "pathname": "/radios/ciudad/san-pedro-de-macoris.html",
+      "indexable": true,
+      "introWords": 220
+    },
+    {
+      "kind": "ciudad",
+      "slug": "santa-cruz-de-barahona",
+      "title": "Radios en Barahona",
+      "shortLabel": "Barahona",
+      "stationCount": 13,
+      "pathname": "/radios/ciudad/santa-cruz-de-barahona.html",
+      "indexable": true,
+      "introWords": 188
+    },
+    {
+      "kind": "ciudad",
+      "slug": "san-felipe-de-puerto-plata",
+      "title": "Radios en Puerto Plata",
+      "shortLabel": "Puerto Plata",
+      "stationCount": 12,
+      "pathname": "/radios/ciudad/san-felipe-de-puerto-plata.html",
+      "indexable": true,
+      "introWords": 180
+    },
+    {
+      "kind": "ciudad",
+      "slug": "concepcion-de-la-vega",
+      "title": "Radios en La Vega",
+      "shortLabel": "La Vega",
+      "stationCount": 12,
+      "pathname": "/radios/ciudad/concepcion-de-la-vega.html",
+      "indexable": true,
+      "introWords": 185
+    },
+    {
+      "kind": "ciudad",
+      "slug": "santo-domingo-oeste",
+      "title": "Radios en Santo Domingo Oeste",
+      "shortLabel": "Santo Domingo Oeste",
+      "stationCount": 11,
+      "pathname": "/radios/ciudad/santo-domingo-oeste.html",
+      "indexable": true,
+      "introWords": 200
+    },
+    {
+      "kind": "ciudad",
+      "slug": "la-romana",
+      "title": "Radios en La Romana",
+      "shortLabel": "La Romana",
+      "stationCount": 9,
+      "pathname": "/radios/ciudad/la-romana.html",
+      "indexable": true,
+      "introWords": 192
+    },
+    {
+      "kind": "ciudad",
+      "slug": "salvaleon-de-higuey",
+      "title": "Radios en Higüey",
+      "shortLabel": "Higüey",
+      "stationCount": 9,
+      "pathname": "/radios/ciudad/salvaleon-de-higuey.html",
+      "indexable": true,
+      "introWords": 192
+    },
+    {
+      "kind": "ciudad",
+      "slug": "san-francisco-de-macoris",
+      "title": "Radios en San Francisco de Macorís",
+      "shortLabel": "San Francisco de Macorís",
+      "stationCount": 7,
+      "pathname": "/radios/ciudad/san-francisco-de-macoris.html",
+      "indexable": true,
+      "introWords": 201
+    },
+    {
+      "kind": "ciudad",
+      "slug": "sabaneta",
+      "title": "Radios en Sabaneta",
+      "shortLabel": "Sabaneta",
+      "stationCount": 7,
+      "pathname": "/radios/ciudad/sabaneta.html",
+      "indexable": true,
+      "introWords": 199
+    },
+    {
+      "kind": "ciudad",
+      "slug": "san-fernando-de-monte-cristi",
+      "title": "Radios en Monte Cristi",
+      "shortLabel": "Monte Cristi",
+      "stationCount": 6,
+      "pathname": "/radios/ciudad/san-fernando-de-monte-cristi.html",
+      "indexable": true,
+      "introWords": 182
+    },
+    {
+      "kind": "ciudad",
+      "slug": "moca",
+      "title": "Radios en Moca",
+      "shortLabel": "Moca",
+      "stationCount": 5,
+      "pathname": "/radios/ciudad/moca.html",
+      "indexable": true,
+      "introWords": 190
+    },
+    {
+      "kind": "ciudad",
+      "slug": "bani",
+      "title": "Radios en Baní",
+      "shortLabel": "Baní",
+      "stationCount": 5,
+      "pathname": "/radios/ciudad/bani.html",
+      "indexable": true,
+      "introWords": 195
+    }
+  ],
+  "genreHubs": [
+    {
+      "kind": "genero",
+      "slug": "noticias",
+      "title": "Radios de noticias y talk",
+      "shortLabel": "Noticias y talk",
+      "stationCount": 167,
+      "pathname": "/radios/genero/noticias.html",
+      "indexable": true,
+      "introWords": 213
+    },
+    {
+      "kind": "genero",
+      "slug": "salsa-tropical",
+      "title": "Radios de salsa y tropical",
+      "shortLabel": "Salsa y tropical",
+      "stationCount": 139,
+      "pathname": "/radios/genero/salsa-tropical.html",
+      "indexable": true,
+      "introWords": 193
+    },
+    {
+      "kind": "genero",
+      "slug": "urbano-reggaeton",
+      "title": "Radios de urbano y reggaetón",
+      "shortLabel": "Urbano y reggaetón",
+      "stationCount": 94,
+      "pathname": "/radios/genero/urbano-reggaeton.html",
+      "indexable": true,
+      "introWords": 201
+    },
+    {
+      "kind": "genero",
+      "slug": "bachata",
+      "title": "Radios de bachata",
+      "shortLabel": "Bachata",
+      "stationCount": 92,
+      "pathname": "/radios/genero/bachata.html",
+      "indexable": true,
+      "introWords": 191
+    },
+    {
+      "kind": "genero",
+      "slug": "merengue",
+      "title": "Radios de merengue",
+      "shortLabel": "Merengue",
+      "stationCount": 87,
+      "pathname": "/radios/genero/merengue.html",
+      "indexable": true,
+      "introWords": 191
+    },
+    {
+      "kind": "genero",
+      "slug": "baladas-romantica",
+      "title": "Radios de baladas y romántica",
+      "shortLabel": "Baladas y romántica",
+      "stationCount": 65,
+      "pathname": "/radios/genero/baladas-romantica.html",
+      "indexable": true,
+      "introWords": 187
+    },
+    {
+      "kind": "genero",
+      "slug": "cristiana",
+      "title": "Radios de cristiana y gospel",
+      "shortLabel": "Cristiana y gospel",
+      "stationCount": 60,
+      "pathname": "/radios/genero/cristiana.html",
+      "indexable": true,
+      "introWords": 185
+    },
+    {
+      "kind": "genero",
+      "slug": "deportes",
+      "title": "Radios de deportes",
+      "shortLabel": "Deportes",
+      "stationCount": 36,
+      "pathname": "/radios/genero/deportes.html",
+      "indexable": true,
+      "introWords": 198
+    }
+  ],
+  "total": 22
+}

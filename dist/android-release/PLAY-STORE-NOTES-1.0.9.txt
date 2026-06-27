@@ -1,0 +1,10 @@
+VivoRD 1.0.9 — Novedades de la versión (Play Console)
+
+Pega en "Novedades de la versión" (español):
+
+• Mejoras de rendimiento al cargar TV y radios
+• Optimizaciones de estabilidad al reproducir contenido
+• Ajustes generales de la experiencia en la app
+
+Versión: 1.0.9 (versionCode 10)
+Actualiza sobre: 1.0.8 (versionCode 9)

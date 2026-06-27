@@ -1,0 +1,33 @@
+{
+  "updatedAt": "2026-05-25T14:53:41.505Z",
+  "total": 620,
+  "ok": 616,
+  "skipped": 0,
+  "failed": 4,
+  "failures": [
+    {
+      "slug": "vegavision-canal-18",
+      "url": "https://canalesdominicanos.live/images/canalesimages/canales/channel_68_1767734901.png",
+      "kind": "canales",
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "cana-tv",
+      "url": "https://canalesdominicanos.live/images/canales/ca%C3%B1a-tv.png",
+      "kind": "canales",
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "puro-higueyano-tv",
+      "url": "https://canalesdominicanos.live/images/canales/puro-hig%C3%BCeyano-tv.png",
+      "kind": "canales",
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "tv-montana",
+      "url": "https://canalesdominicanos.live/images/canales/tv-monta%C3%B1a.png",
+      "kind": "canales",
+      "error": "HTTP 404"
+    }
+  ]
+}
