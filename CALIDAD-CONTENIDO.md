@@ -71,6 +71,16 @@ node scripts/validate-internal-links.mjs
 - No usar una plantilla única de intro para todos los hubs.
 - No debilitar `validate-internal-links.mjs` para que el build pase.
 
-## Pendiente de decidir
+## 5. Las `guias/` no son contenido autogenerado
 
-Las `guias/` se generan por script (`scripts/guias-build.mjs`). Es contenido autogenerado, el tipo que Google penaliza, y contribuyó al rechazo de AdSense. Ya no cumplen su propósito original. **Comprobar en Search Console si traen tráfico orgánico**; si no lo traen, son candidatas a eliminarse.
+Nueve artículos de 738-917 palabras. El texto está escrito a mano en `scripts/guias-content.mjs`; `guias-build.mjs` solo lo renderiza, igual que el resto del sitio. Medida la duplicación entre ellas: los únicos n-gramas compartidos son el chrome de navegación ("4 min de lectura"). **No borrarlas.** Son lo único original del catálogo; el resto son fichas de reproductor de terceros.
+
+`ver-tv-dominicana-desde-el-extranjero.html` es la página con más intención de compra del sitio (geobloqueo → VPN). Debería llevar el banner de afiliado.
+
+---
+
+## Sin medición de tráfico
+
+El sitio **no tiene analytics instalado**: ni GA, ni Cloudflare Web Analytics, ni Plausible. El `gtag` de `assets/js/cookie-consent.js` es solo el stub de Consent Mode; no hay nada detrás que registre.
+
+Cualquier decisión de "esto no trae tráfico, lo borramos" hoy carece de datos. Para tenerlos: Search Console (gratis, requiere verificar el dominio) o Cloudflare Web Analytics (gratis, un script).

@@ -8,6 +8,7 @@ import { SITE_NAME } from './site-config.mjs';
 import { escapeHtml } from './description-format.mjs';
 import { assertAllValidInternalLinks } from './validate-internal-links.mjs';
 import { RAW_GUIDES } from './guias-content.mjs';
+import { affiliateBanner } from './affiliate.mjs';
 import { enrichGuide, countBodyWords } from './guias-wordcount.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -54,6 +55,7 @@ ${siteHeader('tv', depth, 'Buscar canal o radio…')}
       ${guide.body.trim()}
     </div>
   </article>
+  ${affiliateBanner()}
 </main>
 ${siteFooter(depth)}
 ${scriptsBlock(depth)}
