@@ -21,6 +21,13 @@ export const ADMOB_PUBLISHER_ID = (process.env.ADMOB_PUBLISHER_ID || 'pub-998363
  * Pega aquí tu enlace de afiliado (o usa AFFILIATE_URL en el entorno).
  */
 /**
+ * Cloudflare Web Analytics — token del beacon (Dashboard → Web Analytics → tu sitio).
+ * Vacío = no se carga. Sin cookies ni fingerprinting: no requiere consentimiento.
+ * No se carga en la app nativa (mediría el WebView y ensuciaría las métricas web).
+ */
+export const CF_ANALYTICS_TOKEN = (process.env.CF_ANALYTICS_TOKEN || '').trim();
+
+/**
  * Adsterra Social Bar — URL del script `invoke.js` de tu zona.
  * Vacío = no se carga. Nunca se sirve dentro de la app nativa (ver assets/js/adsterra.js):
  * mezclar otra red con AdMob en el WebView es motivo de suspensión de la cuenta AdMob.

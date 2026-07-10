@@ -307,6 +307,11 @@ Lista completa en `package.json`.
 9. **Deploy Pages sin `--branch=main`** → entra como preview y vivo-rd.com no cambia, aunque wrangler diga `Deployment complete!`. Ver §5.
 10. **`app-ads.txt` nunca debe derivar de `ADSENSE_CLIENT`** — vaciar AdSense borraría la verificación de AdMob y con ella los ingresos de la app.
 11. **Ninguna red publicitaria web dentro del WebView.** Mezclar otra red con AdMob puede costar la cuenta AdMob. Guard: `window.VIVORD_IS_NATIVE` en `assets/js/adsterra.js` + CSS `html.capacitor-app .ad-slot { display: none }`. Correr `npm run test:ads` tras tocarlo.
+13. **`www:sync` NO actualiza la app.** Copia el sitio a `www/`, pero quien lleva `www/` → `android/app/src/main/assets/public/` es `npx cap sync`. Usar **`npm run android:sync`** (hace las dos cosas) o `android:prep`. Esa carpeta está gitignorada, así que un desfase no se ve en `git status`. Comprobar antes de cada release:
+    ```powershell
+    Get-ChildItem android/app/src/main/assets/public -Filter *.html -Recurse | Select-String "adsbygoogle" | Measure-Object
+    ```
+    Debe dar 0. En 2026-07-10 esta carpeta llevaba el `<script>` de AdSense **directo en el `<head>`, sin guard**, y un `adsense.js` antiguo sin `VIVORD_IS_NATIVE`: la app cargaba AdSense junto a AdMob dentro del WebView.
 12. **No reactivar AdSense.** El rechazo es sobre el producto, no sobre el código; insistir arriesga la cuenta Google que sostiene AdMob.
 
 ---
