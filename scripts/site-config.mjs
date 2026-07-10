@@ -25,7 +25,9 @@ export const ADMOB_PUBLISHER_ID = (process.env.ADMOB_PUBLISHER_ID || 'pub-998363
  * Vacío = no se carga. Sin cookies ni fingerprinting: no requiere consentimiento.
  * No se carga en la app nativa (mediría el WebView y ensuciaría las métricas web).
  */
-export const CF_ANALYTICS_TOKEN = (process.env.CF_ANALYTICS_TOKEN || '').trim();
+export const CF_ANALYTICS_TOKEN = (
+  process.env.CF_ANALYTICS_TOKEN || 'e9404442a62f475288b0ecd5b2238c23'
+).trim();
 
 /**
  * Adsterra Social Bar — URL del script `invoke.js` de tu zona.

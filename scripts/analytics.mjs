@@ -15,5 +15,5 @@ export function isAnalyticsEnabled() {
 export function analyticsSnippet() {
   if (!isAnalyticsEnabled()) return '';
   return `
-<script>(function(){try{if(window.VIVORD_IS_NATIVE||window.Capacitor?.isNativePlatform?.())return;}catch(e){}var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token":"${CF_ANALYTICS_TOKEN}"}');document.head.appendChild(s);})();</script>`;
+<script>(function(){try{if(window.VIVORD_IS_NATIVE||window.Capacitor?.isNativePlatform?.())return;}catch(e){}var s=document.createElement('script');s.type='module';s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token":"${CF_ANALYTICS_TOKEN}"}');document.head.appendChild(s);})();</script>`;
 }
