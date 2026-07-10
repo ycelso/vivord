@@ -20,6 +20,13 @@ export const ADMOB_PUBLISHER_ID = (process.env.ADMOB_PUBLISHER_ID || 'pub-998363
  * Banner de afiliado. Sin `href` no se renderiza nada.
  * Pega aquí tu enlace de afiliado (o usa AFFILIATE_URL en el entorno).
  */
+/**
+ * Adsterra Social Bar — URL del script `invoke.js` de tu zona.
+ * Vacío = no se carga. Nunca se sirve dentro de la app nativa (ver assets/js/adsterra.js):
+ * mezclar otra red con AdMob en el WebView es motivo de suspensión de la cuenta AdMob.
+ */
+export const ADSTERRA_SOCIAL_BAR = (process.env.ADSTERRA_SOCIAL_BAR || '').trim();
+
 export const AFFILIATE = {
   href: (process.env.AFFILIATE_URL || '').trim(),
   title: 'VivoRD sin bloqueos desde el extranjero',

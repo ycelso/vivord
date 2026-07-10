@@ -1,5 +1,6 @@
 import { SITE_NAME } from './site-config.mjs';
 import { adsFooterScripts } from './adsense.mjs';
+import { adsterraFooterScript } from './adsterra.mjs';
 
 /** Pie de página: marca, copyright, disclaimer y enlaces legales (TV/Radios solo en cabecera). */
 export function siteFooter(depth = 0) {
@@ -41,5 +42,5 @@ export function siteFooter(depth = 0) {
     <button type="button" class="cookie-consent__btn" id="cookieAccept">Aceptar</button>
   </div>
 </div>
-${adsFooterScripts(depth)}`;
+${adsFooterScripts(depth)}${adsterraFooterScript(depth)}`;
 }

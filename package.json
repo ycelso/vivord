@@ -47,6 +47,7 @@
     "ads:prep": "node scripts/deploy-prep.mjs",
     "verify:streams": "node scripts/verify-streams.mjs",
     "www:sync": "node scripts/sync-www.mjs",
+    "test:ads": "node scripts/adsterra.test.mjs",
     "android:prep": "npm run retheme && npm run retheme:radios && npm run android:sync",
     "android:add": "npx cap add android",
     "android:sync": "npm run www:sync && npx cap sync android",
