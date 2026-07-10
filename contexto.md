@@ -247,7 +247,7 @@ $env:JAVA_HOME="C:\Program Files\Android\Android Studio\jbr"
 npm run android:release      # brand:sync + icons + sync + gradle bundleRelease
 ```
 
-Salida: `dist/android-release/vivord-1.0.10.aab` (ajustar versión en `android-release.mjs` y `build.gradle` antes de nueva release).
+Salida: `dist/android-release/vivord-1.0.11.aab` (ajustar versión en `android-release.mjs` y `build.gradle` antes de nueva release).
 
 ### Subir a Play Console
 
@@ -259,7 +259,7 @@ Salida: `dist/android-release/vivord-1.0.10.aab` (ajustar versión en `android-r
 ### Probar APK en dispositivo
 
 ```powershell
-adb install -r dist\android-release\vivord-1.0.10.apk
+adb install -r dist\android-release\vivord-1.0.11.apk
 ```
 
 ---
@@ -322,7 +322,18 @@ Lista completa en `package.json`.
     ```
     Debe dar 0. En 2026-07-10 esta carpeta llevaba el `<script>` de AdSense **directo en el `<head>`, sin guard**, y un `adsense.js` antiguo sin `VIVORD_IS_NATIVE`: la app cargaba AdSense junto a AdMob dentro del WebView.
 12. **No reactivar AdSense.** El rechazo es sobre el producto, no sobre el código; insistir arriesga la cuenta Google que sostiene AdMob.
-14. **Gradle falla con `java.io.IOException: Unable to establish loopback connection`.** No es Gradle ni el proyecto: `java.exe` no puede abrir su socket loopback interno (`sun.nio.ch.PipeImpl`). Reproducible fuera de Gradle con un `Selector.open()`. Falla igual con JDK 21 de Microsoft y con el JBR de Android Studio, y ningún flag de JVM lo esquiva. Node sí abre loopback, así que el bloqueo es específico del proceso Java: antivirus o firewall. **Arreglo: excluir `java.exe` en el antivirus**, o compilar desde Android Studio con el AV pausado.
+14. **Gradle puede fallar con `java.io.IOException: Unable to establish loopback connection`.** `java.exe` no puede abrir su socket loopback interno (`sun.nio.ch.PipeImpl`); reproducible fuera de Gradle con un `Selector.open()`. Culpable: **Kaspersky Endpoint Security 14.0** gestionado por Kaspersky Security Center (servicio `klnagent`) — no la edición doméstica, así que las exclusiones locales las revierte la política central y añadirlas requiere admin. Determinista mientras el filtro esté activo, no una heurística caprichosa. Su CA `Kaspersky Endpoint Security Personal Root Certificate` en el almacén de Windows es también la causa del `SELF_SIGNED_CERT_IN_CHAIN` de wrangler (§5). **Arreglo:** pedir a quien administra el equipo que añada `java.exe` a aplicaciones de confianza, sin analizar tráfico de red. No excluir la carpeta del proyecto ni la caché de Gradle. El 1.0.11 sí compiló en una sesión donde el filtro no estaba activo.
+
+### Verificar un AAB antes de subirlo
+
+Un `.aab` es un ZIP; no fiarse de la salida del build:
+
+```powershell
+Expand-Archive dist\android-release\vivord-1.0.11.aab -DestinationPath $env:TEMP\aab -Force
+(Get-ChildItem $env:TEMP\aab -Filter *.html -Recurse | Select-String "adsbygoogle" -List).Count  # 0 esperado
+```
+
+Referencias a `googlesyndication`/`adsense` esperadas y correctas: `base/assets/public/assets/js/adsense.js` (huérfano, con guard en la 1ª línea) y unas cadenas en `base/dex/classes2.dex` (SDK de Google Mobile Ads = AdMob). Comprobar también `ADMOB_TEST_MODE = false` en `capacitor-native.js`: en `true` serviría anuncios de prueba, sin ingresos.
 
 ---
 
@@ -335,13 +346,17 @@ Lista completa en `package.json`.
 | Monetización web | Afiliado + Adsterra implementados, **apagados**: faltan enlace de afiliado y zona Adsterra |
 | Monetización app | AdMob intacto; `app-ads.txt` sirve `pub-9983636461587656` |
 | `www/` | Sincronizado (`www:sync`), sin AdSense |
-| Android código | 1.0.10 / versionCode 11 |
-| Play Store | 1.0.10 enviada a revisión (desde 1.0.8 en prod) |
-| Git | `origin/master` al día hasta `9420bb1` |
+| Analítica | Cloudflare Web Analytics activo (token en `site-config.mjs`). Antes no había medición |
+| Android código | 1.0.11 / versionCode 12, assets sincronizados sin AdSense |
+| Android binario | `dist/android-release/vivord-1.0.11.aab` (20.8 MB) + APK. Firmado, verificado abriendo el AAB: 0 HTML con AdSense, `ADMOB_TEST_MODE=false` |
+| Play Store | ⚠️ 1.0.10 en revisión — ese binario carga el `<script>` de AdSense en el `<head>` de **477** páginas del WebView, junto a AdMob. **Subir 1.0.11 y sustituirlo** |
+| Git | `origin/master` al día |
 | gh CLI | Pendiente autenticación |
 | Keystore / contraseñas | Solo en máquina local, no en git |
 
-**Lo único pendiente que requiere al owner:** sacar el enlace de afiliado (Surfshark/NordVPN) y crear la zona Social Bar en Adsterra. Pegar cada uno en `scripts/site-config.mjs`, luego `retheme`, `retheme:radios`, `pages:deploy`.
+**Pendiente que requiere al owner, en orden:**
+1. **Subir `vivord-1.0.11.aab` a Play Console** y sustituir la 1.0.10 en revisión (upload manual; Playwright no sube archivos). Cierra el riesgo del binario que mezcla AdSense y AdMob en el WebView.
+2. Enlace de afiliado (Surfshark/NordVPN) → `AFFILIATE.href`, y zona Social Bar de Adsterra → `ADSTERRA_SOCIAL_BAR`, ambos en `scripts/site-config.mjs`. Luego `retheme`, `retheme:radios`, `pages:deploy`.
 
 ---
 
