@@ -195,7 +195,16 @@ Verificar **siempre** contra el dominio real, no contra la URL `*.pages.dev` que
 curl.exe -s "https://vivo-rd.com/?cb=1" | Select-String "adsbygoogle"   # debe estar vacío
 ```
 
-**TLS intermitente:** wrangler puede abortar a mitad de subida con `SELF_SIGNED_CERT_IN_CHAIN` (afecta también a `sparrow.cloudflare.com`, que es solo telemetría). Es transitorio: reintentar. **No** desactivar la verificación TLS ni usar `NODE_TLS_REJECT_UNAUTHORIZED=0` — expondría el token de Cloudflare.
+**`SELF_SIGNED_CERT_IN_CHAIN` al subir:** wrangler aborta a mitad (siempre en el mismo punto). En Windows, Node usa su propio bundle de CAs, no el almacén del sistema; un antivirus o proxy que intercepta TLS presenta un certificado que Windows confía y Node no. Solución:
+
+```powershell
+$env:NODE_OPTIONS="--use-system-ca"   # Node >= 22.15
+npm run pages:deploy
+```
+
+`--use-system-ca` **no** desactiva la verificación: sigue validando la cadena, contra el trust store de Windows. **Nunca** usar `NODE_TLS_REJECT_UNAUTHORIZED=0` — eso sí la desactiva y expondría el token de Cloudflare a un MITM.
+
+No es transitorio y reintentar no basta: falló 3 veces seguidas en `834/1161` y pasó a la primera con el flag.
 
 ### Verificar en vivo
 

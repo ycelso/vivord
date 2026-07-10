@@ -42,7 +42,7 @@
     "validate:links": "node scripts/validate-internal-links.mjs",
     "deploy:prep": "node scripts/deploy-prep.mjs",
     "deploy:pack": "node scripts/deploy-pack.mjs",
-    "pages:deploy": "npm run deploy:prep && npm run deploy:pack && wrangler pages deploy dist/vivord-pages --project-name=vivord2 --branch=main --commit-dirty=true",
+    "pages:deploy": "npm run deploy:prep && npm run deploy:pack && node scripts/pages-deploy.mjs",
     "domain:help": "node scripts/cloudflare-domain.mjs",
     "ads:prep": "node scripts/deploy-prep.mjs",
     "verify:streams": "node scripts/verify-streams.mjs",
