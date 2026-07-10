@@ -322,6 +322,7 @@ Lista completa en `package.json`.
     ```
     Debe dar 0. En 2026-07-10 esta carpeta llevaba el `<script>` de AdSense **directo en el `<head>`, sin guard**, y un `adsense.js` antiguo sin `VIVORD_IS_NATIVE`: la app cargaba AdSense junto a AdMob dentro del WebView.
 12. **No reactivar AdSense.** El rechazo es sobre el producto, no sobre el código; insistir arriesga la cuenta Google que sostiene AdMob.
+14. **Gradle falla con `java.io.IOException: Unable to establish loopback connection`.** No es Gradle ni el proyecto: `java.exe` no puede abrir su socket loopback interno (`sun.nio.ch.PipeImpl`). Reproducible fuera de Gradle con un `Selector.open()`. Falla igual con JDK 21 de Microsoft y con el JBR de Android Studio, y ningún flag de JVM lo esquiva. Node sí abre loopback, así que el bloqueo es específico del proceso Java: antivirus o firewall. **Arreglo: excluir `java.exe` en el antivirus**, o compilar desde Android Studio con el AV pausado.
 
 ---
 
