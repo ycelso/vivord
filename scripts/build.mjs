@@ -6,6 +6,7 @@ import { resolveImg, resolveRemoteImg, IMAGE_BASE } from './image-paths.mjs';
 import { siteHeader as header } from './site-header.mjs';
 import { siteFooter } from './site-footer.mjs';
 import { adSlotMarkup } from './adsense.mjs';
+import { affiliateBanner } from './affiliate.mjs';
 import {
   seoHead,
   webSiteJsonLd,
@@ -407,6 +408,7 @@ ${header('tv')}
   </section>
 
   ${adSlotMarkup(0)}
+  ${affiliateBanner()}
 
   ${buildGuiasTeaserHtml()}
 
@@ -564,6 +566,7 @@ ${header('tv', 1)}
     <div>
       ${playerBlock}
       ${adSlotMarkup(1, { belowPlayer: true })}
+      ${affiliateBanner()}
       <article class="player-meta">
         <div class="channel-header">
           <div class="card-img-container">

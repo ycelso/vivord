@@ -15,6 +15,17 @@ export const ADSENSE_CLIENT = '';
 
 /** AdMob (app Android) — independiente de AdSense; alimenta app-ads.txt. */
 export const ADMOB_PUBLISHER_ID = (process.env.ADMOB_PUBLISHER_ID || 'pub-9983636461587656').trim();
+
+/**
+ * Banner de afiliado. Sin `href` no se renderiza nada.
+ * Pega aquí tu enlace de afiliado (o usa AFFILIATE_URL en el entorno).
+ */
+export const AFFILIATE = {
+  href: (process.env.AFFILIATE_URL || '').trim(),
+  title: 'VivoRD sin bloqueos desde el extranjero',
+  text: 'Algunas señales solo se ven desde República Dominicana. Con una VPN las abres desde cualquier país.',
+  cta: 'Ver planes',
+};
 export const ALLOWED_ORIGINS = (process.env.ALLOWED_ORIGINS || SITE_URL)
   .split(',')
   .map((s) => s.trim())

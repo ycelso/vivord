@@ -19,6 +19,7 @@ import { generateSitemap } from './generate-sitemap.mjs';
 import { generateLegalPages } from './legal-pages.mjs';
 import { applyRadioStreamFixes } from './radio-stream-fixes.mjs';
 import { adSlotMarkup } from './adsense.mjs';
+import { affiliateBanner } from './affiliate.mjs';
 import { formatDescription, escapeHtml } from './description-format.mjs';
 import { buildStationMetaHtml } from './station-meta.mjs';
 import { assertAllValidInternalLinks } from './validate-internal-links.mjs';
@@ -201,6 +202,7 @@ ${header('radios', 0, 'Buscar canal o radio…')}
   ${hubsTeaser}
 
   ${adSlotMarkup(0)}
+  ${affiliateBanner()}
 
   <section class="section container" id="emisoras-principales">
     <div class="section-head">
@@ -360,6 +362,7 @@ ${header('radios', 1, 'Buscar canal o radio…')}
     <div>
       ${playerBlock}
       ${adSlotMarkup(1, { belowPlayer: true })}
+      ${affiliateBanner()}
       <article class="player-meta">
         <div class="channel-header">
           <div class="card-img-container card-img-container--round">
