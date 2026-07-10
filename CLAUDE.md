@@ -148,10 +148,10 @@ VivoRD/
 - Release: `npm run android:release` → APK + AAB en `dist/android-release/`.
 
 ### 5. Google Play Store
-- Versión en código: **1.0.10** (`versionCode` 11).
-- AAB: `dist/android-release/vivord-1.0.10.aab`.
-- Notas: `dist/android-release/PLAY-STORE-NOTES-1.0.10.txt`.
-- Enviada a revisión Producción 100 % (desde 1.0.8 activa).
+- Versión en código: **1.0.11** (`versionCode` 12).
+- AAB: `dist/android-release/vivord-1.0.11.aab` — compilado y verificado (0 HTML con AdSense, firma OK, `ADMOB_TEST_MODE=false`).
+- Notas: `dist/android-release/PLAY-STORE-NOTES-1.0.11.txt`.
+- **Pendiente:** subir 1.0.11 y sustituir la 1.0.10 en revisión, que empaqueta AdSense en el WebView.
 - Upload AAB: **manual** en Play Console (Playwright MCP extensión bloquea file upload).
 - Script asistido: `scripts/play-store-upload.mjs`.
 
@@ -220,7 +220,7 @@ npm run android:keystore     # Crea .jks + keystore.properties
 # Cada release:
 $env:JAVA_HOME="C:\Program Files\Android\Android Studio\jbr"
 npm run android:release      # brand:sync + icons + sync + gradle bundleRelease
-adb install -r dist\android-release\vivord-1.0.10.apk
+adb install -r dist\android-release\vivord-1.0.11.apk
 ```
 
 ### Calidad / auditoría
@@ -330,8 +330,23 @@ location.reload();
 4. App requiere internet + backend vivo-rd.com desplegado.
 5. Optimización batería en Samsung/Xiaomi puede cortar radio background.
 6. `logos/` puede tener solo SVG potrace; PNGs deben existir para `brand:sync` completo.
-7. **Gradle no arranca en esta máquina:** `java.io.IOException: Unable to establish loopback connection`. No es Gradle ni el proyecto — `java.exe` no puede abrir su socket loopback interno (`sun.nio.ch.PipeImpl`). Reproducible con un `Selector.open()` suelto; falla con JDK 21 y con el JBR de Android Studio, y ningún flag de JVM lo esquiva. Node sí abre loopback. Es un antivirus/firewall filtrando el proceso Java. **Arreglo:** excluir `java.exe` del antivirus, o pausarlo para compilar.
-8. **TLS interceptado:** wrangler aborta la subida con `SELF_SIGNED_CERT_IN_CHAIN`. Ya resuelto en `pages:deploy` con `--use-system-ca` (ver flujo de deploy). Probablemente el mismo antivirus de la limitación 7.
+7. **Kaspersky Endpoint Security 14.0** (gestionado por Kaspersky Security Center, servicio `klnagent`) interfiere con el build y el deploy. No es la interfaz doméstica de Kaspersky: las exclusiones locales las puede revertir la política central, y añadirlas requiere admin.
+   - **Gradle:** `java.io.IOException: Unable to establish loopback connection`. `java.exe` no puede abrir su socket loopback interno (`sun.nio.ch.PipeImpl`); reproducible fuera de Gradle con un `Selector.open()` suelto. Falla con JDK 21 y con el JBR de Android Studio, y ningún flag de JVM lo esquiva; Node sí abre loopback. **No es una heurística caprichosa: es determinista mientras el filtro esté activo.** Arreglo: pedir a quien administra el equipo que añada `java.exe` a aplicaciones de confianza, sin analizar tráfico de red. No excluir la carpeta del proyecto ni la caché de Gradle: superficie enorme para un problema de un solo ejecutable.
+   - **Wrangler:** `SELF_SIGNED_CERT_IN_CHAIN`, porque su CA `Kaspersky Endpoint Security Personal Root Certificate` está en el almacén de Windows y Node no lo usa por defecto. Ya resuelto con `--use-system-ca` en `pages:deploy`.
+
+### Verificar un AAB antes de subirlo
+
+Un `.aab` es un ZIP. No hace falta creer al build:
+
+```powershell
+# 0 esperado: ningún HTML puede cargar AdSense dentro del WebView
+Expand-Archive dist\android-release\vivord-1.0.11.aab -DestinationPath $env:TEMP\aab -Force
+(Get-ChildItem $env:TEMP\aab -Filter *.html -Recurse | Select-String "adsbygoogle" -List).Count
+```
+
+Referencias esperadas y correctas: `base/assets/js/adsense.js` (huérfano, ningún HTML lo carga, y su primera línea es el guard) y unas cadenas `googlesyndication` en `base/dex/classes2.dex`, que son del SDK de Google Mobile Ads (AdMob).
+
+Comprobar también `ADMOB_TEST_MODE = false` en `base/assets/public/assets/js/capacitor-native.js`: si estuviera en `true`, la app serviría anuncios de prueba y no generaría ingresos.
 
 ---
 
@@ -345,15 +360,15 @@ location.reload();
 | Monetización web | Afiliado y Adsterra implementados pero **apagados**: faltan enlace de afiliado y zona Adsterra |
 | Monetización app | AdMob intacto (`app-ads.txt` sirve `pub-9983636461587656`) |
 | Android código | 1.0.11 / versionCode 12, assets sincronizados sin AdSense |
-| Android binario | ⚠️ **AAB 1.0.11 sin compilar**: Gradle no arranca en esta máquina (ver limitación 7) |
-| Play Store | 1.0.10 en revisión — ese binario **sí** carga AdSense en el WebView junto a AdMob. Sustituir por 1.0.11 cuanto antes |
+| Android binario | ✅ `dist/android-release/vivord-1.0.11.aab` (20.8 MB) + APK. Firmado, verificado abriendo el AAB |
+| Play Store | ⚠️ 1.0.10 en revisión — ese binario carga el script de AdSense en el `<head>` de **477** páginas del WebView, junto a AdMob. **Subir 1.0.11 y sustituirlo** |
 | GitHub | `origin/master` al día |
 | gh CLI | Sin auth |
 | Keystore | Solo local |
 
 ### Lo siguiente, en orden
 
-1. **Compilar y subir 1.0.11.** Excluir `java.exe` del antivirus (o pausarlo) y `npm run android:release`. Versión, notas y assets ya están listos. Es el riesgo abierto más serio: el binario publicado mezcla AdSense y AdMob en el WebView.
+1. **Subir `vivord-1.0.11.aab` a Play Console** y sustituir la release en revisión. Upload manual. Notas en `dist/android-release/PLAY-STORE-NOTES-1.0.11.txt` — pegar solo la parte de arriba, la nota interna del final no va en la ficha. Es el riesgo abierto más serio: el binario publicado mezcla AdSense y AdMob en el WebView.
 2. **Enlace de afiliado** → `AFFILIATE.href` en `scripts/site-config.mjs`. La mayor fuente de ingresos esperada. `guias/ver-tv-dominicana-desde-el-extranjero.html` es la página con más intención de compra del sitio.
 3. **Zona Adsterra** → `ADSTERRA_SOCIAL_BAR`, si se quiere red publicitaria además del afiliado.
 4. En una semana, mirar en Cloudflare Web Analytics qué páginas traen tráfico antes de borrar contenido.
