@@ -20,7 +20,7 @@ const adsTxt = generateAdsTxt();
 await fs.writeFile(path.join(ROOT, 'ads.txt'), adsTxt);
 const appAdsTxt = generateAppAdsTxt();
 await fs.writeFile(path.join(ROOT, 'app-ads.txt'), appAdsTxt);
-console.log(isAdsenseEnabled() ? 'ads.txt → AdSense configurado' : 'ads.txt → plantilla (falta ADSENSE_CLIENT)');
-console.log(isAdsenseEnabled() ? 'app-ads.txt → AdMob configurado' : 'app-ads.txt → plantilla (falta ADSENSE_CLIENT)');
+console.log(isAdsenseEnabled() ? 'ads.txt → AdSense configurado' : 'ads.txt → AdSense desactivado');
+console.log(appAdsTxt.startsWith('#') ? 'app-ads.txt → plantilla (falta ADMOB_PUBLISHER_ID)' : 'app-ads.txt → AdMob configurado');
 
 console.log('\nListo. Sube el proyecto a Cloudflare Pages y despliega el Worker en cloudflare/.');

@@ -1,40 +1,18 @@
 {
-  "updatedAt": "2026-06-18T14:35:38.926Z",
+  "updatedAt": "2026-07-10T13:10:08.774Z",
   "summary": {
-    "canal": 252,
-    "programa": 27,
-    "evento": 14,
-    "rd": 279,
+    "canal": 65,
+    "programa": 0,
+    "evento": 0,
+    "rd": 65,
     "venezuela": 0,
-    "evento_deportivo": 12,
-    "internacional": 2
+    "evento_deportivo": 0,
+    "internacional": 0
   },
   "channels": [
     {
-      "slug": "002-radio",
-      "name": "002 RADIO",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "a-reir-con-miguel-y-raymond",
-      "name": "A reír con Miguel y Raymond",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "acento-tv",
-      "name": "Acento tv",
+      "slug": "color-vision-canal-9",
+      "name": "Color Vision",
       "kind": "canal",
       "country": "rd",
       "parentSlug": null,
@@ -44,107 +22,8 @@
       "published": true
     },
     {
-      "slug": "agenda-56",
-      "name": "AGENDA 56",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "aguilas-cibaenas",
-      "name": "Aguilas cibaeñas",
-      "kind": "evento",
-      "country": "evento_deportivo",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "aion-tv",
-      "name": "AION TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "al-rojo-vivo",
-      "name": "Al Rojo Vivo",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "alegrando-tv",
-      "name": "ALEGRANDO TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "alegre-tv",
-      "name": "Alegre Tv",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "alon-television",
-      "name": "ALON TELEVISION",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "altanto-tv",
-      "name": "Altanto TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "ame-47",
-      "name": "Ame 47",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "antena-21",
-      "name": "Antena 21",
+      "slug": "telesistema-canal-11",
+      "name": "Telesistema Canal 11",
       "kind": "canal",
       "country": "rd",
       "parentSlug": null,
@@ -165,30 +44,8 @@
       "published": true
     },
     {
-      "slug": "aqui-se-habla-espanol",
-      "name": "Aquí se Habla Español",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "asmar-television",
-      "name": "Asmar Television",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "audiencia-caso-medusa",
-      "name": "Audiencia caso Medusa",
+      "slug": "telemicro-canal-5",
+      "name": "Telemicro Canal 5",
       "kind": "canal",
       "country": "rd",
       "parentSlug": null,
@@ -198,63 +55,8 @@
       "published": true
     },
     {
-      "slug": "avivamiento-tv",
-      "name": "Avivamiento TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "bajo-techo-tv",
-      "name": "Bajo Techo TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "bameso-vs-mauricio-baez",
-      "name": "Bameso vs Mauricio Báez",
-      "kind": "evento",
-      "country": "evento_deportivo",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "bella-vision-canal-8",
-      "name": "Bellavisión Canal 8",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "beller-digital",
-      "name": "Beller digital",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "bendicion-tv",
-      "name": "Bendicion tv",
+      "slug": "planeta-alofoke",
+      "name": "Planeta Alofoke",
       "kind": "canal",
       "country": "rd",
       "parentSlug": null,
@@ -264,102 +66,102 @@
       "published": true
     },
     {
-      "slug": "boca-de-piano-es-un-show",
-      "name": "Boca de Piano es un Show",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "bonao-tv-canal-12",
-      "name": "Bonao TV Canal 12",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "bonches-latinos",
-      "name": "Bonches Latinos",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "boreal-television",
-      "name": "Boreal Television",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "cacique-tv-rd",
-      "name": "Cacique TV_RD",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "camaras-en-vivo-en-ucrania",
-      "name": "Camaras en vivo en Ucrania",
-      "kind": "evento",
-      "country": "internacional",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "cana-vision-canal-88-bavaro",
-      "name": "Cana Visión Canal 88 Bavaro",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "canal-25-santiago",
-      "name": "Canal 25",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "vegavision-canal-18",
-      "name": "Canal 26 La Vega",
+      "slug": "telecentro-canal-13",
+      "name": "Telecentro canal 13",
       "kind": "canal",
       "country": "rd",
       "parentSlug": null,
       "parentLabel": null,
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "cdn-canal-37",
+      "name": "CDN Canal 37",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "teleantillas-canal-2",
+      "name": "Teleantillas Canal 2",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "televida-canal-41-santo-domingo",
+      "name": "Televida Canal 41 Santo Domingo",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "digital-15",
+      "name": "Digital 15",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "teleradio-america-canal-45",
+      "name": "Teleradio America Canal 45",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "antena-21",
+      "name": "Antena 21",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "cdn-sports-max-canal-67",
+      "name": "CDN Deportes",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "coral-39",
+      "name": "Coral 39",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Cobertura o partido puntual",
       "published": true
     },
     {
@@ -374,15 +176,103 @@
       "published": true
     },
     {
-      "slug": "canal-70-tv",
-      "name": "Canal 70 tv",
+      "slug": "telefuturo-canal-23",
+      "name": "Telefuturo Canal 23",
       "kind": "canal",
       "country": "rd",
       "parentSlug": null,
       "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "vtv-canal-32",
+      "name": "VTV canal 32",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "microvision-canal-10",
+      "name": "Microvision canal 10",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "teleuniverso-canal-29",
+      "name": "Teleuniverso Canal 29",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "acento-tv",
+      "name": "Acento tv",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "alegre-tv",
+      "name": "Alegre Tv",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "audiencia-caso-medusa",
+      "name": "Audiencia caso Medusa",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "bendicion-tv",
+      "name": "Bendicion tv",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
+    },
+    {
+      "slug": "vegavision-canal-18",
+      "name": "Canal 26 La Vega",
+      "kind": "canal",
+      "country": "rd",
+      "parentSlug": null,
+      "parentLabel": null,
+      "shouldExclude": false,
+      "excludeReason": "Clasificado para exclusión",
+      "published": true
     },
     {
       "slug": "canal-dtv",
@@ -407,28 +297,6 @@
       "published": true
     },
     {
-      "slug": "canal-vida-y-salud-tv",
-      "name": "CANAL VIDA Y SALUD TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "el-gobierno-de-la-linea",
-      "name": "CANALDAHD",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "cananga-tv",
       "name": "Cananga TV",
       "kind": "canal",
@@ -438,116 +306,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "canela-tv",
-      "name": "CANELA TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "cana-tv",
-      "name": "Caña tv",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "carivision-canal-26",
-      "name": "Carivision canal 26",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "cdn-canal-37",
-      "name": "CDN Canal 37",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "cdn-sports-max-canal-67",
-      "name": "CDN Deportes",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "celestial-tv",
-      "name": "CELESTIAL TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "central-noticias-4",
-      "name": "Central Noticias 4",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "chevere-nights",
-      "name": "Chévere nights",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "chinola-tv",
-      "name": "Chinola TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "cibaeNa-tv-radio",
-      "name": "CIBAEÑA TV RADIO",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "cibaeNa-tv-rd",
@@ -572,116 +330,6 @@
       "published": true
     },
     {
-      "slug": "clarovision-tv",
-      "name": "Clarovision tv",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "coco-tv",
-      "name": "COCO TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "color-vision-canal-9",
-      "name": "Color Vision",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "comunion-tv",
-      "name": "Comunión TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "copamex-music",
-      "name": "COPAMEX MUSIC",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "coral-39",
-      "name": "Coral 39",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Cobertura o partido puntual",
-      "published": true
-    },
-    {
-      "slug": "cosecha-y-victoria-tv",
-      "name": "Cosecha y Victoria TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "cotubanama-tv",
-      "name": "Cotubanama TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "cristian-casa-blanca",
-      "name": "Cristian Casa Blanca",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "cristo-tv-radio",
-      "name": "CRISTO  TV  RADIO",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "crom-tv-el-canal-del-siglo",
       "name": "CROM TV EL CANAL DEL SIGLO",
       "kind": "canal",
@@ -691,215 +339,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "ctn",
-      "name": "CTN",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "ctv",
-      "name": "CTV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "ctvd",
-      "name": "CTVD",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "cv-vision-canal-18-higuey",
-      "name": "CV Visión Canal 18 Higuey",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "daja-tv",
-      "name": "DAJA TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "dantv",
-      "name": "DanTv",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "dc-media-tv",
-      "name": "DC MEDIA TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "dcctv",
-      "name": "DCCTV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "de-extremo-a-extremo",
-      "name": "De Extremo a Extremo",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "de-Ultimo-minuto",
-      "name": "De Último Minuto",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "decadas-tv",
-      "name": "Decadas tv",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "delta-tv-canal-50",
-      "name": "Delta TV Canal 50",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "despierta-con-cdn",
-      "name": "Despierta con CDN",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "digital-15",
-      "name": "Digital 15",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "digital-tv-santo-domingo",
-      "name": "Digital tv santo domingo",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "directo-al-show",
-      "name": "Directo al Show",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "divertido-con-jochy-santos",
-      "name": "Divertido con Jochy Santos",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "dominican-york-tv",
-      "name": "Dominican York TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "dominicana-s-got-talent",
-      "name": "Dominicana&#039;s Got Talent 2021",
-      "kind": "evento",
-      "country": "evento_deportivo",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "el-70-tv",
@@ -913,50 +352,6 @@
       "published": true
     },
     {
-      "slug": "el-antinoti",
-      "name": "El antinoti",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "el-despertador-en-vivo-canal-9",
-      "name": "El despertador en vivo canal 9",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "el-informe-con-alicia-ortega",
-      "name": "EL INFORME con Alicia Ortega",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "el-jarabe-de-marino-apete",
-      "name": "El Jarabe de Marino Zapete",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "el-puerto-tv",
       "name": "El Puerto TV",
       "kind": "canal",
@@ -966,39 +361,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "canal-del-sol",
-      "name": "El Seis",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "canal-seis",
-      "name": "El Seis",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "el-show-del-mediodia",
-      "name": "El Show del Mediodía",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "elias-pina-tv",
@@ -1012,17 +374,6 @@
       "published": true
     },
     {
-      "slug": "entelevision",
-      "name": "Entelevision",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "enterate-rd",
       "name": "Enterate RD",
       "kind": "canal",
@@ -1032,83 +383,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "es-temprano-todavia",
-      "name": "Es temprano todavía",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "escogido-tv",
-      "name": "Escogido tv",
-      "kind": "evento",
-      "country": "evento_deportivo",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "estrellas-orientales",
-      "name": "Estrellas Orientales",
-      "kind": "evento",
-      "country": "evento_deportivo",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "estylo-tv",
-      "name": "ESTYLO TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "exitosa-tv",
-      "name": "Exitosa TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "explosion-tv",
-      "name": "Explosion TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "femenina-tv",
-      "name": "Femenina TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "fuego-tv",
@@ -1122,116 +396,6 @@
       "published": true
     },
     {
-      "slug": "furia-tv",
-      "name": "FURIA TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "fuxion-tv",
-      "name": "FUXION 89.9 TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "galaxia-teve-canal-42",
-      "name": "Galaxia Teve Canal 42",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "generaciones-tv-digital",
-      "name": "Generaciones TV Digital",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "gh-television-canal-10",
-      "name": "GH Television canal 10",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "gigantes-del-cibao",
-      "name": "Gigantes del Cibao",
-      "kind": "evento",
-      "country": "evento_deportivo",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "glstudio-tv",
-      "name": "GLSTUDIO TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "guacara-tv-fantino",
-      "name": "Guacara TV Fantino",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "guaymate-tv",
-      "name": "GUAYMATE TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "hermanas-mirabal-tv-canal-33-salcedo",
-      "name": "Hermanas Mirabal TV Canal 33 Salcedo",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "hilando-fino-tv",
       "name": "Hilando Fino TV",
       "kind": "canal",
@@ -1241,39 +405,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "hits-360",
-      "name": "Hits 360",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "hmtv",
-      "name": "HMTV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "horaxhora-television",
-      "name": "Horaxhora Television",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "huracan-fiona",
@@ -1287,138 +418,6 @@
       "published": true
     },
     {
-      "slug": "id-tv-televisiOn-digital",
-      "name": "ID TV TELEVISIÓN DIGITAL",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "idealtv",
-      "name": "IdealTV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "impacto-norte-tv",
-      "name": "IMPACTO NORTE TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "infinito-tv",
-      "name": "Infinito TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "informativos-teleantillas",
-      "name": "Informativos Teleantillas",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "jazmin-tv",
-      "name": "Jazmín TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "jesus-tv",
-      "name": "JESUS TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "la-casa-de-alofoke",
-      "name": "La Casa de Alofoke 2",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "la-opcion-de-la-manana",
-      "name": "La opción de la mañana digital 15",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "la-ruta-91-tv",
-      "name": "LA RUTA 91 TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "la-sultana-del-este-tv",
-      "name": "La Sultana del este TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "la-super-discoteca-tv",
-      "name": "La super discoteca tv",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "la-voz-de-maria-la-vega",
       "name": "La Voz de Maria",
       "kind": "canal",
@@ -1428,61 +427,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "laruta-tv",
-      "name": "LARUTA TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "latin-music-television",
-      "name": "Latin Music Televisión",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "lena-radio-tv-internacional",
-      "name": "Leña Radio tv Internacional",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "linieros-tv",
-      "name": "Linieros TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "live-cameras-in-ukraine",
-      "name": "Live Cameras in Ukraine",
-      "kind": "evento",
-      "country": "internacional",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "los-opinadores-luna-tv",
@@ -1496,17 +440,6 @@
       "published": true
     },
     {
-      "slug": "loteria-nacional",
-      "name": "Loteria Nacional",
-      "kind": "evento",
-      "country": "evento_deportivo",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "luna-tv-en-vivo",
       "name": "Luna tv",
       "kind": "canal",
@@ -1516,61 +449,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "luz-naciente-tv",
-      "name": "LUZ NACIENTE TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "maimon-tv-canal-3",
-      "name": "Maimón TV Canal 3",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "market-tv",
-      "name": "Market TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "masacre-tv",
-      "name": "MASACRE TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "mega-cine-tv",
-      "name": "MEGA CINE TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "megavision-canal-43-santiago",
@@ -1584,17 +462,6 @@
       "published": true
     },
     {
-      "slug": "merla-vision",
-      "name": "Merla Vision",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "mia-tv",
       "name": "Mia TV",
       "kind": "canal",
@@ -1604,61 +471,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "microvision-canal-10",
-      "name": "Microvision canal 10",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "monte-de-bendicion-tv",
-      "name": "MONTE DE BENDICION TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "montecristi-digital",
-      "name": "MONTECRISTI DIGITAL",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "morro-tv-canal-34",
-      "name": "MORRO TV CANAL 34",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "multivision",
-      "name": "MULTIVISION",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "mun2-tv",
@@ -1672,39 +484,6 @@
       "published": true
     },
     {
-      "slug": "musa-vision-canal-10",
-      "name": "Musa Vision Canal 10",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "musavision-canal-10-en-vivo",
-      "name": "Musavision Canal 10",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "my-tv-canal-24",
-      "name": "My TV Canal 24",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "naranja-tv-dominicana",
       "name": "Naranja TV Dominicana",
       "kind": "canal",
@@ -1714,28 +493,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "navatel-canal-18",
-      "name": "Navatel canal 18",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "nexxo-tv",
-      "name": "Nexxo TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "nexxo-tv-santiago",
@@ -1749,17 +506,6 @@
       "published": true
     },
     {
-      "slug": "nisibontv-canal-48",
-      "name": "Nisibon Tv HD",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "nitida-tv",
       "name": "Nitida TV",
       "kind": "canal",
@@ -1769,292 +515,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "noticias-16-santo-domingo",
-      "name": "Noticias 16 Santo Domingo",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "noticias-sin-en-vivo",
-      "name": "Noticias SIN",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "nuria-piera-en-vivo",
-      "name": "Nuria Piera",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "ocoa-vision-canal-12",
-      "name": "Ocoa Vision Canal 12",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "ola-tv-canal-62",
-      "name": "Ola Tv Canal 62",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "onda-tv-canal-10",
-      "name": "Onda TV Canal 10",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "opcion-tv",
-      "name": "OPCION TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "oye-pais-color-vision",
-      "name": "Oye pais color visión",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "palmar-tv",
-      "name": "Palmar TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "panorama-social-tv",
-      "name": "Panorama social TV",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "peravia-vision-canal-8-bani",
-      "name": "Peravia Vision Canal 8 Bani",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "phtv",
-      "name": "PHTV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "platinium-tv-canal-50-la-vega",
-      "name": "Platinium TV Canal 50 La Vega",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "policia-tv",
-      "name": "POLICIA TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "pop-info-tv",
-      "name": "POP Info Tv",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "precidential",
-      "name": "Precidential",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "pregotv",
-      "name": "PREGOTV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "premios-soberano",
-      "name": "Premios Soberano 2025",
-      "kind": "evento",
-      "country": "evento_deportivo",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "puede-tv",
-      "name": "PUEDE TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "puerto-tv",
-      "name": "PUERTO TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "pulatv",
-      "name": "PULATV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "punta-cana-tv",
-      "name": "Punta Cana TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "puro-higueyano-tv",
-      "name": "Puro Higüeyano TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "r-television",
-      "name": "R TELEVISION",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "r-e-television",
-      "name": "R&amp;E TELEVISION",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "raiz-tv",
-      "name": "Raiz Tv",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "ramon-tolentino",
@@ -2090,39 +550,6 @@
       "published": true
     },
     {
-      "slug": "red-social-codi",
-      "name": "RED SOCIAL CÓDI",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "red-tv-rd",
-      "name": "RED TV RD",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "republica-dominicana",
-      "name": "República Dominicana vs  Venezuela",
-      "kind": "evento",
-      "country": "evento_deportivo",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "resplandorvision",
       "name": "Resplandor Visión",
       "kind": "canal",
@@ -2132,17 +559,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "rnn-canal-27",
-      "name": "RNN Canal 27",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "romana-tv-canal-42",
@@ -2156,50 +572,6 @@
       "published": true
     },
     {
-      "slug": "rpc-vision-tv",
-      "name": "RPC VISION TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "rtvd-canal-4",
-      "name": "RTVD canal 4",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "rumba-985-en-vivo",
-      "name": "Rumba 98.5",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "sabaneta-tv",
-      "name": "Sabaneta tv",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "salsagorda-television",
       "name": "SalsaGorda Television",
       "kind": "canal",
@@ -2209,39 +581,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "saltarin-tv",
-      "name": "SALTARIN TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "samana-tv",
-      "name": "Samana TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "telemilenio-canal-50",
-      "name": "SANTIAGO TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "santiago-tv",
@@ -2266,193 +605,6 @@
       "published": true
     },
     {
-      "slug": "senales-tv",
-      "name": "Señales TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "serie-del-caribe",
-      "name": "Serie del Caribe 2025",
-      "kind": "evento",
-      "country": "evento_deportivo",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "somos-topo-point-tv",
-      "name": "Somos Topo Point TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "sport-vision-canal-35",
-      "name": "Sport Vision canal 35",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "src-media-tv",
-      "name": "SRC MEDIA TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "su-mundo-tv",
-      "name": "SU MUNDO TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "super-canal-33",
-      "name": "Super Canal 33",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "super-tv-55",
-      "name": "Super TV 55",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "super-tv-55-santiago",
-      "name": "Super TV 55 Santiago",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "supremateve",
-      "name": "SUPREMATEVE",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tdn",
-      "name": "Tdn",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tele-bahia",
-      "name": "Tele Bahia",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tele-caribe",
-      "name": "TELE CARIBE",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tele-cibao-hd",
-      "name": "Tele Cibao Hd",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tele-impacto-norte",
-      "name": "Tele Impacto Norte",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tele-news-canal-40",
-      "name": "TELE NEWS CANAL 40",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tele-oriental-digital",
-      "name": "Tele Oriental Digital",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "tele-proyecto",
       "name": "Tele proyecto",
       "kind": "canal",
@@ -2462,105 +614,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "tele-santo-domingo",
-      "name": "Tele Santo Domingo",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "telealtura",
-      "name": "Telealtura HD constanza",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "teleantillas-canal-2",
-      "name": "Teleantillas Canal 2",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "telebendicion",
-      "name": "Telebendicion",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "telecanal-28",
-      "name": "Telecanal 28",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "telecentro-canal-13",
-      "name": "Telecentro canal 13",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "telecomercio-tv",
-      "name": "TeleComercio TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "telecontacto-canal-57-santiago",
-      "name": "Telecontacto Canal 57 Santiago",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "telecotui",
-      "name": "Telecotui",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "teledominicana",
@@ -2574,39 +627,6 @@
       "published": true
     },
     {
-      "slug": "telefuturo-canal-23",
-      "name": "Telefuturo Canal 23",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "teleimpacto-canal-52",
-      "name": "Teleimpacto canal 52",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "telemax",
-      "name": "TELEMAX",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "telemedio-digital",
       "name": "Telemedio",
       "kind": "canal",
@@ -2616,28 +636,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "telemicro-canal-5",
-      "name": "Telemicro Canal 5",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "telenord",
-      "name": "Telenord Canal 10",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "telenovisa-canal-43",
@@ -2651,72 +649,6 @@
       "published": true
     },
     {
-      "slug": "teleradio-america-canal-45",
-      "name": "Teleradio America Canal 45",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "teleradio-norte",
-      "name": "Teleradio norte",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "telerumba",
-      "name": "Telerumba",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "telesistema-canal-11",
-      "name": "Telesistema Canal 11",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "teletur",
-      "name": "TELETUR",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "teleunion-canal-16",
-      "name": "Teleunion Canal 16",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "teleunion-canal-16-santiago",
       "name": "Teleunion Canal 16 Santiago",
       "kind": "canal",
@@ -2726,215 +658,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "teleuniverso-canal-29",
-      "name": "Teleuniverso Canal 29",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "telever-canal-12-jarabacoa",
-      "name": "Telever Canal 12 Jarabacoa",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "televida-canal-41-santo-domingo",
-      "name": "Televida Canal 41 Santo Domingo",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "television-del-este",
-      "name": "TELEVISION DEL ESTE",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "telexima",
-      "name": "TELEXIMA",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tenarense-tv",
-      "name": "TENARENSE TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "terrenas-visiOn",
-      "name": "TERRENAS VISIÓN",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "the-voice-dominicana",
-      "name": "The Voice Dominicana",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tierra-vision-tv",
-      "name": "TIERRA VISION TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tigres-del-licey-en-vivo",
-      "name": "Tigres del Licey",
-      "kind": "evento",
-      "country": "evento_deportivo",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "titanico-tv",
-      "name": "Titanico TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tni-canal-51-santo-domingo",
-      "name": "TNI Canal 51 Santo Domingo",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "toros-del-este",
-      "name": "Toros del Este",
-      "kind": "evento",
-      "country": "evento_deportivo",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tu-musica-hd",
-      "name": "Tu Musica HD",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "teve-musica",
-      "name": "TU MUSICA HD",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tv-10-san-juan",
-      "name": "TV 10 San Juan",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tv-canal-sur-84",
-      "name": "TV canal sur 84",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tv-exitos",
-      "name": "TV exitos",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tv-higuey-canal-12",
-      "name": "TV Higuey Canal 12",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "tv-hispanic",
@@ -2948,39 +671,6 @@
       "published": true
     },
     {
-      "slug": "tv-montana",
-      "name": "Tv montaña",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tv-norte",
-      "name": "TV norte",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tv-plata-canal-3",
-      "name": "Tv Plata Canal 3",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "tv-recuerdos-canal-56-santo-domingo",
       "name": "TV Recuerdos Canal 56 Santo Domingo",
       "kind": "canal",
@@ -2990,94 +680,6 @@
       "shouldExclude": false,
       "excludeReason": "Clasificado para exclusión",
       "published": true
-    },
-    {
-      "slug": "tv-vision",
-      "name": "TV VISION",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tvo-tv",
-      "name": "TVO TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "tvs-canal-22",
-      "name": "TVS canal 22",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "una-nueva-manana",
-      "name": "Una Nueva Mañana",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "uncion-tv",
-      "name": "Unción TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "uni-tv",
-      "name": "Uni TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "uno-uno",
-      "name": "Uno + Uno",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "valle-nuevo-tv",
-      "name": "Valle Nuevo TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
     },
     {
       "slug": "vallevision",
@@ -3113,118 +715,8 @@
       "published": true
     },
     {
-      "slug": "vision-3000-canal-3-bani",
-      "name": "Visión 3000 Canal 3 Bani",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "vozz-media-network",
-      "name": "Vozz Media Network",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "vtv-canal-32",
-      "name": "VTV canal 32",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "xtrata-tv",
-      "name": "Xtra Tv",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "xtravision-canal-10",
-      "name": "Xtravision Canal 10",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "xtremo-vision-canal-22",
-      "name": "Xtremo channel canal 22",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "yadira-morel",
-      "name": "Yadira Morel",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "yuna-vision-canal-10-bonao",
-      "name": "Yuna Vision Canal 10 Bonao",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
       "slug": "z-tv",
       "name": "Z TV",
-      "kind": "canal",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": false,
-      "excludeReason": "Clasificado para exclusión",
-      "published": true
-    },
-    {
-      "slug": "zona-5-con-laura-Castellanos",
-      "name": "Zona 5 con Laura Castellanos",
-      "kind": "programa",
-      "country": "rd",
-      "parentSlug": null,
-      "parentLabel": null,
-      "shouldExclude": true,
-      "excludeReason": "Sin señal (sin stream)",
-      "published": false
-    },
-    {
-      "slug": "planeta-alofoke",
-      "name": "Planeta Alofoke",
       "kind": "canal",
       "country": "rd",
       "parentSlug": null,

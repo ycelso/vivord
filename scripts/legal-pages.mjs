@@ -46,7 +46,7 @@ function buildSobreVivoRdBody() {
   </section>
   <section>
     <h2>Publicidad y privacidad</h2>
-    <p>Podemos mostrar anuncios de Google AdSense en páginas de listado y artículos, siguiendo la configuración descrita en <a href="./privacidad.html">Privacidad</a>. En fichas de reproductor priorizamos la experiencia de escucha o visionado; la monetización no debe interferir con la reproducción.</p>
+    <p>Podemos mostrar publicidad de terceros en páginas de listado y artículos, siguiendo la configuración descrita en <a href="./privacidad.html">Privacidad</a>. En fichas de reproductor priorizamos la experiencia de escucha o visionado; la monetización no debe interferir con la reproducción.</p>
   </section>
   <section>
     <h2>DMCA y titulares de derechos</h2>
@@ -113,12 +113,12 @@ const staticPages = [
   </section>
   <section>
     <h2>2. Cookies y almacenamiento local</h2>
-    <p>Usamos almacenamiento local para recordar tu elección sobre cookies (aceptar o rechazar publicidad). Si aceptas, podemos mostrar anuncios de Google AdSense, que pueden instalar cookies propias.</p>
+    <p>Usamos almacenamiento local para recordar tu elección sobre cookies (aceptar o rechazar publicidad). Si aceptas, podemos mostrar publicidad de terceros, que puede instalar cookies propias.</p>
     <p>Los reproductores embebidos (Dailymotion, iframes de emisoras, etc.) pueden instalar cookies adicionales; consulta las políticas de cada proveedor.</p>
   </section>
   <section>
-    <h2>3. Publicidad (Google AdSense)</h2>
-    <p>Mostramos anuncios servidos por Google Ireland Limited / Google LLC (AdSense). Google puede usar cookies o identificadores para personalizar o medir anuncios según su política.</p>
+    <h2>3. Publicidad</h2>
+    <p>El sitio web puede mostrar publicidad de terceros. La app Android muestra anuncios de Google AdMob (Google Ireland Limited / Google LLC), que puede usar cookies o identificadores para personalizar o medir anuncios según su política.</p>
     <p>Más información: <a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer">Cómo usa Google los datos en publicidad</a> y <a href="https://adssettings.google.com" rel="noopener noreferrer">Configuración de anuncios de Google</a>.</p>
   </section>
   <section>

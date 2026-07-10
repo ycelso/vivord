@@ -6,10 +6,15 @@ export const CONTACT_EMAIL = process.env.CONTACT_EMAIL || 'contacto@vivo-rd.com'
 export const TWITTER_SITE = (process.env.TWITTER_SITE || '@VivoRD').trim();
 
 /**
- * Google AdSense — ID del editor (ej. ca-pub-1234567890123456).
- * También: set ADSENSE_CLIENT=ca-pub-... antes de npm run build / deploy:prep
+ * Google AdSense — desactivado: el sitio no cumple las políticas de contenido de AdSense.
+ * Vacío = sin script, sin slots, sin ads.txt.
+ * No se lee de process.env a propósito: evita reactivación accidental en el pipeline de deploy.
+ * Para reactivar hay que editar esta línea a mano.
  */
-export const ADSENSE_CLIENT = (process.env.ADSENSE_CLIENT || 'ca-pub-9983636461587656').trim();
+export const ADSENSE_CLIENT = '';
+
+/** AdMob (app Android) — independiente de AdSense; alimenta app-ads.txt. */
+export const ADMOB_PUBLISHER_ID = (process.env.ADMOB_PUBLISHER_ID || 'pub-9983636461587656').trim();
 export const ALLOWED_ORIGINS = (process.env.ALLOWED_ORIGINS || SITE_URL)
   .split(',')
   .map((s) => s.trim())

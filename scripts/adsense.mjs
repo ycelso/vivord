@@ -1,4 +1,4 @@
-import { ADSENSE_CLIENT } from './site-config.mjs';
+import { ADSENSE_CLIENT, ADMOB_PUBLISHER_ID } from './site-config.mjs';
 
 // Cache-busting para cambios críticos (ej. banner cookies).
 // Se evalúa en tiempo de build (Node) y queda fijo en el HTML generado.
@@ -40,7 +40,9 @@ export function adSlotMarkup(depth = 0, { belowPlayer = false } = {}) {
 
 export function adsFooterScripts(depth = 0) {
   const p = depth ? '../'.repeat(depth) : './';
-  return `<script src="${p}assets/js/cookie-consent.js?v=${ASSET_VER}" defer></script>
+  const consent = `<script src="${p}assets/js/cookie-consent.js?v=${ASSET_VER}" defer></script>`;
+  if (!isAdsenseEnabled()) return consent;
+  return `${consent}
 <script src="${p}assets/js/adsense.js?v=${ASSET_VER}" defer></script>`;
 }
 
@@ -52,7 +54,10 @@ export function generateAdsTxt() {
   return `google.com, ${pubId}, DIRECT, f08c47fec0942fa0\n`;
 }
 
-/** app-ads.txt para verificación AdMob (mismo publisher que ads.txt). */
+/** app-ads.txt para verificación AdMob. Independiente de AdSense: la app sigue monetizando. */
 export function generateAppAdsTxt() {
-  return generateAdsTxt();
+  if (!/^pub-\d+$/i.test(ADMOB_PUBLISHER_ID)) {
+    return '# Define ADMOB_PUBLISHER_ID en scripts/site-config.mjs\n';
+  }
+  return `google.com, ${ADMOB_PUBLISHER_ID}, DIRECT, f08c47fec0942fa0\n`;
 }

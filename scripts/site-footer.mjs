@@ -35,7 +35,7 @@ export function siteFooter(depth = 0) {
   </div>
 </div>
 <div id="cookieConsent" class="cookie-consent" role="dialog" aria-live="polite" aria-label="Cookies" hidden>
-  <p class="cookie-consent__text">Usamos cookies para publicidad (Google AdSense) y mejorar el sitio. <a href="${p}privacidad.html">Privacidad</a></p>
+  <p class="cookie-consent__text">Usamos cookies para publicidad y mejorar el sitio. <a href="${p}privacidad.html">Privacidad</a></p>
   <div class="cookie-consent__actions">
     <button type="button" class="cookie-consent__btn cookie-consent__btn--ghost" id="cookieReject">Rechazar</button>
     <button type="button" class="cookie-consent__btn" id="cookieAccept">Aceptar</button>

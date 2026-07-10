@@ -244,7 +244,7 @@ export const RAW_GUIDES = [
 <p>La aplicación VivoRD replica el catálogo web con ventajas en móvil: reproducción de radio con pantalla apagada, integración con controles del sistema y acceso rápido a recientes. La versión y novedades se documentan en el changelog dentro de la app. No necesitas la app para usar el sitio en el navegador.</p>
 
 <h2>Privacidad y publicidad</h2>
-<p>El sitio web puede mostrar publicidad (Google AdSense) para mantener el servicio. La app puede usar AdMob. Puedes gestionar cookies desde el aviso en pantalla. Detalles en <a href="../privacidad.html">Privacidad</a>. No vendemos datos personales de oyentes a emisoras.</p>
+<p>El sitio web puede mostrar publicidad de terceros para mantener el servicio. La app puede usar AdMob. Puedes gestionar cookies desde el aviso en pantalla. Detalles en <a href="../privacidad.html">Privacidad</a>. No vendemos datos personales de oyentes a emisoras.</p>
 
 <h2>Contacto y correcciones</h2>
 <p>¿Enlace roto, logo incorrecto o solicitud de retiro por parte del titular? <a href="../contacto.html">Escríbenos</a>. Los propietarios de marcas pueden pedir actualización o baja según <a href="../aviso-legal.html">Aviso legal</a>. Respondemos cuando es técnicamente posible verificar la solicitud.</p>

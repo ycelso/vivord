@@ -1,1 +1,2 @@
-google.com, pub-9983636461587656, DIRECT, f08c47fec0942fa0
+# Cuando tengas tu ID de AdSense, define ADSENSE_CLIENT en scripts/site-config.mjs
+# y ejecuta: npm run deploy:prep
