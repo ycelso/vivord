@@ -364,7 +364,7 @@ Lista completa en `package.json`.
 - `README.md` — overview y comandos básicos.
 - `ANDROID.md` — Capacitor, release, Play Store, troubleshooting.
 - `DEPLOY-CLOUDFLARE.md` — Pages + Worker, variables, DNS.
-- `INSTRUCCION-ADSENSE.md` / `INSTRUCCION-ADSENSE-W3-W4.md` — ⚠️ **obsoletos**: AdSense se retiró (ver Fase G).
+- `CALIDAD-CONTENIDO.md` — por qué solo ~7 fichas llevan `noindex`, hubs de ciudad/género, de-duplicación de descripciones. Sustituye a los `INSTRUCCION-ADSENSE*.md`, borrados en Fase G.
 
 ---
 
