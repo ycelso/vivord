@@ -1,0 +1,71 @@
+# VivoRD — Textos ficha Google Play (radio-only)
+
+Actualizar en Play Console → **Presencia en Google Play** → Ficha principal (es-419 / español).
+Las capturas las sube el usuario al final.
+
+## Título de la app (máx. 30 caracteres)
+
+```
+VivoRD — Radios RD
+```
+
+Alternativa más corta:
+
+```
+VivoRD Radios
+```
+
+## Descripción breve (máx. 80 caracteres)
+
+```
+Escucha radios dominicanas en vivo. FM, noticias y música gratis en Android.
+```
+
+## Descripción completa
+
+```
+VivoRD te acerca las emisoras de radio de República Dominicana en vivo, desde tu Android.
+
+• Cientos de radios: noticias, merengue, bachata, urbana, deportes y más
+• Reproduce en segundo plano con controles en la notificación
+• Busca por nombre de emisora o explora destacadas y hubs por ciudad/género
+• Gratis, sin cuentas y con reproducción estable
+
+¿Prefieres ver televisión dominicana?
+Usa la web en https://vivo-rd.com — la app se centra en radio para una experiencia más rápida y clara en el móvil.
+
+Descarga VivoRD y lleva la radio dominicana contigo.
+```
+
+## Gráfico de funciones (feature graphic)
+
+Regenerar con:
+
+```powershell
+cd C:\Users\monitoreo\Downloads\VivoRD
+npm run play-store:assets
+```
+
+Salida: `dist/play-store/play-store-feature-1024x500.png`
+Texto del banner: **Radios dominicanas en vivo** (ya sin “TV y”).
+
+Ícono 512: `dist/play-store/play-store-icon-512.png`
+
+## Categoría sugerida
+
+- Principal: **Música y audio**
+- Etiquetas: radio, streaming, República Dominicana, música
+
+## Qué NO decir en la ficha
+
+- No prometas “TV en vivo dentro de la app”
+- No digas “canales de televisión” como función principal de la app
+- Sí puedes mencionar que la TV está en vivo-rd.com
+
+## Checklist tras publicar 1.0.12
+
+- [ ] Título actualizado
+- [ ] Descripción breve + completa
+- [ ] Feature graphic nuevo
+- [ ] Capturas nuevas (usuario)
+- [ ] Enviar cambios de ficha a revisión si Play lo pide

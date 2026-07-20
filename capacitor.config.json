@@ -1,15 +1,12 @@
 {
   "appId": "com.vivord.app",
-  "appName": "VivoRD",
+  "appName": "VivoRD Radios",
   "webDir": "www",
   "server": {
     "androidScheme": "https",
     "allowNavigation": [
       "https://*",
-      "http://*",
-      "https://www.dailymotion.com",
-      "https://*.dailymotion.com",
-      "https://*.dmcdn.net"
+      "http://*"
     ]
   },
   "android": {

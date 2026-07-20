@@ -3760,3 +3760,16 @@ html.capacitor-app body.radio-mini-active .site-main {
 .radio-mini-bar__expand svg {
   transform: rotate(180deg);
 }
+
+/* App Android radio-only (Capacitor) */
+html.app-radio-only .nav-mobile-tabs {
+  display: none;
+}
+
+html.app-radio-only .nav-links .nav-link[href*="index.html"] {
+  display: none;
+}
+
+html.app-radio-only .nav-links:empty {
+  display: none;
+}

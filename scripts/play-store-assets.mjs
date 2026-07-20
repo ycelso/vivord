@@ -78,7 +78,7 @@ async function writeFeatureGraphic(logoPath) {
   <rect width="100%" height="100%" fill="url(#r)"/>
   <rect width="100%" height="100%" fill="url(#b)"/>
   <text x="430" y="210" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="56" font-weight="700">VivoRD</text>
-  <text x="430" y="270" fill="#d1d5db" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="500">TV y radios dominicanas en vivo</text>
+  <text x="430" y="270" fill="#d1d5db" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="500">Radios dominicanas en vivo</text>
   <text x="430" y="320" fill="#9ca3af" font-family="Arial,Helvetica,sans-serif" font-size="22">Gratis · Rápido · Desde tu Android</text>
 </svg>`;
 

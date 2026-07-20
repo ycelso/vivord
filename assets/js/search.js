@@ -2,6 +2,18 @@
 let channelsCache = null;
 let channelsLoading = null;
 
+function isAppRadioOnly() {
+  return (
+    document.documentElement.classList.contains('app-radio-only') ||
+    document.querySelector('meta[name="vivord-app-mode"][content="radio-only"]') != null
+  );
+}
+
+function effectiveSearchMode(mode) {
+  if (isAppRadioOnly()) return 'radio';
+  return mode;
+}
+
 async function loadChannels() {
   if (channelsCache) return channelsCache;
   if (channelsLoading) return channelsLoading;
@@ -35,6 +47,7 @@ function resolveAssetUrl(path, base) {
 }
 
 function localSearch(term, mode = 'all') {
+  mode = effectiveSearchMode(mode);
   const q = term.toLowerCase();
   const match = (item) => item.name.toLowerCase().includes(q) || item.slug.includes(q);
   const channels =
@@ -173,16 +186,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  handleGlobalSearch(document.getElementById('searchInput'), null, false);
-  handleGlobalSearch(document.getElementById('heroSearch'), null, false);
-  handleGlobalSearch(document.getElementById('heroRadioSearch'), null, false);
-  handleGlobalSearch(document.getElementById('mobileSearchInput'), null, true);
+  handleGlobalSearch(document.getElementById('searchInput'), null, false, effectiveSearchMode('all'));
+  handleGlobalSearch(document.getElementById('heroSearch'), null, false, effectiveSearchMode('all'));
+  handleGlobalSearch(document.getElementById('heroRadioSearch'), null, false, 'radio');
+  handleGlobalSearch(document.getElementById('mobileSearchInput'), null, true, effectiveSearchMode('all'));
 
   const mobileHeaderWrap = document.querySelector('.nav-mobile-search');
   const mobileHeaderInput = document.getElementById('mobileHeaderSearch');
   const mobileHeaderResults = document.getElementById('mobileHeaderSearchResults');
   if (mobileHeaderWrap && mobileHeaderInput && mobileHeaderResults) {
-    const headerMode = mobileHeaderWrap.dataset.searchMode === 'radio' ? 'radio' : 'tv';
+    const headerMode = effectiveSearchMode(
+      mobileHeaderWrap.dataset.searchMode === 'radio' ? 'radio' : 'tv'
+    );
 
     handleGlobalSearch(mobileHeaderInput, mobileHeaderResults, true, headerMode);
 

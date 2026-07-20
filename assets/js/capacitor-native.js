@@ -13,6 +13,20 @@
   window.VIVORD_IS_NATIVE = true;
   document.documentElement.classList.add('capacitor-app');
 
+  function isAppRadioOnly() {
+    return (
+      document.documentElement.classList.contains('app-radio-only') ||
+      document.querySelector('meta[name="vivord-app-mode"][content="radio-only"]') != null
+    );
+  }
+
+  if (
+    isAppRadioOnly() ||
+    document.querySelector('meta[name="vivord-app-mode"][content="radio-only"]')
+  ) {
+    document.documentElement.classList.add('app-radio-only');
+  }
+
   function hideSplash() {
     const splash = window.Capacitor?.Plugins?.SplashScreen;
     if (splash?.hide) splash.hide().catch(function () {});
@@ -88,7 +102,7 @@
     items: [
       {
         title: 'Mejoras de rendimiento',
-        text: 'Optimizaciones al cargar canales de TV y emisoras de radio.',
+        text: 'Optimizaciones al cargar emisoras de radio dominicanas.',
       },
       {
         title: 'Experiencia más fluida',

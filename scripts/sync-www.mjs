@@ -6,8 +6,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
 const WWW = path.join(ROOT, 'www');
 
-/** Contenido web que se empaqueta en la app Android. */
-const COPY_PATHS = [
+/** Contenido web completo (deploy Pages). Android app usa sync-www-app.mjs (radio-only). */
+export const COPY_PATHS = [
   '404.html',
   'index.html',
   'radios.html',

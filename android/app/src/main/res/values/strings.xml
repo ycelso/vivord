@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">VivoRD</string>
-    <string name="title_activity_main">VivoRD</string>
+    <string name="app_name">VivoRD Radios</string>
+    <string name="title_activity_main">VivoRD Radios</string>
     <string name="package_name">com.vivord.app</string>
     <string name="custom_url_scheme">com.vivord.app</string>
     <!-- AdMob TEST App ID (replace with real when account is active) -->

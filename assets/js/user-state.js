@@ -4,6 +4,7 @@
  */
 (function () {
   const KEY = 'vivord:user-state:v1';
+  const PURGE_TV_KEY = 'vivord:purge-tv-recents-v1';
   const MAX_RECENT = 30;
   /** Cuántas se muestran en la UI (localStorage guarda hasta MAX_RECENT). */
   const DISPLAY_RECENT = { tv: 3, radio: 3 };
@@ -43,7 +44,28 @@
     }
   }
 
+  function isAppRadioOnly() {
+    return (
+      document.documentElement.classList.contains('app-radio-only') ||
+      document.querySelector('meta[name="vivord-app-mode"][content="radio-only"]') != null
+    );
+  }
+
+  function purgeTvRecentsOnce() {
+    if (!isAppRadioOnly()) return;
+    try {
+      if (localStorage.getItem(PURGE_TV_KEY) === '1') return;
+      const st = loadState();
+      st.recent.tv = [];
+      saveState(st);
+      localStorage.setItem(PURGE_TV_KEY, '1');
+    } catch {
+      /* ignore */
+    }
+  }
+
   function normKind(kind) {
+    if (isAppRadioOnly()) return 'radio';
     return kind === 'radio' ? 'radio' : 'tv';
   }
 
@@ -106,7 +128,9 @@
 
   function getRecents(kind) {
     const k = normKind(kind);
-    return loadState().recent[k];
+    const list = loadState().recent[k] || [];
+    if (!isAppRadioOnly()) return list;
+    return list.filter((it) => !String(it.url || '').includes('/canal/'));
   }
 
   function parseJsonDataset(el, attr) {
@@ -190,6 +214,7 @@
 
   function initHome(kind) {
     const k = normKind(kind);
+    if (isAppRadioOnly() && k === 'tv') return;
     renderRecent(k);
     document.addEventListener('vivord:recent-changed', (e) => {
       if (e.detail?.kind === k) renderRecent(k);
@@ -206,9 +231,11 @@
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
+      purgeTvRecentsOnce();
       initRecentFromPage();
     });
   } else {
+    purgeTvRecentsOnce();
     initRecentFromPage();
   }
 })();

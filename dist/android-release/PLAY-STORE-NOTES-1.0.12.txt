@@ -1,0 +1,17 @@
+VivoRD 1.0.12 — Novedades de la versión (Play Console)
+
+Pega en "Novedades de la versión" (español):
+
+• La app ahora se centra en radios dominicanas en vivo
+• Inicio directo en emisoras — interfaz más simple y rápida
+• TV disponible en vivo-rd.com desde el navegador
+• Mejoras de estabilidad al reproducir en segundo plano
+
+Versión: 1.0.12 (versionCode 13)
+Actualiza sobre: 1.0.11 (versionCode 12) o 1.0.10 (versionCode 11)
+
+--- Nota interna (NO pegar en Play Console) ---
+Escenario A: app radio-only. Web vivo-rd.com sigue con TV + radio.
+Bundle www/ sin canal/; search-index solo stations.
+Después de publicar: actualizar ficha Play (título/descripción) sin
+prometer TV en la app. Capturas: las sube el usuario.

@@ -71,7 +71,7 @@ function main() {
 
   fs.mkdirSync(DIST, { recursive: true });
   const stamp = new Date().toISOString().slice(0, 10);
-  const version = '1.0.11';
+  const version = '1.0.12';
   const apkDest = path.join(DIST, `vivord-${version}.apk`);
   const aabDest = path.join(DIST, `vivord-${version}.aab`);
   const apkDated = path.join(DIST, `vivord-${stamp}.apk`);

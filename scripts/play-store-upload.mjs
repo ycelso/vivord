@@ -12,9 +12,16 @@ const ROOT = path.join(__dirname, '..');
 const PROFILE = process.env.PLAYWRIGHT_PROFILE_DIR
   || path.join(process.env.USERPROFILE || process.env.HOME || ROOT, '.cursor', 'playwright-profile', 'msedge');
 
-const version = process.argv[2] || '1.0.10';
+const version = process.argv[2] || '1.0.12';
 const aabPath = path.join(ROOT, 'dist', 'android-release', `vivord-${version}.aab`);
 const notesPath = path.join(ROOT, 'dist', 'android-release', `PLAY-STORE-NOTES-${version}.txt`);
+
+function readVersionCode() {
+  const gradle = fs.readFileSync(path.join(ROOT, 'android', 'app', 'build.gradle'), 'utf8');
+  const m = gradle.match(/versionCode\s+(\d+)/);
+  return m ? m[1] : version.replace(/\./g, '');
+}
+const versionCode = readVersionCode();
 
 const PRODUCTION_PREPARE_URL =
   'https://play.google.com/console/u/0/developers/5128434565666649650/app/4972310708423508362/tracks/4697976229765189255/releases/3/prepare';
@@ -55,11 +62,15 @@ try {
   await page.goto(PRODUCTION_PREPARE_URL, { waitUntil: 'domcontentloaded', timeout: 120_000 });
   await page.waitForTimeout(3000);
 
-  if (await page.getByText('Inicia sesión').isVisible().catch(() => false)) {
-    throw new Error('No hay sesión en Play Console. Ejecuta: npm run browser:login:play');
+  const needsLogin = await page.getByText(/Inicia sesión|Sign in/i).isVisible().catch(() => false);
+  if (needsLogin) {
+    console.log('Inicia sesión en la ventana de Edge (perfil Playwright). Esperando hasta 5 min…');
+    await page.getByText(/Producción|Production|Subir|Upload/i).first()
+      .waitFor({ state: 'visible', timeout: 300_000 });
   }
 
-  const uploaded = page.locator('text=11 (1.0.10)').or(page.locator('text=1.0.10'));
+  const versionLabel = `${versionCode} (${version})`;
+  const uploaded = page.getByText(versionLabel).or(page.getByText(version, { exact: false }));
   if (!(await uploaded.first().isVisible().catch(() => false))) {
     const uploadBtn = page.getByRole('button', { name: 'Subir' });
     await uploadBtn.waitFor({ state: 'visible', timeout: 60_000 });
@@ -69,7 +80,7 @@ try {
     ]);
     await fileChooser.setFiles(aabPath);
     console.log('Subiendo AAB…');
-    await page.getByText('11 (1.0.10)').or(page.getByText('1.0.10')).first()
+    await page.getByText(versionLabel).or(page.getByText(version, { exact: false })).first()
       .waitFor({ state: 'visible', timeout: 180_000 });
     console.log('AAB procesado.');
   } else {
@@ -78,7 +89,7 @@ try {
 
   const nameInput = page.getByRole('textbox', { name: 'Nombre de la versión' });
   await nameInput.waitFor({ state: 'visible', timeout: 30_000 });
-  await nameInput.fill(`11 (${version})`);
+  await nameInput.fill(versionLabel);
 
   const notesBox = page.getByRole('textbox', { name: 'Notas de la versión' });
   await notesBox.click();
@@ -117,8 +128,13 @@ try {
   console.log('Listo. URL:', page.url());
 } catch (err) {
   console.error('Error:', err.message);
+  console.error('La ventana queda abierta 2 min para revisar. Sube el AAB manualmente si hace falta.');
   process.exitCode = 1;
+  await page.waitForTimeout(120_000);
 } finally {
-  await page.waitForTimeout(5000);
-  await context.close();
+  try {
+    await context.close();
+  } catch {
+    /* ventana ya cerrada */
+  }
 }
