@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T13:44:37.160Z",
+  "updatedAt": "2026-07-27T11:43:25.323Z",
   "cityHubs": [
     {
       "kind": "ciudad",
@@ -148,7 +148,7 @@
       "slug": "noticias",
       "title": "Radios de noticias y talk",
       "shortLabel": "Noticias y talk",
-      "stationCount": 167,
+      "stationCount": 166,
       "pathname": "/radios/genero/noticias.html",
       "indexable": true,
       "introWords": 213
@@ -158,7 +158,7 @@
       "slug": "salsa-tropical",
       "title": "Radios de salsa y tropical",
       "shortLabel": "Salsa y tropical",
-      "stationCount": 139,
+      "stationCount": 138,
       "pathname": "/radios/genero/salsa-tropical.html",
       "indexable": true,
       "introWords": 193
@@ -168,7 +168,7 @@
       "slug": "urbano-reggaeton",
       "title": "Radios de urbano y reggaetón",
       "shortLabel": "Urbano y reggaetón",
-      "stationCount": 94,
+      "stationCount": 93,
       "pathname": "/radios/genero/urbano-reggaeton.html",
       "indexable": true,
       "introWords": 201
@@ -178,7 +178,7 @@
       "slug": "bachata",
       "title": "Radios de bachata",
       "shortLabel": "Bachata",
-      "stationCount": 92,
+      "stationCount": 91,
       "pathname": "/radios/genero/bachata.html",
       "indexable": true,
       "introWords": 191
@@ -218,7 +218,7 @@
       "slug": "deportes",
       "title": "Radios de deportes",
       "shortLabel": "Deportes",
-      "stationCount": 36,
+      "stationCount": 35,
       "pathname": "/radios/genero/deportes.html",
       "indexable": true,
       "introWords": 198

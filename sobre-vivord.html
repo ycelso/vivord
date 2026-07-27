@@ -34,7 +34,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script>!function(){var m=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent||''),r=document.documentElement;r.classList.toggle('is-mobile',m);r.classList.toggle('is-desktop',!m)}();</script>
-  <link rel="stylesheet" href="./assets/css/style.css?v=1783950266833">
+  <link rel="stylesheet" href="./assets/css/style.css?v=1785152598298">
   <script src="./assets/js/api-config.js"></script>
   <meta name="vivord-adsense-client" content="">
   <script src="./assets/js/capacitor-native.js" defer></script>
@@ -84,7 +84,7 @@
   </a>
   
   <h1>Acerca de VivoRD</h1>
-  <p class="legal-lead">Última actualización: 2026-07-13</p>
+  <p class="legal-lead">Última actualización: 2026-07-27</p>
   <section>
     <h2>Qué es VivoRD</h2>
     <p>VivoRD (https://vivo-rd.com) es un directorio web y aplicación móvil que organiza el acceso a canales de televisión y emisoras de radio de República Dominicana. No operamos las señales ni somos titulares de las marcas que aparecen en el catálogo: facilitamos una interfaz unificada para buscar, escuchar y ver contenido en directo cuando el titular o la fuente técnica lo permiten.</p>
@@ -98,7 +98,7 @@
   <section>
     <h2>Metodología del catálogo</h2>
     <p>Cada ficha combina información pública del emisor (nombre, ciudad cuando consta en nuestros datos, frecuencia FM si está documentada) con comprobaciones periódicas de la URL de reproducción. No inventamos datos: si un campo no existe en <code>data/*.json</code>, no se muestra.</p>
-    <p>Disponemos de auditorías automáticas de salud de streams registradas en <code>data/stream-health.json</code>, <code>data/embed-health.json</code> y <code>data/tv-not-playing.json</code>. En la última revisión consolidada constaban 555 URLs comprobadas en stream-health, con 345 marcadas como no reproducibles en esa pasada, y 169 entradas únicas en la unión de los tres informes de salud.</p>
+    <p>Disponemos de auditorías automáticas de salud de streams registradas en <code>data/stream-health.json</code>, <code>data/embed-health.json</code> y <code>data/tv-not-playing.json</code>. En la última revisión consolidada constaban 443 URLs comprobadas en stream-health, con 253 marcadas como no reproducibles en esa pasada, y 173 entradas únicas en la unión de los tres informes de salud.</p>
     <p>Las fichas cuya señal no supera una verificación <em>dura</em> (por ejemplo HTTP 404 en el stream, o constancia en <code>tv-not-playing.json</code>) se mantienen accesibles para el usuario, pero pueden etiquetarse con <code>noindex</code> para buscadores y excluirse del sitemap. No desindexamos por falsos negativos del checker server-side (bloqueos CORS, URLs de página oficial reproducidas por iframe, etc.).</p>
   </section>
   <section>
@@ -155,7 +155,7 @@
     <button type="button" class="cookie-consent__btn" id="cookieAccept">Aceptar</button>
   </div>
 </div>
-<script src="./assets/js/cookie-consent.js?v=1783950266833" defer></script>
+<script src="./assets/js/cookie-consent.js?v=1785152598298" defer></script>
 <script>(function(){try{if(window.VIVORD_IS_NATIVE||window.Capacitor?.isNativePlatform?.())return;}catch(e){}var s=document.createElement('script');s.type='module';s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token":"e9404442a62f475288b0ecd5b2238c23"}');document.head.appendChild(s);})();</script>
 <script>window.BASE_URL = './';</script>
 <script src="./assets/js/api-config.js"></script>

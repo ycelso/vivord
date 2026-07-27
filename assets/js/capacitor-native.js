@@ -233,7 +233,18 @@
 
   var admobInitialized = false;
   var admobBannerVisible = false;
+  var admobListenersRegistered = false;
   var ADMOB_SESSION_KEY = 'vivord_admob_banner_ready';
+  var ADMOB_BANNER_FALLBACK_HEIGHT = 52;
+
+  function setBannerHeightVar(px) {
+    document.documentElement.style.setProperty('--admob-banner-h', px + 'px');
+  }
+
+  function markBannerActive(active) {
+    document.body.classList.toggle('admob-banner-active', active);
+    if (!active) setBannerHeightVar(0);
+  }
 
   function readAdmobSessionReady() {
     try {
@@ -275,6 +286,15 @@
       await AdMob.initialize({ initializeForTesting: ADMOB_TEST_MODE });
       admobInitialized = true;
     }
+    if (!admobListenersRegistered && AdMob.addListener) {
+      admobListenersRegistered = true;
+      AdMob.addListener('bannerAdSizeChanged', function (info) {
+        if (info && info.height) setBannerHeightVar(info.height);
+      });
+      AdMob.addListener('bannerAdFailedToLoad', function () {
+        markBannerActive(false);
+      });
+    }
     return AdMob;
   }
 
@@ -284,6 +304,7 @@
       if (!AdMob || !AdMob.hideBanner) return;
       await AdMob.hideBanner();
       admobBannerVisible = false;
+      markBannerActive(false);
     } catch {
       /* ignore */
     }
@@ -302,9 +323,13 @@
       if (hadBanner && AdMob.resumeBanner) {
         await AdMob.resumeBanner();
         admobBannerVisible = true;
+        setBannerHeightVar(ADMOB_BANNER_FALLBACK_HEIGHT);
+        markBannerActive(true);
         return;
       }
       if (!AdMob.showBanner) return;
+      setBannerHeightVar(ADMOB_BANNER_FALLBACK_HEIGHT);
+      markBannerActive(true);
       await AdMob.showBanner({
         adId: ADMOB_TEST_MODE ? ADMOB_BANNER_UNIT_TEST : ADMOB_BANNER_UNIT_REAL,
         adSize: 'ADAPTIVE_BANNER',

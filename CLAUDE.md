@@ -350,7 +350,7 @@ Comprobar también `ADMOB_TEST_MODE = false` en `base/assets/public/assets/js/ca
 
 ---
 
-## Estado actual (2026-07-10)
+## Estado actual (2026-07-20)
 
 | Área | Estado |
 |------|--------|
@@ -359,19 +359,36 @@ Comprobar también `ADMOB_TEST_MODE = false` en `base/assets/public/assets/js/ca
 | Cloudflare | Deploy OK, proyecto `vivord2`, rama producción `main` |
 | Monetización web | Afiliado y Adsterra implementados pero **apagados**: faltan enlace de afiliado y zona Adsterra |
 | Monetización app | AdMob intacto (`app-ads.txt` sirve `pub-9983636461587656`) |
-| Android código | 1.0.11 / versionCode 12, assets sincronizados sin AdSense |
-| Android binario | ✅ `dist/android-release/vivord-1.0.11.aab` (20.8 MB) + APK. Firmado, verificado abriendo el AAB |
-| Play Store | ⚠️ 1.0.10 en revisión — ese binario carga el script de AdSense en el `<head>` de **477** páginas del WebView, junto a AdMob. **Subir 1.0.11 y sustituirlo** |
-| GitHub | `origin/master` al día |
+| Android código | 1.0.12 / versionCode 13 en `build.gradle` |
+| Android binario | `dist/android-release/vivord-1.0.12.aab`/`.apk` existen pero son del build **anterior** a los fixes de hoy (ver abajo). No subir a Play Store hasta recompilar |
+| Play Store | Pendiente confirmar qué versión sigue en revisión — revisar antes de subir nada |
+| GitHub | `origin/master` — **26 archivos sin commitear** con los fixes de hoy (ver abajo) |
 | gh CLI | Sin auth |
-| Keystore | Solo local |
+| Keystore | Solo local (`android/release/vivord-upload.jks` + `android/keystore.properties`) |
+
+### Sesión 2026-07-20 — test en emulador + fixes pendientes de build
+
+Se probó la app en emulador (`Pixel_9_Pro`, AVD local) instalando el APK más reciente. Hallazgos y fixes ya aplicados **en código, sin commitear ni recompilar**:
+
+1. **Overlap banner AdMob + contenido** (confirmado visualmente): el banner es nativo (`@capacitor-community/admob`, `showBanner` con `position: BOTTOM_CENTER`), fuera del DOM. Solo `body.radio-mini-active` reservaba espacio, con `52px` hardcodeado — las páginas sin mini-player (hubs de ciudad/género) no reservaban nada y el banner tapaba la última línea de texto.
+   - Fix en [assets/js/capacitor-native.js](assets/js/capacitor-native.js): escucha `bannerAdSizeChanged` del plugin, guarda el alto real en `--admob-banner-h` (fallback 52px), toggle de `body.admob-banner-active`.
+   - Fix en [assets/css/style.css](assets/css/style.css): nueva regla `body.admob-banner-active:not(.radio-mini-active) .site-main` reserva el alto real; se reemplazó el `52px` fijo por la var en el caso con mini-player.
+2. **Redundancia visual**: en los hubs de ciudad (`radios/ciudad/*.html`), cada tarjeta repetía el nombre de la ciudad debajo — redundante porque la página ya está filtrada por esa ciudad. En hubs de género sí varía y aporta.
+   - Fix en [scripts/hubs-build.mjs](scripts/hubs-build.mjs): `hubRadioCard(r, showCity)` — `showCity = kind !== 'ciudad'`.
+   - Ya se corrió `npm run hubs:build && npm run www:sync` — los 13 HTML de `radios/ciudad/*.html` y `data/radio-hubs.json` están regenerados sin la etiqueta redundante.
+3. **Build Android bloqueado**: `npm run android:release` falla siempre con `java.io.IOException: Unable to establish loopback connection` (Kaspersky Endpoint Security bloqueando `java.exe`, ver sección de limitaciones más abajo). Confirmado determinista en 2 intentos, incluso con `JAVA_HOME` al JBR de Android Studio y sin daemons de Gradle corriendo. Necesita admin del equipo — no resoluble por software.
+
+**Handoff**: proyecto comprimido en un zip en Descargas para continuar en la máquina con permisos de administrador (whitelist de `java.exe` en Kaspersky) y correr el build ahí.
 
 ### Lo siguiente, en orden
 
-1. **Subir `vivord-1.0.11.aab` a Play Console** y sustituir la release en revisión. Upload manual. Notas en `dist/android-release/PLAY-STORE-NOTES-1.0.11.txt` — pegar solo la parte de arriba, la nota interna del final no va en la ficha. Es el riesgo abierto más serio: el binario publicado mezcla AdSense y AdMob en el WebView.
-2. **Enlace de afiliado** → `AFFILIATE.href` en `scripts/site-config.mjs`. La mayor fuente de ingresos esperada. `guias/ver-tv-dominicana-desde-el-extranjero.html` es la página con más intención de compra del sitio.
-3. **Zona Adsterra** → `ADSTERRA_SOCIAL_BAR`, si se quiere red publicitaria además del afiliado.
-4. En una semana, mirar en Cloudflare Web Analytics qué páginas traen tráfico antes de borrar contenido.
+1. **Whitelist `java.exe` en Kaspersky** en la máquina con admin, luego `npm run android:release` (JAVA_HOME al JBR de Android Studio, ver sección Limitaciones).
+2. **Verificar visualmente** en emulador o dispositivo que el overlap banner+texto y la redundancia de ciudad quedaron resueltos antes de instalar/firmar el binario final.
+3. **Commitear** los 26 archivos modificados de esta sesión (`assets/js/capacitor-native.js`, `assets/css/style.css`, `scripts/hubs-build.mjs`, hubs regenerados) una vez verificado.
+4. Confirmar qué AAB/versión sigue activa en Play Console antes de decidir si hace falta sustituir una release en revisión.
+5. **Enlace de afiliado** → `AFFILIATE.href` en `scripts/site-config.mjs`. La mayor fuente de ingresos esperada. `guias/ver-tv-dominicana-desde-el-extranjero.html` es la página con más intención de compra del sitio.
+6. **Zona Adsterra** → `ADSTERRA_SOCIAL_BAR`, si se quiere red publicitaria además del afiliado.
+7. Mirar en Cloudflare Web Analytics qué páginas traen tráfico antes de borrar contenido.
 
 ### Por qué se retiró AdSense
 

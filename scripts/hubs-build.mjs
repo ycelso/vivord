@@ -42,10 +42,10 @@ function countIntroWords(introHtml) {
   return plainText(introHtml).split(/\s+/).filter(Boolean).length;
 }
 
-function hubRadioCard(r) {
+function hubRadioCard(r, showCity) {
   const p = '../'.repeat(HUB_PAGE_DEPTH);
   const img = resolveImg(r.img, r.slug, 'radios', HUB_PAGE_DEPTH);
-  const city = r.city ? `<span class="radio-card__city">${escapeHtml(r.city)}</span>` : '';
+  const city = showCity && r.city ? `<span class="radio-card__city">${escapeHtml(r.city)}</span>` : '';
   return `<a href="${p}radio/${r.slug}.html" class="radio-card" data-name="${escapeHtml(r.name.toLowerCase())}">
   <div class="radio-card__img"><img src="${img}" alt="${escapeHtml(r.name)}" loading="lazy" width="96" height="96" referrerpolicy="no-referrer"></div>
   <span class="radio-card__name">${escapeHtml(r.name)}</span>
@@ -65,7 +65,8 @@ function buildHubPage({
 }) {
   const p = '../'.repeat(HUB_PAGE_DEPTH);
   const sorted = [...stations].sort((a, b) => a.name.localeCompare(b.name, 'es'));
-  const grid = sorted.map((r) => hubRadioCard(r)).join('\n');
+  const showCity = kind !== 'ciudad';
+  const grid = sorted.map((r) => hubRadioCard(r, showCity)).join('\n');
   const guides = buildHubGuideLinksHtml(kind, slug, HUB_PAGE_DEPTH);
   const countLabel =
     sorted.length === 1 ? '1 emisora' : `${sorted.length} emisoras`;

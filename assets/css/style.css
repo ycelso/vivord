@@ -3663,8 +3663,8 @@ html.capacitor-app.radio-immersive-boot .radio-stage__dock.radio-dock {
   box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.45);
 }
 
-html.capacitor-app body.radio-mini-active .radio-mini-bar {
-  bottom: 52px;
+html.capacitor-app body.admob-banner-active.radio-mini-active .radio-mini-bar {
+  bottom: var(--admob-banner-h, 52px);
   padding-bottom: max(8px, env(safe-area-inset-bottom, 0px));
 }
 
@@ -3673,8 +3673,13 @@ html.capacitor-app body.radio-mini-active .site-main {
   padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px));
 }
 
-html.capacitor-app body.radio-mini-active .site-main {
-  padding-bottom: calc(128px + env(safe-area-inset-bottom, 0px));
+html.capacitor-app body.admob-banner-active.radio-mini-active .site-main {
+  padding-bottom: calc(76px + var(--admob-banner-h, 52px) + env(safe-area-inset-bottom, 0px));
+}
+
+/* Banner AdMob nativo sin mini-player: reservar su alto real para que no tape contenido */
+html.capacitor-app body.admob-banner-active:not(.radio-mini-active) .site-main {
+  padding-bottom: calc(var(--admob-banner-h, 52px) + env(safe-area-inset-bottom, 0px));
 }
 
 .radio-mini-bar__main {
